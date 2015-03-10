@@ -1,0 +1,2 @@
+MultipleActivities.MainActivity;multipleactivities.MainActivity
+MultipleActivities.SecondActivity;multipleactivities.SecondActivity

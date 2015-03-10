@@ -1,0 +1,1 @@
+Flickr.MainActivity;flickr.MainActivity

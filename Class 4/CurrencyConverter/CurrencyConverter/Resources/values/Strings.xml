@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Currency">
+        <item>USD</item>
+        <item>NZD</item>
+        <item>AUD</item>
+    </string-array>
+</resources>

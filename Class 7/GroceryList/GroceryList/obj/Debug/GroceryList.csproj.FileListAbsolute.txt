@@ -1,0 +1,13 @@
+\\telmar\users\savio.azavedo\My Documents\Projects\GroceryList\GroceryList\bin\Debug\GroceryList.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\GroceryList\GroceryList\bin\Debug\GroceryList.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\GroceryList\GroceryList\bin\Debug\GroceryList.dll.mdb
+\\telmar\users\savio.azavedo\My Documents\Projects\GroceryList\GroceryList\bin\Debug\GroceryList.GroceryList.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\GroceryList\GroceryList\bin\Debug\GroceryList.GroceryList-Signed.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\GroceryList\GroceryList\obj\Debug\GroceryList.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\GroceryList\GroceryList\obj\Debug\GroceryList.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\GroceryList\GroceryList\obj\Debug\android\bin\GroceryList.GroceryList.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\GroceryList\GroceryList\obj\Debug\res\layout\main.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\GroceryList\GroceryList\obj\Debug\res\values\strings.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\GroceryList\GroceryList\obj\Debug\res\drawable\icon.png
+\\telmar\users\savio.azavedo\My Documents\Projects\GroceryList\GroceryList\obj\Debug\R.cs.flag
+\\telmar\users\savio.azavedo\My Documents\Projects\GroceryList\GroceryList\obj\Debug\uploadflags.txt

@@ -1,0 +1,14 @@
+\\telmar\users\savio.azavedo\My Documents\Projects\CustomList\CustomList\bin\Debug\CustomList.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\CustomList\CustomList\bin\Debug\CustomList.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\CustomList\CustomList\bin\Debug\CustomList.dll.mdb
+\\telmar\users\savio.azavedo\My Documents\Projects\CustomList\CustomList\bin\Debug\CustomList.CustomList.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\CustomList\CustomList\bin\Debug\CustomList.CustomList-Signed.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\CustomList\CustomList\obj\Debug\CustomList.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\CustomList\CustomList\obj\Debug\CustomList.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\CustomList\CustomList\obj\Debug\android\bin\CustomList.CustomList.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\CustomList\CustomList\obj\Debug\res\layout\main.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\CustomList\CustomList\obj\Debug\res\values\strings.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\CustomList\CustomList\obj\Debug\res\drawable\icon.png
+\\telmar\users\savio.azavedo\My Documents\Projects\CustomList\CustomList\obj\Debug\res\layout\customrow.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\CustomList\CustomList\obj\Debug\R.cs.flag
+\\telmar\users\savio.azavedo\My Documents\Projects\CustomList\CustomList\obj\Debug\uploadflags.txt

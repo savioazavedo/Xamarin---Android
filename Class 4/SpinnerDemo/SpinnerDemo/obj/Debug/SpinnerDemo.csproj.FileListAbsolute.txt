@@ -1,0 +1,17 @@
+\\telmar\users\savio.azavedo\My Documents\Projects\SpinnerDemo\SpinnerDemo\bin\Debug\SpinnerDemo.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\SpinnerDemo\SpinnerDemo\bin\Debug\SpinnerDemo.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\SpinnerDemo\SpinnerDemo\bin\Debug\SpinnerDemo.dll.mdb
+\\telmar\users\savio.azavedo\My Documents\Projects\SpinnerDemo\SpinnerDemo\bin\Debug\SpinnerDemo.SpinnerDemo.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\SpinnerDemo\SpinnerDemo\bin\Debug\SpinnerDemo.SpinnerDemo-Signed.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\SpinnerDemo\SpinnerDemo\obj\Debug\SpinnerDemo.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\SpinnerDemo\SpinnerDemo\obj\Debug\SpinnerDemo.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\SpinnerDemo\SpinnerDemo\obj\Debug\android\bin\SpinnerDemo.SpinnerDemo.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\SpinnerDemo\SpinnerDemo\obj\Debug\res\layout\main.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\SpinnerDemo\SpinnerDemo\obj\Debug\res\values\strings.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\SpinnerDemo\SpinnerDemo\obj\Debug\res\drawable\icon.png
+\\telmar\users\savio.azavedo\My Documents\Projects\SpinnerDemo\SpinnerDemo\obj\Debug\res\drawable\auckland.jpg
+\\telmar\users\savio.azavedo\My Documents\Projects\SpinnerDemo\SpinnerDemo\obj\Debug\res\drawable\christchurch.jpg
+\\telmar\users\savio.azavedo\My Documents\Projects\SpinnerDemo\SpinnerDemo\obj\Debug\res\drawable\hamilton.jpg
+\\telmar\users\savio.azavedo\My Documents\Projects\SpinnerDemo\SpinnerDemo\obj\Debug\res\drawable\wellington.jpg
+\\telmar\users\savio.azavedo\My Documents\Projects\SpinnerDemo\SpinnerDemo\obj\Debug\R.cs.flag
+\\telmar\users\savio.azavedo\My Documents\Projects\SpinnerDemo\SpinnerDemo\obj\Debug\uploadflags.txt

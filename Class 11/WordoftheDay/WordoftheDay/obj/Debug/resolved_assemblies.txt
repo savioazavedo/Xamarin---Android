@@ -1,0 +1,3 @@
+\\telmar\users\savio.azavedo\My Documents\Projects\WordoftheDay\WordoftheDay\bin\Debug\WordoftheDay.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\WordoftheDay\Components\AndHUD-1.3.1\lib\android\AndHUD.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\WordoftheDay\Components\restsharp-105.0.1.0\lib\android\RestSharp.MonoDroid.dll

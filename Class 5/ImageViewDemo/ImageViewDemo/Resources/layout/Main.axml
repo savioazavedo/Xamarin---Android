@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff">
+    <ImageView
+        android:id="@+id/imgCity"
+        android:layout_width="350dp"
+        android:layout_height="270dp"
+        android:layout_x="18dp"
+        android:layout_y="136dp"
+        android:src="@drawable/Icon" />
+    <Button
+        android:id="@+id/btnAuckland"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Auckland"
+        android:layout_x="39dp"
+        android:layout_y="17dp" />
+    <Button
+        android:id="@+id/btnChristchurch"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Christchurch"
+        android:layout_x="190dp"
+        android:layout_y="19dp" />
+    <Button
+        android:id="@+id/btnHamilton"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Hamilton"
+        android:layout_x="39dp"
+        android:layout_y="75dp" />
+    <Button
+        android:id="@+id/btnWellington"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Wellington"
+        android:layout_x="190dp"
+        android:layout_y="76dp" />
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:layout_x="135dp"
+        android:layout_y="416dp" />
+</AbsoluteLayout>

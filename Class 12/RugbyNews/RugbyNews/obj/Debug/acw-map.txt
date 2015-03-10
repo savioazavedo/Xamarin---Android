@@ -1,0 +1,2 @@
+RugbyNews.MainActivity;rugbynews.MainActivity
+RugbyNews.DataAdapter;rugbynews.DataAdapter

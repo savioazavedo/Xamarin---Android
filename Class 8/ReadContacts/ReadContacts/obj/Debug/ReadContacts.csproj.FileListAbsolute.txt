@@ -1,0 +1,14 @@
+\\telmar\users\savio.azavedo\My Documents\Projects\ReadContacts\ReadContacts\bin\Debug\ReadContacts.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\ReadContacts\ReadContacts\bin\Debug\ReadContacts.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\ReadContacts\ReadContacts\bin\Debug\ReadContacts.dll.mdb
+\\telmar\users\savio.azavedo\My Documents\Projects\ReadContacts\ReadContacts\bin\Debug\ReadContacts.ReadContacts.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\ReadContacts\ReadContacts\bin\Debug\ReadContacts.ReadContacts-Signed.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\ReadContacts\ReadContacts\bin\Debug\Xamarin.Mobile.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\ReadContacts\ReadContacts\obj\Debug\ReadContacts.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\ReadContacts\ReadContacts\obj\Debug\ReadContacts.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\ReadContacts\ReadContacts\obj\Debug\android\bin\ReadContacts.ReadContacts.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\ReadContacts\ReadContacts\obj\Debug\res\values\strings.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\ReadContacts\ReadContacts\obj\Debug\res\drawable\icon.png
+\\telmar\users\savio.azavedo\My Documents\Projects\ReadContacts\ReadContacts\obj\Debug\res\layout\contactitemview.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\ReadContacts\ReadContacts\obj\Debug\R.cs.flag
+\\telmar\users\savio.azavedo\My Documents\Projects\ReadContacts\ReadContacts\obj\Debug\uploadflags.txt

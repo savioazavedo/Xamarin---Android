@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="Measurements">
+	<item>Centimeters</item>
+	<item>Meters</item>
+	<item>Kilometers</item>
+	</string-array>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/lblLabel"
+        android:layout_width="320dp"
+        android:layout_height="27dp"
+        android:text="Enter your Item"
+        android:layout_x="-1dp"
+        android:layout_y="1dp" />
+    <AutoCompleteTextView
+        android:id="@+id/acItem"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_x="3dp"
+        android:layout_y="41dp" />
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="+"
+        android:layout_x="210dp"
+        android:layout_y="40dp" />
+    <Button
+        android:id="@+id/btnRemove"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="-"
+        android:layout_x="250dp"
+        android:layout_y="40dp" />
+    <ListView
+        android:id="@+id/lvItems"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_x="0dp"
+        android:layout_y="101dp" />
+</AbsoluteLayout>

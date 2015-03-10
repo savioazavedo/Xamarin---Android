@@ -1,0 +1,15 @@
+\\telmar\users\savio.azavedo\My Documents\Projects\HTTPClient\HTTPClient\bin\Debug\HTTPClient.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\HTTPClient\HTTPClient\bin\Debug\HTTPClient.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\HTTPClient\HTTPClient\bin\Debug\HTTPClient.dll.mdb
+\\telmar\users\savio.azavedo\My Documents\Projects\HTTPClient\HTTPClient\bin\Debug\HTTPClient.HTTPClient.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\HTTPClient\HTTPClient\bin\Debug\HTTPClient.HTTPClient-Signed.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\HTTPClient\HTTPClient\obj\Debug\HTTPClient.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\HTTPClient\HTTPClient\obj\Debug\HTTPClient.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\HTTPClient\HTTPClient\obj\Debug\android\bin\HTTPClient.HTTPClient.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\HTTPClient\HTTPClient\obj\Debug\res\layout\main.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\HTTPClient\HTTPClient\obj\Debug\res\values\strings.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\HTTPClient\HTTPClient\obj\Debug\res\drawable\icon.png
+\\telmar\users\savio.azavedo\My Documents\Projects\HTTPClient\HTTPClient\obj\Debug\R.cs.flag
+\\telmar\users\savio.azavedo\My Documents\Projects\HTTPClient\HTTPClient\obj\Debug\uploadflags.txt
+\\telmar\users\savio.azavedo\My Documents\Projects\HTTPClient\HTTPClient\obj\Debug\HTTPClient.csprojResolveAssemblyReference.cache
+\\telmar\users\savio.azavedo\My Documents\Projects\HTTPClient\HTTPClient\bin\Debug\RestSharp.MonoDroid.dll

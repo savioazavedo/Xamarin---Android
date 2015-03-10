@@ -1,0 +1,14 @@
+\\telmar\users\savio.azavedo\My Documents\Projects\MultipleActivities\MultipleActivities\bin\Debug\MultipleActivities.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\MultipleActivities\MultipleActivities\bin\Debug\MultipleActivities.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\MultipleActivities\MultipleActivities\bin\Debug\MultipleActivities.dll.mdb
+\\telmar\users\savio.azavedo\My Documents\Projects\MultipleActivities\MultipleActivities\bin\Debug\MultipleActivities.MultipleActivities.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\MultipleActivities\MultipleActivities\bin\Debug\MultipleActivities.MultipleActivities-Signed.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\MultipleActivities\MultipleActivities\obj\Debug\MultipleActivities.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\MultipleActivities\MultipleActivities\obj\Debug\MultipleActivities.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\MultipleActivities\MultipleActivities\obj\Debug\android\bin\MultipleActivities.MultipleActivities.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\MultipleActivities\MultipleActivities\obj\Debug\res\layout\main.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\MultipleActivities\MultipleActivities\obj\Debug\res\values\strings.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\MultipleActivities\MultipleActivities\obj\Debug\res\drawable\icon.png
+\\telmar\users\savio.azavedo\My Documents\Projects\MultipleActivities\MultipleActivities\obj\Debug\res\layout\second.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\MultipleActivities\MultipleActivities\obj\Debug\R.cs.flag
+\\telmar\users\savio.azavedo\My Documents\Projects\MultipleActivities\MultipleActivities\obj\Debug\uploadflags.txt

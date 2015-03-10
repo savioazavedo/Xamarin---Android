@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.84dbac6f9c56" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RadioButtonDemo\MainActivity.cs">
+    <Files>
+      <File FileName="RadioButtonDemo\MainActivity.cs" Line="42" Column="42" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.RadioButtonDemo MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>

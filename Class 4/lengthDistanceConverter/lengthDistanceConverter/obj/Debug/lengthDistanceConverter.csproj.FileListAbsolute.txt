@@ -1,0 +1,17 @@
+\\telmar\users\EC005\My Documents\Projects\lengthDistanceConverter\lengthDistanceConverter\bin\Debug\lengthDistanceConverter.dll
+\\telmar\users\EC005\My Documents\Projects\lengthDistanceConverter\lengthDistanceConverter\bin\Debug\lengthDistanceConverter.pdb
+\\telmar\users\EC005\My Documents\Projects\lengthDistanceConverter\lengthDistanceConverter\bin\Debug\lengthDistanceConverter.dll.mdb
+\\telmar\users\EC005\My Documents\Projects\lengthDistanceConverter\lengthDistanceConverter\bin\Debug\lengthDistanceConverter.lengthDistanceConverter.apk
+\\telmar\users\EC005\My Documents\Projects\lengthDistanceConverter\lengthDistanceConverter\bin\Debug\lengthDistanceConverter.lengthDistanceConverter-Signed.apk
+\\telmar\users\EC005\My Documents\Projects\lengthDistanceConverter\lengthDistanceConverter\obj\Debug\lengthDistanceConverter.dll
+\\telmar\users\EC005\My Documents\Projects\lengthDistanceConverter\lengthDistanceConverter\obj\Debug\lengthDistanceConverter.pdb
+\\telmar\users\EC005\My Documents\Projects\lengthDistanceConverter\lengthDistanceConverter\obj\Debug\android\bin\lengthDistanceConverter.lengthDistanceConverter.apk
+\\telmar\users\EC005\My Documents\Projects\lengthDistanceConverter\lengthDistanceConverter\obj\Debug\res\layout\main.xml
+\\telmar\users\EC005\My Documents\Projects\lengthDistanceConverter\lengthDistanceConverter\obj\Debug\res\values\strings.xml
+\\telmar\users\EC005\My Documents\Projects\lengthDistanceConverter\lengthDistanceConverter\obj\Debug\res\drawable-hdpi\icon.png
+\\telmar\users\EC005\My Documents\Projects\lengthDistanceConverter\lengthDistanceConverter\obj\Debug\res\drawable-mdpi\icon.png
+\\telmar\users\EC005\My Documents\Projects\lengthDistanceConverter\lengthDistanceConverter\obj\Debug\res\drawable-xhdpi\icon.png
+\\telmar\users\EC005\My Documents\Projects\lengthDistanceConverter\lengthDistanceConverter\obj\Debug\res\drawable-xxhdpi\icon.png
+\\telmar\users\EC005\My Documents\Projects\lengthDistanceConverter\lengthDistanceConverter\obj\Debug\res\drawable-xxxhdpi\icon.png
+\\telmar\users\EC005\My Documents\Projects\lengthDistanceConverter\lengthDistanceConverter\obj\Debug\R.cs.flag
+\\telmar\users\EC005\My Documents\Projects\lengthDistanceConverter\lengthDistanceConverter\obj\Debug\uploadflags.txt

@@ -1,0 +1,3 @@
+NZRoadCode.MainActivity;nzroadcode.MainActivity
+NZRoadCode.ScoreActivity;nzroadcode.ScoreActivity
+NZRoadCode.TestActivity;nzroadcode.TestActivity

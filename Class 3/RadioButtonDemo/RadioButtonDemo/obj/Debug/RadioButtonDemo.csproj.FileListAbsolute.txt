@@ -1,0 +1,13 @@
+\\telmar\users\savio.azavedo\My Documents\Projects\RadioButtonDemo\RadioButtonDemo\bin\Debug\RadioButtonDemo.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\RadioButtonDemo\RadioButtonDemo\bin\Debug\RadioButtonDemo.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\RadioButtonDemo\RadioButtonDemo\bin\Debug\RadioButtonDemo.dll.mdb
+\\telmar\users\savio.azavedo\My Documents\Projects\RadioButtonDemo\RadioButtonDemo\bin\Debug\RadioButtonDemo.RadioButtonDemo.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\RadioButtonDemo\RadioButtonDemo\bin\Debug\RadioButtonDemo.RadioButtonDemo-Signed.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\RadioButtonDemo\RadioButtonDemo\obj\Debug\RadioButtonDemo.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\RadioButtonDemo\RadioButtonDemo\obj\Debug\RadioButtonDemo.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\RadioButtonDemo\RadioButtonDemo\obj\Debug\android\bin\RadioButtonDemo.RadioButtonDemo.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\RadioButtonDemo\RadioButtonDemo\obj\Debug\res\layout\main.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\RadioButtonDemo\RadioButtonDemo\obj\Debug\res\values\strings.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\RadioButtonDemo\RadioButtonDemo\obj\Debug\res\drawable\icon.png
+\\telmar\users\savio.azavedo\My Documents\Projects\RadioButtonDemo\RadioButtonDemo\obj\Debug\R.cs.flag
+\\telmar\users\savio.azavedo\My Documents\Projects\RadioButtonDemo\RadioButtonDemo\obj\Debug\uploadflags.txt

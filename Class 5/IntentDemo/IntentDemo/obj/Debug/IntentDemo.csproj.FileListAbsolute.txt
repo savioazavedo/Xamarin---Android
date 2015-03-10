@@ -1,0 +1,13 @@
+\\telmar\users\savio.azavedo\My Documents\Projects\IntentDemo\IntentDemo\bin\Debug\IntentDemo.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\IntentDemo\IntentDemo\bin\Debug\IntentDemo.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\IntentDemo\IntentDemo\bin\Debug\IntentDemo.dll.mdb
+\\telmar\users\savio.azavedo\My Documents\Projects\IntentDemo\IntentDemo\bin\Debug\IntentDemo.IntentDemo.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\IntentDemo\IntentDemo\bin\Debug\IntentDemo.IntentDemo-Signed.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\IntentDemo\IntentDemo\obj\Debug\IntentDemo.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\IntentDemo\IntentDemo\obj\Debug\IntentDemo.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\IntentDemo\IntentDemo\obj\Debug\android\bin\IntentDemo.IntentDemo.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\IntentDemo\IntentDemo\obj\Debug\res\layout\main.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\IntentDemo\IntentDemo\obj\Debug\res\values\strings.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\IntentDemo\IntentDemo\obj\Debug\res\drawable\icon.png
+\\telmar\users\savio.azavedo\My Documents\Projects\IntentDemo\IntentDemo\obj\Debug\R.cs.flag
+\\telmar\users\savio.azavedo\My Documents\Projects\IntentDemo\IntentDemo\obj\Debug\uploadflags.txt

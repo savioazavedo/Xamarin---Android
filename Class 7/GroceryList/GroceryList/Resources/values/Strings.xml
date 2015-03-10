@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="grocerylist">
+<item>  Apples</item>
+<item>	Asparagus</item>
+<item>	Avocados</item>
+<item>	Bananas</item>
+<item>	Berries</item>
+<item>	Broccoli</item>
+<item>	Carrots</item>
+<item>	Cauliflower</item>
+<item>	Celery</item>
+<item>	Cherries</item>
+<item>	Cucumbers/Zucchini</item>
+<item>	Eggplant</item>
+<item>	Garlic</item>
+<item>	Grapefruit</item>
+<item>	Grapes</item>
+<item>	Greens: lettuce, spinach, kale</item>
+<item>	Kiwis</item>
+<item>	Lemons/Limes</item>
+<item>	Melons</item>
+<item>	Mushrooms</item>
+<item>	Nectarines</item>
+<item>	Onions</item>
+<item>	Oranges</item>
+<item>	Peaches</item>
+<item>	Pears</item>
+<item>	Peppers</item>
+<item>	Plums</item>
+<item>	Potatoes</item>
+<item>	Squash</item>
+<item>	Tomatoes</item>
+<item>	Crab</item>
+<item>	Halibut	</item>
+<item>	Lobster	</item>
+<item>	Mussels	</item>
+<item>	Oysters	</item>
+<item>	Salmon	</item>
+<item>	Shrimp	</item>
+<item>	Tilapia	</item>
+<item>	Trout	</item>
+<item>	Bacon / Sausage	</item>
+<item>	Brisket	</item>
+<item>	Chicken	</item>
+<item>	Ground beef / Ground turkey	</item>
+<item>	Ham / Pork	</item>
+<item>	Hot dogs	</item>
+<item>	Lamb	</item>
+<item>	Lunchmeat	</item>
+<item>	Turkey	</item>
+<item>	Butter / Margarine	</item>
+<item>	Cottage Cheese	</item>
+<item>	Cream Cheese	</item>
+<item>	Eggs	</item>
+<item>	Half Half	</item>
+<item>	Heavy Cream	</item>
+<item>	Milk	</item>
+<item>	Ricotta	</item>
+<item>	Sour Cream	</item>
+<item>	Whipped Cream	</item>
+<item>	Yogurt	</item>
+<item>	Deli-prepared meals	</item>
+<item>	Deli Meat	</item>
+<item>	Deli Cheese	</item>
+<item>	Breakfast Shakes	</item>
+<item>	Cereal	</item>
+<item>	Oatmeal	</item>
+<item>	Pancake / Waffle Mix	</item>
+<item>	Cheddar	</item>
+<item>	Feta	</item>
+<item>	Goat Cheese	</item>
+<item>	Mozzarella	</item>
+<item>	Parmesan	</item>
+<item>	String Cheese	</item>
+<item>	Swiss	</item>
+<item>	Breakfast	</item>
+<item>	Burritos	</item>
+<item>	Fish Sticks	</item>
+<item>	Fries / Tator Tots	</item>
+<item>	Ice Cream / Frozen Yogurt	</item>
+<item>	Juice	</item>
+<item>	Pizzas	</item>
+<item>	Popsicles	</item>
+<item>	TV Dinners	</item>
+<item>	Vegetables	</item>
+<item>	Veggie / Soy Burgers	</item>
+<item>	Applesauce	</item>
+<item>	Baked Beans	</item>
+<item>	Broth	</item>
+<item>	Canned meat / seafood	</item>
+<item>	Fruit / Veggies	</item>
+<item>	Macaroni and Cheese	</item>
+<item>	Olives	</item>
+<item>	Packaged Meals	</item>
+<item>	Soup	</item>
+<item>	Candy / Gum	</item>
+<item>	Cookies	</item>
+<item>	Crackers	</item>
+<item>	Dip	</item>
+<item>	Dried Fruit	</item>
+<item>	Fruit Snacks	</item>
+<item>	Granola bars / mix	</item>
+<item>	Jerky	</item>
+<item>	Nuts	</item>
+<item>	Popcorn	</item>
+<item>	Potato Chips	</item>
+<item>	Pretzles	</item>
+<item>	Snack Cakes	</item>
+<item>	Baking Powder/Soda	</item>
+<item>	Cake / Brownie Mix	</item>
+<item>	Chocolate Chips	</item>
+<item>	Cocoa	</item>
+<item>	Flour	</item>
+<item>	Icing / Decorations	</item>
+<item>	Shortening	</item>
+<item>	Sugar	</item>
+<item>	Sugar substitute	</item>
+<item>	Yeast	</item>
+<item>	Beer	</item>
+<item>	Club Soda / Tonic	</item>
+<item>	Champagne	</item>
+<item>	Hard Alcohol	</item>
+<item>	Juice	</item>
+<item>	Mixers	</item>
+<item>	Soda Pop	</item>
+<item>	Sports Drink	</item>
+<item>	Wine	</item>
+<item>	Coffee	</item>
+<item>	Coffee Filters	</item>
+<item>	Tea	</item>
+<item>	Basil	</item>
+<item>	Black Pepper	</item>
+<item>	Cayenne	</item>
+<item>	Cilantro	</item>
+<item>	Cinnamon	</item>
+<item>	Garlic Powder/Salt	</item>
+<item>	Ginger	</item>
+<item>	Mint	</item>
+<item>	Onion Powder/Salt	</item>
+<item>	Oregano	</item>
+<item>	Paprika	</item>
+<item>	Parsley	</item>
+<item>	Red Pepper	</item>
+<item>	Salt	</item>
+<item>	Vanilla Extract	</item>
+<item>	Barbecue Sauce	</item>
+<item>	Chip Dip	</item>
+<item>	Gravy	</item>
+<item>	Honey	</item>
+<item>	Hot sauce	</item>
+<item>	Jam / Jelly / Preserves	</item>
+<item>	Ketchup	</item>
+<item>	Lemon/Lime Juice	</item>
+<item>	Mayonnaise	</item>
+<item>	Mustard	</item>
+<item>	Peanut Butter	</item>
+<item>	Pickles	</item>
+<item>	Relish	</item>
+<item>	Salad Dressing	</item>
+<item>	Salsa	</item>
+<item>	Soy Sauce	</item>
+<item>	Steak Sauce	</item>
+<item>	Syrup	</item>
+<item>	Vinegar	</item>
+<item>	Worcestershire Sauce	</item>
+<item>	Cooking	</item>
+<item>	Bouillon Cubes	</item>
+<item>	Bread Crumbs	</item>
+<item>	Instant Potatoes / Rice	</item>
+<item>	Non-stick Spray	</item>
+<item>	Olive Oil	</item>
+<item>	Pasta	</item>
+<item>	Pasta Sauce	</item>
+<item>	Vegetable / Canola Oil	</item>
+<item>	Air Freshener	</item>
+<item>	Aluminum Foil	</item>
+<item>	Bathroom Cleaner	</item>
+<item>	Bleach / Detergent	</item>
+<item>	Dish Soap	</item>
+<item>	Fabric Softener	</item>
+<item>	Garbage Bags	</item>
+<item>	Glass Cleaner	</item>
+<item>	Mop Head / Vacuum Bags	</item>
+<item>	Napkins	</item>
+<item>	Paper Towels	</item>
+<item>	Plastic Wrap	</item>
+<item>	Sandwich / Freezer Bags	</item>
+<item>	Sponges / Sponge Heads	</item>
+<item>	Waxed Paper	</item>
+<item>	Antipersperant / Deodorant	</item>
+<item>	Bath Soap / Hand Soap	</item>
+<item>	Chapstick	</item>
+<item>	Cotton Balls	</item>
+<item>	Facial Cleanser	</item>
+<item>	Facial Tissue	</item>
+<item>	Feminine Products	</item>
+<item>	Floss	</item>
+<item>	Hair Gel / Hair Spray	</item>
+<item>	Lotion	</item>
+<item>	Makeup	</item>
+<item>	Mouthwash	</item>
+<item>	Razors / Shaving Cream	</item>
+<item>	Shampoo / Conditioner	</item>
+<item>	Sunscreen	</item>
+<item>	Toilet Paper	</item>
+<item>	Toothpaste	</item>
+<item>	Bagels / Croissants	</item>
+<item>	Buns / Rolls	</item>
+<item>	Cake / Cookies	</item>
+<item>	Doughnuts / Pastries	</item>
+<item>	Fresh Bread	</item>
+<item>	Pie	</item>
+<item>	Pita Bread	</item>
+<item>	Sliced Bread	</item>
+<item>	Tortillas	</item>
+
+
+	</string-array>
+</resources>

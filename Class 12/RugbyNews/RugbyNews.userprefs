@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.4100d56c49779000" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RugbyNews\MainActivity.cs">
+    <Files>
+      <File FileName="RugbyNews\DataAdapter.cs" Line="34" Column="34" />
+      <File FileName="RugbyNews\MainActivity.cs" Line="35" Column="35" />
+      <File FileName="RugbyNews\RESThandler.cs" Line="37" Column="37" />
+      <File FileName="RugbyNews\Response.cs" Line="38" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.RugbyNews MonoForAntroid.PreferredDevice="Nexus 4" MonoForAntroid.PreferredTheme="Theme.Light" />
+</Properties>

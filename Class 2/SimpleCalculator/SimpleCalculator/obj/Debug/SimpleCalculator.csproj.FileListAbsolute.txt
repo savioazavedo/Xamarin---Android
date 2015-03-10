@@ -1,0 +1,13 @@
+\\telmar\users\savio.azavedo\My Documents\Projects\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.dll.mdb
+\\telmar\users\savio.azavedo\My Documents\Projects\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.SimpleCalculator.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.SimpleCalculator-Signed.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\SimpleCalculator\SimpleCalculator\obj\Debug\android\bin\SimpleCalculator.SimpleCalculator.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\SimpleCalculator\SimpleCalculator\obj\Debug\res\layout\main.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\SimpleCalculator\SimpleCalculator\obj\Debug\res\values\strings.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\SimpleCalculator\SimpleCalculator\obj\Debug\res\drawable\icon.png
+\\telmar\users\savio.azavedo\My Documents\Projects\SimpleCalculator\SimpleCalculator\obj\Debug\R.cs.flag
+\\telmar\users\savio.azavedo\My Documents\Projects\SimpleCalculator\SimpleCalculator\obj\Debug\uploadflags.txt

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff0d0606">
+    <TextView
+        android:id="@+id/txtQuestion"
+        android:layout_width="204dp"
+        android:layout_height="108dp"
+        android:text="Question"
+        android:layout_x="6dp"
+        android:layout_y="15dp" />
+    <RadioGroup
+        android:id="@+id/widget37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="137dp">
+        <RadioButton
+            android:id="@+id/rbA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A" />
+        <RadioButton
+            android:id="@+id/rbB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B" />
+        <RadioButton
+            android:id="@+id/rbC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C" />
+        <RadioButton
+            android:id="@+id/rbD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="Next"
+        android:layout_x="0dp"
+        android:layout_y="450dp" />
+    <ImageView
+        android:id="@+id/imPic"
+        android:layout_width="160dp"
+        android:layout_height="108dp"
+        android:layout_x="219dp"
+        android:layout_y="15dp" />
+</AbsoluteLayout>
