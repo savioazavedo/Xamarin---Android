@@ -11,10 +11,18 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
+using Xamarin.ActionbarSherlockBinding.App;
+using Xamarin.ActionbarSherlockBinding.Views;
+using ActionProvider = Xamarin.ActionbarSherlockBinding.Views.ActionProvider;
+using ActionMode = Xamarin.ActionbarSherlockBinding.Views.ActionMode;
+using IMenu = Xamarin.ActionbarSherlockBinding.Views.IMenu;
+using IMenuItem = Xamarin.ActionbarSherlockBinding.Views.IMenuItem;
+using Android.Provider;
+
 namespace ToDoList
 {
 	[Activity (Label = "EditItem")]			
-	public class EditItem : Activity
+	public class EditItem : SherlockActivity
 	{
 
 		int ListId;
@@ -23,8 +31,6 @@ namespace ToDoList
 
 		TextView txtTitle;
 		TextView txtDetails;
-		Button btnEdit;
-		Button btnDelete;
 		DatabaseManager objDb;
 
 		protected override void OnCreate (Bundle bundle)
@@ -37,12 +43,6 @@ namespace ToDoList
 			txtTitle = FindViewById<TextView> (Resource.Id.txtEditTitle);
 			txtDetails = FindViewById<TextView> (Resource.Id.txtEditDescription);
 
-			btnEdit = FindViewById<Button> (Resource.Id.btnEdit);
-			btnDelete = FindViewById<Button> (Resource.Id.btnDelete);
-
-			btnEdit.Click += OnBtnEditClick;
-			btnDelete.Click += OnBtnDeleteClick;
-
 			ListId = Intent.GetIntExtra("ListID",0);
 			Details = Intent.GetStringExtra("Details");
 			Title = Intent.GetStringExtra("Title");
@@ -51,14 +51,46 @@ namespace ToDoList
 			txtDetails.Text = Details;
 
 			objDb = new DatabaseManager();
+
 		}
 
-		public void OnBtnEditClick(object sender,EventArgs e)
+		public override bool OnCreateOptionsMenu(IMenu menu)
+		{
+
+			menu.Add ("Save")
+				.SetIcon (Android.Resource.Drawable.IcMenuSave)
+				.SetShowAsAction (MenuItem.ShowAsActionAlways);
+
+			menu.Add ("Delete")
+				.SetIcon (Android.Resource.Drawable.IcMenuDelete)
+				.SetShowAsAction (MenuItem.ShowAsActionAlways);
+				
+			return true;
+		}
+			
+		public override bool OnOptionsItemSelected(IMenuItem item)
+		{
+			var itemTitle = item.TitleFormatted.ToString();
+
+			switch (itemTitle)
+			{
+			case "Save":
+				OnItemSave ();
+				break;
+
+			case "Delete":
+				OnItemDelete ();
+				break;
+			}
+			return base.OnOptionsItemSelected(item);
+		}
+			
+		public void OnItemSave()
 		{
 			try 
 			{
 				objDb.EditItem(txtTitle.Text,txtDetails.Text,ListId);
-				Toast.MakeText(this,"Note Edited",ToastLength.Long).Show();
+				Toast.MakeText(this,"Changes Saved",ToastLength.Long).Show();
 				this.Finish();
 				StartActivity(typeof(MainActivity));
 			} catch (Exception ex) {
@@ -66,7 +98,7 @@ namespace ToDoList
 			}
 		}
 
-		public void OnBtnDeleteClick(object sender,EventArgs e)
+		public void OnItemDelete()
 		{
 			try 
 			{

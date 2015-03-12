@@ -658,13 +658,13 @@ containing a value of this type.
         public static final int windowSplitActionBar=0x7f010044;
     }
     public static final class bool {
-        public static final int abs__action_bar_embed_tabs=0x7f040000;
-        public static final int abs__action_bar_expanded_action_views_exclusive=0x7f040002;
+        public static final int abs__action_bar_embed_tabs=0x7f050000;
+        public static final int abs__action_bar_expanded_action_views_exclusive=0x7f050002;
         /**  Whether action menu items should be displayed in ALLCAPS or not.
          Defaults to true. If this is not appropriate for specific locales
          it should be disabled in that locale's resources. 
          */
-        public static final int abs__config_actionMenuItemAllCaps=0x7f040004;
+        public static final int abs__config_actionMenuItemAllCaps=0x7f050004;
         /**  Whether action menu items should obey the "withText" showAsAction
          flag. This may be set to false for situations where space is
          extremely limited. 
@@ -672,24 +672,24 @@ containing a value of this type.
          flag. This may be set to false for situations where space is
          extremely limited. 
          */
-        public static final int abs__config_allowActionMenuItemTextWithIcon=0x7f040005;
+        public static final int abs__config_allowActionMenuItemTextWithIcon=0x7f050005;
         /**  Sets whether menu shortcuts should be displayed on panel menus when
          a keyboard is present. 
          */
-        public static final int abs__config_showMenuShortcutsWhenKeyboardPresent=0x7f040003;
-        public static final int abs__split_action_bar_is_narrow=0x7f040001;
+        public static final int abs__config_showMenuShortcutsWhenKeyboardPresent=0x7f050003;
+        public static final int abs__split_action_bar_is_narrow=0x7f050001;
     }
     public static final class color {
-        public static final int abs__background_holo_dark=0x7f050000;
-        public static final int abs__background_holo_light=0x7f050001;
-        public static final int abs__bright_foreground_disabled_holo_dark=0x7f050004;
-        public static final int abs__bright_foreground_disabled_holo_light=0x7f050005;
-        public static final int abs__bright_foreground_holo_dark=0x7f050002;
-        public static final int abs__bright_foreground_holo_light=0x7f050003;
-        public static final int abs__primary_text_disable_only_holo_dark=0x7f050006;
-        public static final int abs__primary_text_disable_only_holo_light=0x7f050007;
-        public static final int abs__primary_text_holo_dark=0x7f050008;
-        public static final int abs__primary_text_holo_light=0x7f050009;
+        public static final int abs__background_holo_dark=0x7f060000;
+        public static final int abs__background_holo_light=0x7f060001;
+        public static final int abs__bright_foreground_disabled_holo_dark=0x7f060004;
+        public static final int abs__bright_foreground_disabled_holo_light=0x7f060005;
+        public static final int abs__bright_foreground_holo_dark=0x7f060002;
+        public static final int abs__bright_foreground_holo_light=0x7f060003;
+        public static final int abs__primary_text_disable_only_holo_dark=0x7f060006;
+        public static final int abs__primary_text_disable_only_holo_light=0x7f060007;
+        public static final int abs__primary_text_holo_dark=0x7f060008;
+        public static final int abs__primary_text_holo_light=0x7f060009;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -701,7 +701,7 @@ containing a value of this type.
  Default height of an action bar. 
  Default height of an action bar. 
          */
-        public static final int abs__action_bar_default_height=0x7f060001;
+        public static final int abs__action_bar_default_height=0x7f070001;
         /**  Vertical padding around action bar icons. 
  Vertical padding around action bar icons. 
  Vertical padding around action bar icons. 
@@ -711,7 +711,7 @@ containing a value of this type.
  Vertical padding around action bar icons. 
  Vertical padding around action bar icons. 
          */
-        public static final int abs__action_bar_icon_vertical_padding=0x7f060002;
+        public static final int abs__action_bar_icon_vertical_padding=0x7f070002;
         /**  Bottom margin for action bar subtitles 
  Bottom margin for action bar subtitles 
  Bottom margin for action bar subtitles 
@@ -721,7 +721,7 @@ containing a value of this type.
  Bottom margin for action bar subtitles 
  Bottom margin for action bar subtitles 
          */
-        public static final int abs__action_bar_subtitle_bottom_margin=0x7f060006;
+        public static final int abs__action_bar_subtitle_bottom_margin=0x7f070006;
         /**  Text size for action bar subtitles 
  Text size for action bar subtitles 
  Text size for action bar subtitles 
@@ -731,7 +731,7 @@ containing a value of this type.
  Text size for action bar subtitles 
  Text size for action bar subtitles 
          */
-        public static final int abs__action_bar_subtitle_text_size=0x7f060004;
+        public static final int abs__action_bar_subtitle_text_size=0x7f070004;
         /**  Top margin for action bar subtitles 
  Top margin for action bar subtitles 
  Top margin for action bar subtitles 
@@ -741,7 +741,7 @@ containing a value of this type.
  Top margin for action bar subtitles 
  Top margin for action bar subtitles 
          */
-        public static final int abs__action_bar_subtitle_top_margin=0x7f060005;
+        public static final int abs__action_bar_subtitle_top_margin=0x7f070005;
         /**  Text size for action bar titles 
  Text size for action bar titles 
  Text size for action bar titles 
@@ -751,43 +751,43 @@ containing a value of this type.
  Text size for action bar titles 
  Text size for action bar titles 
          */
-        public static final int abs__action_bar_title_text_size=0x7f060003;
+        public static final int abs__action_bar_title_text_size=0x7f070003;
         /**  Minimum width for an action button in the menu area of an action bar 
  Minimum width for an action button in the menu area of an action bar 
  Minimum width for an action button in the menu area of an action bar 
  Minimum width for an action button in the menu area of an action bar 
          */
-        public static final int abs__action_button_min_width=0x7f060007;
+        public static final int abs__action_button_min_width=0x7f070007;
         /**  The maximum width we would prefer dialogs to be.  0 if there is no
          maximum (let them grow as large as the screen).  Actual values are
          specified for -large and -xlarge configurations. 
          */
-        public static final int abs__config_prefDialogWidth=0x7f060000;
+        public static final int abs__config_prefDialogWidth=0x7f070000;
         /**  The platform's desired minimum size for a dialog's width when it
          is along the major axis (that is the screen is landscape).  This may
          be either a fraction or a dimension. 
          */
-        public static final int abs__dialog_min_width_major=0x7f06000d;
+        public static final int abs__dialog_min_width_major=0x7f07000d;
         /**  The platform's desired minimum size for a dialog's width when it
          is along the minor axis (that is the screen is portrait).  This may
          be either a fraction or a dimension. 
          */
-        public static final int abs__dialog_min_width_minor=0x7f06000e;
+        public static final int abs__dialog_min_width_minor=0x7f07000e;
         /**  Width of the icon in a dropdown list 
          */
-        public static final int abs__dropdownitem_icon_width=0x7f06000a;
+        public static final int abs__dropdownitem_icon_width=0x7f07000a;
         /**  Text padding for dropdown items 
          */
-        public static final int abs__dropdownitem_text_padding_left=0x7f060008;
+        public static final int abs__dropdownitem_text_padding_left=0x7f070008;
         /**  Text padding for dropdown items 
          */
-        public static final int abs__dropdownitem_text_padding_right=0x7f060009;
+        public static final int abs__dropdownitem_text_padding_right=0x7f070009;
         /**  Preferred width of the search view. 
          */
-        public static final int abs__search_view_preferred_width=0x7f06000c;
+        public static final int abs__search_view_preferred_width=0x7f07000c;
         /**  Minimum width of the search view text entry area. 
          */
-        public static final int abs__search_view_text_min_width=0x7f06000b;
+        public static final int abs__search_view_text_min_width=0x7f07000b;
     }
     public static final class drawable {
         public static final int abs__ab_bottom_solid_dark_holo=0x7f020000;
@@ -909,70 +909,67 @@ containing a value of this type.
         public static final int list_selector=0x7f020074;
     }
     public static final class id {
-        public static final int abs__action_bar=0x7f080020;
-        public static final int abs__action_bar_container=0x7f08001f;
-        public static final int abs__action_bar_subtitle=0x7f080011;
-        public static final int abs__action_bar_title=0x7f080010;
-        public static final int abs__action_context_bar=0x7f080021;
-        public static final int abs__action_menu_divider=0x7f080002;
-        public static final int abs__action_menu_presenter=0x7f080003;
-        public static final int abs__action_mode_bar=0x7f080025;
-        public static final int abs__action_mode_bar_stub=0x7f080024;
-        public static final int abs__action_mode_close_button=0x7f080014;
-        public static final int abs__activity_chooser_view_content=0x7f080015;
-        public static final int abs__checkbox=0x7f08001c;
-        public static final int abs__content=0x7f080022;
-        public static final int abs__default_activity_button=0x7f080018;
-        public static final int abs__expand_activities_button=0x7f080016;
-        public static final int abs__home=0x7f080000;
-        public static final int abs__icon=0x7f08001a;
-        public static final int abs__image=0x7f080017;
-        public static final int abs__imageButton=0x7f080012;
-        public static final int abs__list_item=0x7f080019;
-        public static final int abs__progress_circular=0x7f080004;
-        public static final int abs__progress_horizontal=0x7f080005;
-        public static final int abs__radio=0x7f08001d;
-        public static final int abs__search_badge=0x7f080028;
-        public static final int abs__search_bar=0x7f080027;
-        public static final int abs__search_button=0x7f080029;
-        public static final int abs__search_close_btn=0x7f08002e;
-        public static final int abs__search_edit_frame=0x7f08002a;
-        public static final int abs__search_go_btn=0x7f080030;
-        public static final int abs__search_mag_icon=0x7f08002b;
-        public static final int abs__search_plate=0x7f08002c;
-        public static final int abs__search_src_text=0x7f08002d;
-        public static final int abs__search_voice_btn=0x7f080031;
-        public static final int abs__shortcut=0x7f08001e;
-        public static final int abs__split_action_bar=0x7f080023;
-        public static final int abs__submit_area=0x7f08002f;
-        public static final int abs__textButton=0x7f080013;
-        public static final int abs__title=0x7f08001b;
-        public static final int abs__up=0x7f080001;
-        public static final int btnDelete=0x7f08003b;
-        public static final int btnEdit=0x7f08003a;
-        public static final int disableHome=0x7f08000a;
-        public static final int edit_query=0x7f080026;
-        public static final int homeAsUp=0x7f08000b;
-        public static final int lbldescription=0x7f080036;
-        public static final int lbltitle=0x7f080035;
-        public static final int linearLayout1=0x7f080039;
-        public static final int listMode=0x7f080007;
-        public static final int listView1=0x7f08003c;
-        public static final int normal=0x7f080008;
-        public static final int showCustom=0x7f08000c;
-        public static final int showHome=0x7f08000d;
-        public static final int showTitle=0x7f08000e;
-        public static final int sqlite_id=0x7f080034;
-        public static final int tabMode=0x7f080009;
-        public static final int txtEditDescription=0x7f080038;
-        public static final int txtEditTitle=0x7f080037;
-        public static final int txtItemDescription=0x7f080033;
-        public static final int txtItemTitle=0x7f080032;
-        public static final int useLogo=0x7f08000f;
-        public static final int wrap_content=0x7f080006;
+        public static final int abs__action_bar=0x7f040020;
+        public static final int abs__action_bar_container=0x7f04001f;
+        public static final int abs__action_bar_subtitle=0x7f040011;
+        public static final int abs__action_bar_title=0x7f040010;
+        public static final int abs__action_context_bar=0x7f040021;
+        public static final int abs__action_menu_divider=0x7f04000c;
+        public static final int abs__action_menu_presenter=0x7f04000d;
+        public static final int abs__action_mode_bar=0x7f040025;
+        public static final int abs__action_mode_bar_stub=0x7f040024;
+        public static final int abs__action_mode_close_button=0x7f040014;
+        public static final int abs__activity_chooser_view_content=0x7f040015;
+        public static final int abs__checkbox=0x7f04001c;
+        public static final int abs__content=0x7f040022;
+        public static final int abs__default_activity_button=0x7f040018;
+        public static final int abs__expand_activities_button=0x7f040016;
+        public static final int abs__home=0x7f04000a;
+        public static final int abs__icon=0x7f04001a;
+        public static final int abs__image=0x7f040017;
+        public static final int abs__imageButton=0x7f040012;
+        public static final int abs__list_item=0x7f040019;
+        public static final int abs__progress_circular=0x7f04000e;
+        public static final int abs__progress_horizontal=0x7f04000f;
+        public static final int abs__radio=0x7f04001d;
+        public static final int abs__search_badge=0x7f040028;
+        public static final int abs__search_bar=0x7f040027;
+        public static final int abs__search_button=0x7f040029;
+        public static final int abs__search_close_btn=0x7f04002e;
+        public static final int abs__search_edit_frame=0x7f04002a;
+        public static final int abs__search_go_btn=0x7f040030;
+        public static final int abs__search_mag_icon=0x7f04002b;
+        public static final int abs__search_plate=0x7f04002c;
+        public static final int abs__search_src_text=0x7f04002d;
+        public static final int abs__search_voice_btn=0x7f040031;
+        public static final int abs__shortcut=0x7f04001e;
+        public static final int abs__split_action_bar=0x7f040023;
+        public static final int abs__submit_area=0x7f04002f;
+        public static final int abs__textButton=0x7f040013;
+        public static final int abs__title=0x7f04001b;
+        public static final int abs__up=0x7f04000b;
+        public static final int disableHome=0x7f040009;
+        public static final int edit_query=0x7f040026;
+        public static final int homeAsUp=0x7f040006;
+        public static final int lbldescription=0x7f040036;
+        public static final int lbltitle=0x7f040035;
+        public static final int listMode=0x7f040002;
+        public static final int listView1=0x7f040039;
+        public static final int normal=0x7f040001;
+        public static final int showCustom=0x7f040008;
+        public static final int showHome=0x7f040005;
+        public static final int showTitle=0x7f040007;
+        public static final int sqlite_id=0x7f040034;
+        public static final int tabMode=0x7f040003;
+        public static final int txtEditDescription=0x7f040038;
+        public static final int txtEditTitle=0x7f040037;
+        public static final int txtItemDescription=0x7f040033;
+        public static final int txtItemTitle=0x7f040032;
+        public static final int useLogo=0x7f040004;
+        public static final int wrap_content=0x7f040000;
     }
     public static final class integer {
-        public static final int abs__max_action_buttons=0x7f070000;
+        public static final int abs__max_action_buttons=0x7f080000;
     }
     public static final class layout {
         public static final int abs__action_bar_home=0x7f030000;

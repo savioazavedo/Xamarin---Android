@@ -1,1 +1,1 @@
-<view xmlns:android="http://schemas.android.com/apk/res/android" class="com.actionbarsherlock.internal.widget.ScrollingTabContainerView$TabView" style="?attr/actionBarTabStyle" />
+<view class="com.actionbarsherlock.internal.widget.ScrollingTabContainerView$TabView" style="?attr/actionBarTabStyle" xmlns:android="http://schemas.android.com/apk/res/android" />

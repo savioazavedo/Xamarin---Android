@@ -1,1 +1,1 @@
-<com.actionbarsherlock.internal.widget.TabsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="?attr/actionBarTabBarStyle" />
+<com.actionbarsherlock.internal.widget.TabsLinearLayout style="?attr/actionBarTabBarStyle" xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,8 +1,8 @@
-/Users/savio/Xamarin---Android/Class 10/ToDoList-ActionBar/ToDoList/bin/Debug/ToDoList.dll
-/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.dll
-/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Xml.dll
-/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v4.3/Mono.Android.dll
-/Users/savio/Xamarin---Android/Class 10/ToDoList-ActionBar/Components/XamarinActionBarSherlock-4.4.0.6/lib/android/ActionBarSherlock.dll
-/Users/savio/Xamarin---Android/Class 10/ToDoList-ActionBar/Components/XamarinActionBarSherlock-4.4.0.6/lib/android/Xamarin.Android.Support.v4.dll
-/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Core.dll
-/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/mscorlib.dll
+C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Class 10\ToDoList-ActionBar\ToDoList\bin\Debug\ToDoList.dll
+C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Class 10\ToDoList-ActionBar\Components\XamarinActionBarSherlock-4.4.0.6\lib\android\ActionBarSherlock.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v4.3\Mono.Android.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\mscorlib.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Core.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Xml.dll
+C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Class 10\ToDoList-ActionBar\Components\XamarinActionBarSherlock-4.4.0.6\lib\android\Xamarin.Android.Support.v4.dll

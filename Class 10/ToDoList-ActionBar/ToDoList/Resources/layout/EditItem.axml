@@ -22,24 +22,4 @@
         android:textAlignment="gravity"
         android:gravity="top"
         android:layout_marginTop="5dp" />
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_weight="0.5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout1"
-        android:layout_marginTop="2dp">
-        <Button
-            android:text="Edit"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/btnEdit"
-            android:layout_weight="1" />
-        <Button
-            android:text="Delete"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/btnDelete"
-            android:layout_weight="1" />
-    </LinearLayout>
 </LinearLayout>

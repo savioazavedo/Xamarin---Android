@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="ToDoList.ToDoList">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="ToDoList.ToDoList" android:installLocation="preferExternal">
   <uses-sdk android:minSdkVersion="18" />
   <application android:theme="@android:style/Theme.Holo.Light" android:name="mono.android.app.Application" android:debuggable="true">
     <activity android:icon="@drawable/icon" android:label="ToDoList" android:theme="@android:style/Theme.Holo.Light" android:name="todolist.MainActivity">
@@ -18,8 +18,7 @@
       </intent-filter>
     </receiver>
   </application>
-  <application android:label="ToDoList">
-  </application>
+  <application android:label="ToDoList"></application>
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.INTERNET" />
