@@ -75,9 +75,6 @@ namespace ToDoList
 				this.owner = owner;
 			}
 			public bool OnCreateActionMode(ActionMode mode, IMenu menu) {
-				//Used to put dark icons on light action bar
-				//bool isLight = SampleList.THEME == Resource.Style.Theme_Sherlock_Light;
-
 				menu.Add ("Cancel")
 					.SetIcon (Android.Resource.Drawable.IcMenuDelete)
 					.SetShowAsAction (MenuItem.ShowAsActionWithText);
@@ -92,7 +89,6 @@ namespace ToDoList
 			public bool OnActionItemClicked(ActionMode mode, IMenuItem item) {
 			
 				var itemTitle = item.TitleFormatted.ToString();
-
 				switch (itemTitle)
 				{
 				case "Cancel":
@@ -110,10 +106,7 @@ namespace ToDoList
 				owner.OnAddClick ();
 			}
 		}
-
-
-
-
+			
 	}
 }
 

@@ -1,16 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.4100d56c49779000" />
-  <MonoDevelop.Ide.Workbench>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Flickr" expanded="True">
-            <Node name="ComponentReferenceFolder" expanded="True" />
-            <Node name="RESThandler.cs" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AVD_for_Nexus_S_by_Google" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Flickr\RESThandler.cs">
+    <Files>
+      <File FileName="Flickr\MainActivity.cs" Line="1" Column="1" />
+      <File FileName="Flickr\Response.cs" Line="1" Column="1" />
+      <File FileName="Flickr\RESThandler.cs" Line="20" Column="20" />
+    </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
