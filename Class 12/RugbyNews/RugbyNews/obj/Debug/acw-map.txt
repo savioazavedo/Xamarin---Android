@@ -1,2 +1,4 @@
 RugbyNews.MainActivity;rugbynews.MainActivity
 RugbyNews.DataAdapter;rugbynews.DataAdapter
+RugbyNews.Article;rugbynews.Article
+RugbyNews.Article.HelloWebViewClient;rugbynews.Article_HelloWebViewClient

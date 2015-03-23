@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using System.Collections.Generic;
 
 namespace RugbyNews
 {
@@ -15,6 +16,7 @@ namespace RugbyNews
 		RESThandler objRest;
 
 		ListView lstNews;
+		List<Item> tmpNewsList; 
 
 		protected override void OnCreate (Bundle bundle)
 		{
@@ -25,8 +27,25 @@ namespace RugbyNews
 
 			lstNews = FindViewById<ListView> (Resource.Id.lstNews);
 
+			lstNews.ItemClick += OnLstNewsClick;
+
 			LoadRugbyNews ();
 		}
+
+		void OnLstNewsClick (object sender, AdapterView.ItemClickEventArgs e)
+		{
+			var NewsItem = tmpNewsList[e.Position];
+			//Toast.MakeText (this, NewsItem.Link, ToastLength.Short).Show (); 
+
+
+			// start a new activity and pass the NewsItem.Link as an Intent
+
+			var NewsArticle = new Intent (this, typeof(Article));
+			NewsArticle.PutExtra ("URL", NewsItem.Link);
+			StartActivity (NewsArticle);
+
+		}
+			
 
 		public async void LoadRugbyNews()
 		{
@@ -34,6 +53,7 @@ namespace RugbyNews
 			var Response = await objRest.ExecuteRequestAsync ();
 
 			lstNews.Adapter = new DataAdapter (this, Response.Channel.Item);
+			tmpNewsList = Response.Channel.Item;
 		}
 
 	}

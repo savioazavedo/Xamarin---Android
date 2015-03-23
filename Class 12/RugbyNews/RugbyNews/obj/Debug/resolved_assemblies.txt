@@ -1,2 +1,2 @@
-\\telmar\users\savio.azavedo\My Documents\Projects\RugbyNews\RugbyNews\bin\Debug\RugbyNews.dll
-\\telmar\users\savio.azavedo\My Documents\Projects\RugbyNews\Components\restsharp-105.0.1.0\lib\android\RestSharp.MonoDroid.dll
+C:\Users\savio.azavedo\Documents\GitHub\Xamarin---Android\Class 12\RugbyNews\RugbyNews\bin\Debug\RugbyNews.dll
+C:\Users\savio.azavedo\Documents\GitHub\Xamarin---Android\Class 12\RugbyNews\Components\restsharp-105.0.1.0\lib\android\RestSharp.MonoDroid.dll

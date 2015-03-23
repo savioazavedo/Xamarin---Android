@@ -53,6 +53,7 @@
     <Compile Include="Response.cs" />
     <Compile Include="RESThandler.cs" />
     <Compile Include="DataAdapter.cs" />
+    <Compile Include="Article.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -64,6 +65,7 @@
     <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\drawable\Icon.png" />
     <AndroidResource Include="Resources\layout\CustomRow.axml" />
+    <AndroidResource Include="Resources\layout\NewsArticle.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
