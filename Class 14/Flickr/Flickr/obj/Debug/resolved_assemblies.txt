@@ -1,4 +1,4 @@
-C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Class 14\Flickr\Flickr\bin\Debug\Flickr.dll
-C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Class 14\Flickr\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll
-C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Class 14\Flickr\Components\restsharp-105.0.1.0\lib\android\RestSharp.MonoDroid.dll
-C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Class 14\Flickr\Components\urlimageviewhelper-1.0.4\lib\android\UrlImageViewHelper.dll
+C:\Users\savio.azavedo\Documents\GitHub\Xamarin---Android\Class 14\Flickr\Flickr\bin\Debug\Flickr.dll
+C:\Users\savio.azavedo\Documents\GitHub\Xamarin---Android\Class 14\Flickr\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll
+C:\Users\savio.azavedo\Documents\GitHub\Xamarin---Android\Class 14\Flickr\Components\restsharp-105.0.1.0\lib\android\RestSharp.MonoDroid.dll
+C:\Users\savio.azavedo\Documents\GitHub\Xamarin---Android\Class 14\Flickr\Components\urlimageviewhelper-1.0.4\lib\android\UrlImageViewHelper.dll

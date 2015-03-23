@@ -1,11 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.4100d56c49779000" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RugbyNews\MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RugbyNews\Article.cs">
     <Files>
-      <File FileName="RugbyNews\DataAdapter.cs" Line="34" Column="34" />
-      <File FileName="RugbyNews\MainActivity.cs" Line="35" Column="35" />
-      <File FileName="RugbyNews\RESThandler.cs" Line="37" Column="37" />
-      <File FileName="RugbyNews\Response.cs" Line="38" Column="38" />
+      <File FileName="RugbyNews\DataAdapter.cs" Line="1" Column="1" />
+      <File FileName="RugbyNews\MainActivity.cs" Line="47" Column="47" />
+      <File FileName="RugbyNews\RESThandler.cs" Line="1" Column="1" />
+      <File FileName="RugbyNews\Response.cs" Line="1" Column="1" />
+      <File FileName="RugbyNews\Article.cs" Line="14" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

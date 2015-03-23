@@ -7,6 +7,11 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android.Graphics.Drawables;
+using System.IO;
+using Android.Graphics;
+using System.Net;
+using System.Text;
 
 
 namespace Flickr
@@ -18,10 +23,16 @@ namespace Flickr
 
 		ImageButton btnPrev;
 		ImageButton btnNext;
+		ImageButton btnSave;
+		ImageButton btnShare;
+		TextView txtCaption;
+		Random imageID;
 		ImageView imgPic;
 
 		RESThandler objRest;
 		RootObject objRootList;
+
+		double photoID;
 
 		List<Photo> lstPhotos = new List<Photo> ();  
 
@@ -34,21 +45,28 @@ namespace Flickr
 		
 			btnPrev = FindViewById<ImageButton> (Resource.Id.btnprev);
 			btnNext = FindViewById<ImageButton> (Resource.Id.btnnext);
+			btnSave = FindViewById<ImageButton> (Resource.Id.btnSave);
+			btnShare = FindViewById<ImageButton> (Resource.Id.btnShare);
+			txtCaption = FindViewById<TextView> (Resource.Id.textView1);
 
 			imgPic = FindViewById<ImageView> (Resource.Id.imageView1);
 			
 			btnNext.Click += OnBtnNextClick;
 			btnPrev.Click += OnBtnPrevClick;
+			btnSave.Click += OnBtnSaveClick;
+			btnShare.Click += OnShareBtnClick;
 
 			try 
 			{
 
 				objRest = new RESThandler (@"https://api.flickr.com/services/rest/?method=flickr.interestingness.getList");
 
-				objRest.AddParameter ("api_key","d73eead59ba6d464e63b0fe20d545e92");
+
+				// get the latest api_key and api_sig from flickr 
+				objRest.AddParameter ("api_key","91f326eedf5b17d10c14f9090bc4dafc");
 				objRest.AddParameter ("format","json");
 				objRest.AddParameter ("nojsoncallback","1");
-				objRest.AddParameter ("api_sig","23d87dfaf266466ba924ae265a23a13e");
+				objRest.AddParameter ("api_sig","1791cb0349e9970fdab409b72a024784");
 
 				objRootList = objRest.ExecuteRequest ();
 				lstPhotos = objRootList.photos.photo;
@@ -57,6 +75,53 @@ namespace Flickr
 
 			} catch (Exception e) {
 				Toast.MakeText(this,"Error" + e.Message,ToastLength.Long);
+			}
+		}
+
+		void OnShareBtnClick (object sender, EventArgs e)
+		{
+			// Share click using Intents 
+
+			try
+			{
+
+				string localPath =System.IO.Path.Combine (Android.OS.Environment.ExternalStorageDirectory.ToString (), photoID + ".jpeg");
+				Intent shareIntent = new Intent (Intent.ActionSend);
+				shareIntent.SetType ("image/*");
+				Android.Net.Uri uri =  Android.Net.Uri.Parse(localPath);
+				shareIntent.PutExtra (Intent.ExtraStream, uri);
+				StartActivity(Intent.CreateChooser(shareIntent, "Share photo"));
+
+			} catch (Exception ex) {
+				Toast.MakeText(this,"Error" + ex.Message,ToastLength.Long);
+			}
+
+		}
+
+		void OnBtnSaveClick (object sender, EventArgs e)
+		{
+			imageID = new Random ();
+			photoID = imageID.Next (999999999); 
+
+			var fetchedDrawable = imgPic.Drawable;
+			BitmapDrawable bitmapDrawable = (BitmapDrawable)fetchedDrawable;
+			var bitmap = bitmapDrawable.Bitmap;
+
+			byte[] bitmapData;
+			using (var stream = new MemoryStream())
+			{
+				bitmap.Compress(Bitmap.CompressFormat.Jpeg ,100, stream);
+				bitmapData = stream.ToArray();
+			}
+
+			try
+			{
+				string localPath =System.IO.Path.Combine (Android.OS.Environment.ExternalStorageDirectory.ToString (), photoID + ".jpeg");
+				File.WriteAllBytes (localPath, bitmapData); 
+				Toast.MakeText(this,"Image Saved",ToastLength.Short).Show();
+
+			} catch (Exception ex) {
+				Toast.MakeText(this,"Failed to save image:" + ex.Message,ToastLength.Short).Show();
 			}
 		}
 
@@ -69,6 +134,7 @@ namespace Flickr
 			{
 				var tempmap = lstPhotos[index];
 				imgurl = "http://farm" + tempmap.farm.ToString() + ".staticflickr.com/" + tempmap.server + "/" + tempmap.id  + "_" + tempmap.secret + "_b.jpg" ;
+				txtCaption.Text = tempmap.title;
 				Koush.UrlImageViewHelper.SetUrlDrawable (imgPic,imgurl, Resource.Drawable.loading);
 
 			} catch (Exception e) {
