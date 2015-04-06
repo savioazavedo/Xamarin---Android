@@ -1,0 +1,2 @@
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ParseToDo\ParseToDo\bin\Debug\ParseToDo.dll
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ParseToDo\Components\parse-1.3.5\lib\android\Parse.Android.dll

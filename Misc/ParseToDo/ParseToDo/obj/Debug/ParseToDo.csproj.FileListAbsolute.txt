@@ -1,0 +1,17 @@
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ParseToDo\ParseToDo\bin\Debug\ParseToDo.dll
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ParseToDo\ParseToDo\bin\Debug\ParseToDo.pdb
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ParseToDo\ParseToDo\bin\Debug\ParseToDo.dll.mdb
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ParseToDo\ParseToDo\bin\Debug\ParseToDo.ParseToDo.apk
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ParseToDo\ParseToDo\bin\Debug\ParseToDo.ParseToDo-Signed.apk
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ParseToDo\ParseToDo\bin\Debug\Parse.Android.dll
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ParseToDo\ParseToDo\bin\Debug\Parse.Android.xml
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ParseToDo\ParseToDo\obj\Debug\ParseToDo.csprojResolveAssemblyReference.cache
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ParseToDo\ParseToDo\obj\Debug\ParseToDo.dll
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ParseToDo\ParseToDo\obj\Debug\ParseToDo.pdb
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ParseToDo\ParseToDo\obj\Debug\android\bin\ParseToDo.ParseToDo.apk
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ParseToDo\ParseToDo\obj\Debug\res\layout\main.xml
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ParseToDo\ParseToDo\obj\Debug\res\values\strings.xml
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ParseToDo\ParseToDo\obj\Debug\res\drawable\icon.png
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ParseToDo\ParseToDo\obj\Debug\res\layout\register.xml
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ParseToDo\ParseToDo\obj\Debug\R.cs.flag
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ParseToDo\ParseToDo\obj\Debug\uploadflags.txt
