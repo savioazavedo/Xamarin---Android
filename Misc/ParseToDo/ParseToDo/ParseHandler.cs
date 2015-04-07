@@ -10,17 +10,13 @@ namespace ParseToDo
 	{
 
 		static ParseHandler todoServiceInstance = new ParseHandler();
-
 		public static ParseHandler Default { get { return todoServiceInstance; } }
-
 		private ParseHandler () { }
-
-		public List<ToDo> Items { get; private set;}
-
-		private ParseUser userinstance;
+		public List<ToDoList> Items { get; private set;}
 
 		public async Task CreateUserAsync (string username,string email,string password)
 		{
+		
 			if (username != "" && email != "" && password != "")
 			{
 				var user = new ParseUser ()
@@ -36,7 +32,7 @@ namespace ParseToDo
 
 		public async Task<Boolean> CheckIfUserNameExists (string username)
 		{
-
+		
 			var query = ParseUser.Query;
 			var queryresult = await query.WhereEqualTo ("username", username).FindAsync();
 
@@ -47,6 +43,44 @@ namespace ParseToDo
 			}
 		}
 
+
+		public async Task<Boolean> Login(string username,string password)
+		{
+			try
+			{
+				await ParseUser.LogInAsync(username,password);
+				return true;
+			}
+			catch (Exception e)
+			{
+				Console.WriteLine ("Login Failed:" + e.Message);
+				return false;
+			}
+		}
+			
+		public async Task<Boolean> AddToDoItem(string ItemDescription)
+		{
+			ParseObject ToDoList = new ParseObject("ToDo");
+			ToDoList["ItemDescription"] = ItemDescription;
+			ToDoList ["User"] = ParseUser.CurrentUser;
+
+			try
+			{
+				await ToDoList.SaveAsync ();
+				return true;
+			}
+			catch (Exception e) 
+			{
+				Console.WriteLine ("Error:" + e.Message);		
+				return false;
+			}
+		}
+			
+		public ParseUser GetCurrentUserInstance()
+		{
+			return ParseUser.CurrentUser;
+		}
+			
 	}
 }
 

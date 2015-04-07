@@ -54,6 +54,7 @@
     <Compile Include="App.cs" />
     <Compile Include="ParseHandler.cs" />
     <Compile Include="ToDo.cs" />
+    <Compile Include="ViewList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -65,6 +66,8 @@
     <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\drawable\Icon.png" />
     <AndroidResource Include="Resources\layout\Register.axml" />
+    <AndroidResource Include="Resources\layout\ListActivity.axml" />
+    <AndroidResource Include="Resources\layout\CustomRow.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

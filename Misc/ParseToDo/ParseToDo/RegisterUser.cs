@@ -31,7 +31,6 @@ namespace ParseToDo
 			base.OnCreate (bundle);
 
 			// Create your application here
-
 			SetContentView (Resource.Layout.Register);
 
 			txtUserName = FindViewById<EditText>(Resource.Id.txtUserName);
@@ -41,10 +40,6 @@ namespace ParseToDo
 	
 			btnRegister.Click += OnRegisterButtonClick;
 
-
-			txtUserName.Text = "John20";
-			txtPassword.Text = "test";
-			txtEmail.Text = "test@gmail.com";
 		}
 
 		void OnRegisterButtonClick (object sender, EventArgs e)
@@ -65,6 +60,7 @@ namespace ParseToDo
 				await objParse.CreateUserAsync(txtUserName.Text,txtEmail.Text,txtPassword.Text);
 				Toast.MakeText (this, "Account Successfully Created ", ToastLength.Short).Show ();
 				Toast.MakeText (this, "Please Login Again", ToastLength.Short).Show ();
+				ClearAll ();
 				StartActivity (typeof(MainActivity));
 			}
 		}

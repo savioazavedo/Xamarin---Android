@@ -1,17 +1,20 @@
 ﻿using System;
+using Parse;
 
 namespace ParseToDo
 {
-	public class ToDo
+	public class ToDoList
 	{
 	
-			public int ListId { get; set; }
-			public string Title{ get; set; }
-			public string Details{ get; set; }
-			public DateTime Date { get; set;}
+			public int objectId { get; set; }
+		    public string ItemDescription{ get; set; }
+			public ParseUser User { get; set;}
+			public DateTime createdAt { get; set; }
+			public DateTime updatedAt { get; set;}
 
-			public ToDo ()
+			public ToDoList ()
 			{
+				
 			}
 			
 	}
