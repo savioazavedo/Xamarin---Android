@@ -2,3 +2,4 @@ ParseToDo.MainActivity;parsetodo.MainActivity
 ParseToDo.RegisterUser;parsetodo.RegisterUser
 ParseToDo.App;parsetodo.App
 ParseToDo.ViewList;parsetodo.ViewList
+ParseToDo.DataAdapter;parsetodo.DataAdapter

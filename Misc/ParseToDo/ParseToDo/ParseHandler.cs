@@ -12,7 +12,7 @@ namespace ParseToDo
 		static ParseHandler todoServiceInstance = new ParseHandler();
 		public static ParseHandler Default { get { return todoServiceInstance; } }
 		private ParseHandler () { }
-		public List<ToDoList> Items { get; private set;}
+		public List<ToDo> Items { get; private set;}
 
 		public async Task CreateUserAsync (string username,string email,string password)
 		{
@@ -60,13 +60,13 @@ namespace ParseToDo
 			
 		public async Task<Boolean> AddToDoItem(string ItemDescription)
 		{
-			ParseObject ToDoList = new ParseObject("ToDo");
-			ToDoList["ItemDescription"] = ItemDescription;
-			ToDoList ["User"] = ParseUser.CurrentUser;
+			ParseObject ToDo = new ParseObject("ToDo");
+			ToDo["ItemDescription"] = ItemDescription;
+			ToDo ["User"] = ParseUser.CurrentUser;
 
 			try
 			{
-				await ToDoList.SaveAsync ();
+				await ToDo.SaveAsync ();
 				return true;
 			}
 			catch (Exception e) 
@@ -75,7 +75,50 @@ namespace ParseToDo
 				return false;
 			}
 		}
-			
+
+		public async Task<List<ToDo>> GetAll () 
+		{
+			var query = ParseObject.GetQuery ("ToDo").WhereEqualTo("User", ParseUser.CurrentUser);
+			var result = await query.FindAsync ();
+
+			var ToDoList = new List<ToDo> ();
+
+			foreach (var obj in result) {
+
+				ToDo tempobj = new ToDo ();
+
+				tempobj.ObjectId = obj.ObjectId;
+				tempobj.createdAt = obj.CreatedAt;
+				tempobj.updatedAt = obj.UpdatedAt;
+				tempobj.ItemDescription = Convert.ToString(obj["ItemDescription"]);
+
+				ToDoList.Add (tempobj);
+			}
+
+			return ToDoList;
+		}
+
+		public async void DeleteItem(ToDo ToDoItem)
+		{
+			ParseObject ToDo = new ParseObject("ToDo");
+
+			ToDo.ObjectId = ToDoItem.ObjectId;
+			ToDo["ItemDescription"] = ToDoItem.ItemDescription;
+			ToDo ["User"] = ParseUser.CurrentUser;
+
+			try 
+			{
+				await ToDo.DeleteAsync();
+			} 
+			catch (Exception e) 
+			{
+				Console.Error.WriteLine(@"ERROR {0}", e.Message);
+			}
+
+		}
+
+
+
 		public ParseUser GetCurrentUserInstance()
 		{
 			return ParseUser.CurrentUser;

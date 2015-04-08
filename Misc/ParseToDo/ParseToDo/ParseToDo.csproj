@@ -55,6 +55,7 @@
     <Compile Include="ParseHandler.cs" />
     <Compile Include="ToDo.cs" />
     <Compile Include="ViewList.cs" />
+    <Compile Include="DataAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

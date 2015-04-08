@@ -19,6 +19,8 @@ namespace ParseToDo
 		EditText txtToDo;
 		Button btnAdd;
 		ListView lstItems;
+		List<ToDo> ToDoList = new List<ToDo> ();
+
 		ParseHandler objParse = ParseHandler.Default;
 
 		protected override void OnCreate (Bundle bundle)
@@ -32,6 +34,28 @@ namespace ParseToDo
 			lstItems = FindViewById<ListView> (Resource.Id.lvItems);
 
 			btnAdd.Click += AddToDoItem;
+			lstItems.ItemLongClick += OnListViewLongClick;
+			LoadToDoItems ();
+		}
+
+		public void OnListViewLongClick (object sender, AdapterView.ItemLongClickEventArgs e)
+		{
+			var ToDoItem = ToDoList[e.Position];
+			var builder = new AlertDialog.Builder(this);
+
+			builder.SetMessage("Do you wish to delete the item:" + ToDoItem.ItemDescription );
+			builder.SetPositiveButton("Yes", (s, ea) => { 
+								objParse.DeleteItem(ToDoItem); 
+								Toast.MakeText (this, "Item Deleted", ToastLength.Long).Show ();
+								LoadToDoItems();
+								builder.Dispose(); 
+							});
+
+			builder.SetNegativeButton("No", (s, ea) => { 
+								builder.Dispose(); 
+							});
+
+			builder.Create().Show();
 		}
 
 		public async void AddToDoItem (object sender, EventArgs e)
@@ -42,15 +66,20 @@ namespace ParseToDo
 
 				if (result == true) {
 					Toast.MakeText (this, "Item added successfully", ToastLength.Long).Show ();
+					LoadToDoItems ();
+					txtToDo.Text = "";
 				} else {
 					Toast.MakeText (this, "Oops something went wrong", ToastLength.Long).Show ();
 				}
-
 			}
 		}
+
+		public async void LoadToDoItems()
+		{
+			ToDoList = await objParse.GetAll ();
+			lstItems.Adapter = new DataAdapter (this, ToDoList);
+		}
 			
-
-
 	}
 }
 
