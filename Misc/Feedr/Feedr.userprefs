@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AVD_for_Nexus_S_by_Google" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Feedr\RegisterUser.cs">
+    <Files>
+      <File FileName="Feedr\MainActivity.cs" Line="3" Column="3" />
+      <File FileName="Feedr\App.cs" Line="2" Column="2" />
+      <File FileName="Feedr\ParseHandler.cs" Line="4" Column="4" />
+      <File FileName="Feedr\Posts.cs" Line="4" Column="4" />
+      <File FileName="Feedr\Resources\drawable\background.xml" Line="11" Column="11" />
+      <File FileName="Feedr\RegisterUser.cs" Line="74" Column="74" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Feedr MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>
