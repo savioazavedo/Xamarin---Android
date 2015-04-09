@@ -11,6 +11,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Parse;
+using Android.Graphics;
+using System.Net;
 
 
 namespace Feedr
@@ -44,10 +46,25 @@ namespace Feedr
 		{
 			PostUsrName.Text = objParse.GetCurrentUserInstance ().Username;
 			PostDate.Text = DateTime.Now.ToString ();
-
+			var pic = objParse.GetCurrentUserInstance ().Get<ParseFile> ("ProfilePic");
+			PostProfilePic.SetImageBitmap(GetImageBitmapFromUrl(pic.Url.AbsoluteUri));
 		}
 
+		private Bitmap GetImageBitmapFromUrl(string url)
+		{
+			Bitmap imageBitmap = null;
+			if(!(url=="null"))
+				using (var webClient = new WebClient())
+				{
+					var imageBytes = webClient.DownloadData(url);
+					if (imageBytes != null && imageBytes.Length > 0)
+					{
+						imageBitmap = BitmapFactory.DecodeByteArray(imageBytes, 0, imageBytes.Length);
+					}
+				}
 
+			return imageBitmap;
+		}
 	}
 }
 
