@@ -13,6 +13,8 @@ using Android.Widget;
 using Parse;
 using Android.Graphics;
 using System.Net;
+using Android.Graphics.Drawables;
+using System.IO;
 
 
 namespace Feedr
@@ -25,7 +27,8 @@ namespace Feedr
 		ImageView PostProfilePic;
 		TextView PostUsrName;
 		TextView PostDate;
-
+		ImageButton btnUpload;
+		Button btnPost;
 
 		protected override void OnCreate (Bundle bundle)
 		{
@@ -38,9 +41,60 @@ namespace Feedr
 			PostUsrName = FindViewById<TextView> (Resource.Id.PostUsrName);
 			PostDate = FindViewById<TextView> (Resource.Id.PostDate);
 
+			btnUpload = FindViewById<ImageButton> (Resource.Id.BtnUploadPostImage);
+			btnUpload.Click += OnUploadClick;
+
+			btnPost = FindViewById<Button> (Resource.Id.btnPost);
+			btnPost.Click += OnPostClick;
+
 			LoadUserDetails ();
 
 		}
+
+		void OnUploadClick (object sender, EventArgs e)
+		{
+			var imageIntent = new Intent ();
+			imageIntent.SetType ("image/jpeg");
+			imageIntent.SetAction (Intent.ActionGetContent);
+			StartActivityForResult (
+			Intent.CreateChooser (imageIntent, "Select photo"), 0);
+		}
+
+		protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+		{
+			if ((resultCode == Result.Ok) && (data != null))
+			{
+
+				btnUpload.SetScaleType (ImageView.ScaleType.FitXy);
+				btnUpload.SetImageURI(data.Data);
+			}
+		}
+
+
+		void OnPostClick (object sender, EventArgs e)
+		{
+
+
+
+		}
+
+		public byte[] GetProfilePicInBytes()
+		{
+			var fetchedDrawable = btnUpload.Drawable;
+			BitmapDrawable bitmapDrawable = (BitmapDrawable)fetchedDrawable;
+			var bitmap = bitmapDrawable.Bitmap;
+
+			byte[] bitmapData;
+			using (var stream = new MemoryStream())
+			{
+				bitmap.Compress(Bitmap.CompressFormat.Jpeg ,100, stream);
+				bitmapData = stream.ToArray();
+			}
+
+			return bitmapData;
+		}
+
+
 
 		void LoadUserDetails()
 		{

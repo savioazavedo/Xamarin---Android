@@ -1,2 +1,2 @@
-/Users/savio/Xamarin---Android/Misc/Feedr/Feedr/bin/Debug/Feedr.dll
-/Users/savio/Xamarin---Android/Misc/Feedr/Components/parse-1.3.5/lib/android/Parse.Android.dll
+C:\gitHub\Xamarin---Android\Misc\Feedr\Feedr\bin\Debug\Feedr.dll
+C:\gitHub\Xamarin---Android\Misc\Feedr\Components\parse-1.3.5\lib\android\Parse.Android.dll

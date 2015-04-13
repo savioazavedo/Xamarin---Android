@@ -62,6 +62,12 @@ namespace Feedr
 				return false;
 			}
 		}
+
+//		public async Task<Boolean> AddPost()
+//		{
+//
+//		}
+
 //			
 //		public async Task<Boolean> AddToDoItem(string ItemDescription)
 //		{
