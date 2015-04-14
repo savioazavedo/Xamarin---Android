@@ -26,8 +26,10 @@ namespace Feedr
 		ParseHandler objParse = ParseHandler.Default;
 		ImageView PostProfilePic;
 		TextView PostUsrName;
+		EditText PostDescription;
 		TextView PostDate;
 		ImageButton btnUpload;
+		ImageView imgPostPic;
 		Button btnPost;
 
 		protected override void OnCreate (Bundle bundle)
@@ -40,13 +42,16 @@ namespace Feedr
 			PostProfilePic = FindViewById<ImageView> (Resource.Id.PostProfilePic);
 			PostUsrName = FindViewById<TextView> (Resource.Id.PostUsrName);
 			PostDate = FindViewById<TextView> (Resource.Id.PostDate);
+			imgPostPic = FindViewById<ImageView> (Resource.Id.imgPostImage);
 
 			btnUpload = FindViewById<ImageButton> (Resource.Id.BtnUploadPostImage);
+			PostDescription = FindViewById<EditText> (Resource.Id.PostDescription);
+
 			btnUpload.Click += OnUploadClick;
 
 			btnPost = FindViewById<Button> (Resource.Id.btnPost);
 			btnPost.Click += OnPostClick;
-
+		
 			LoadUserDetails ();
 
 		}
@@ -64,23 +69,32 @@ namespace Feedr
 		{
 			if ((resultCode == Result.Ok) && (data != null))
 			{
-
-				btnUpload.SetScaleType (ImageView.ScaleType.FitXy);
-				btnUpload.SetImageURI(data.Data);
+				imgPostPic.SetScaleType (ImageView.ScaleType.FitXy);
+				imgPostPic.SetImageURI (data.Data);
 			}
 		}
 
 
-		void OnPostClick (object sender, EventArgs e)
+		private async void OnPostClick (object sender, EventArgs e)
 		{
 
+			Toast.MakeText (this, "Uploading Post....Please wait", ToastLength.Short).Show ();
 
+			try
+			{
+				await objParse.AddPost (PostDescription.Text, GetPicInBytes ());
+				Toast.MakeText (this, "Post Uploaded", ToastLength.Short).Show ();
+			}
+			catch(Exception ex) 
+			{
+				Toast.MakeText (this, "Error Occurred:" + ex.Message, ToastLength.Short).Show ();		
+			}
 
 		}
 
-		public byte[] GetProfilePicInBytes()
+		public byte[] GetPicInBytes()
 		{
-			var fetchedDrawable = btnUpload.Drawable;
+			var fetchedDrawable = imgPostPic.Drawable;
 			BitmapDrawable bitmapDrawable = (BitmapDrawable)fetchedDrawable;
 			var bitmap = bitmapDrawable.Bitmap;
 

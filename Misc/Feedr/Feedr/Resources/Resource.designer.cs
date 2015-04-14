@@ -72,8 +72,14 @@ namespace Feedr
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050005
-			public const int BtnUploadPostImage = 2131034117;
+			// aapt resource value: 0x7f050006
+			public const int BtnUploadPostImage = 2131034118;
+			
+			// aapt resource value: 0x7f05000b
+			public const int Description = 2131034123;
+			
+			// aapt resource value: 0x7f050011
+			public const int Feedlist = 2131034129;
 			
 			// aapt resource value: 0x7f050002
 			public const int PostDate = 2131034114;
@@ -96,8 +102,8 @@ namespace Feedr
 			// aapt resource value: 0x7f05000f
 			public const int btnLogin = 2131034127;
 			
-			// aapt resource value: 0x7f050006
-			public const int btnPost = 2131034118;
+			// aapt resource value: 0x7f050007
+			public const int btnPost = 2131034119;
 			
 			// aapt resource value: 0x7f050016
 			public const int btnProfilePic = 2131034134;
@@ -109,37 +115,31 @@ namespace Feedr
 			public const int feedImage1 = 2131034124;
 			
 			// aapt resource value: 0x7f050004
-			public const int linearLayout1 = 2131034116;
+			public const int imgPostImage = 2131034116;
 			
-			// aapt resource value: 0x7f050011
-			public const int list = 2131034129;
+			// aapt resource value: 0x7f050005
+			public const int linearLayout1 = 2131034117;
 			
-			// aapt resource value: 0x7f050008
-			public const int name = 2131034120;
+			// aapt resource value: 0x7f050009
+			public const int name = 2131034121;
 			
 			// aapt resource value: 0x7f05000e
 			public const int password = 2131034126;
 			
-			// aapt resource value: 0x7f050007
-			public const int profilePic = 2131034119;
+			// aapt resource value: 0x7f050008
+			public const int profilePic = 2131034120;
 			
 			// aapt resource value: 0x7f050015
 			public const int textView1 = 2131034133;
 			
-			// aapt resource value: 0x7f050009
-			public const int timestamp = 2131034121;
+			// aapt resource value: 0x7f05000a
+			public const int timestamp = 2131034122;
 			
 			// aapt resource value: 0x7f050013
 			public const int txtEmail = 2131034131;
 			
 			// aapt resource value: 0x7f050014
 			public const int txtPassword = 2131034132;
-			
-			// aapt resource value: 0x7f05000a
-			public const int txtStatusMsg = 2131034122;
-			
-			// aapt resource value: 0x7f05000b
-			public const int txtUrl = 2131034123;
 			
 			// aapt resource value: 0x7f050012
 			public const int txtUserName = 2131034130;

@@ -65,6 +65,11 @@
             android:minLines="5"
             android:linksClickable="true"
             android:textColor="@android:color/black" />
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgPostImage" />
         <LinearLayout
             android:orientation="horizontal"
             android:minWidth="25px"

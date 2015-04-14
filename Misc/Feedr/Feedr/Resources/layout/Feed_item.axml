@@ -46,22 +46,13 @@
             </LinearLayout>
         </LinearLayout>
         <TextView
-            android:id="@+id/txtStatusMsg"
+            android:id="@+id/Description"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="5dp"
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
             android:paddingTop="13dp" />
-        <TextView
-            android:id="@+id/txtUrl"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:linksClickable="true"
-            android:paddingBottom="10dp"
-            android:paddingLeft="15dp"
-            android:paddingRight="15dp"
-            android:textColorLink="#0a80d1" />
         <ImageView
             android:id="@+id/feedImage1"
             android:layout_width="match_parent"

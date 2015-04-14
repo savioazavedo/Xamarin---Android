@@ -45,7 +45,7 @@ namespace Feedr
 				if (result == true)
 				{
 					Toast.MakeText (this, "Login Successful", ToastLength.Long).Show ();
-					StartActivity (typeof(AddPost));
+					StartActivity (typeof(FeedActivity));
 				} else {
 					Toast.MakeText (this, "Login Unsuccessful. Please check your username and password", ToastLength.Long).Show ();
 				}

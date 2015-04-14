@@ -56,6 +56,7 @@
     <Compile Include="RegisterUser.cs" />
     <Compile Include="FeedActivity.cs" />
     <Compile Include="AddPost.cs" />
+    <Compile Include="DataAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

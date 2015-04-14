@@ -52,8 +52,7 @@ namespace Feedr
 			var imageIntent = new Intent ();
 			imageIntent.SetType ("image/jpeg");
 			imageIntent.SetAction (Intent.ActionGetContent);
-			StartActivityForResult (
-			Intent.CreateChooser (imageIntent, "Select photo"), 0);
+			StartActivityForResult (Intent.CreateChooser (imageIntent, "Select photo"), 0);
 		}
 
 

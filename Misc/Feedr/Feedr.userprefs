@@ -1,14 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AVD_for_Nexus_S_by_Google" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Feedr\AddPost.cs">
-    <Files>
-      <File FileName="Feedr\App.cs" Line="2" Column="2" />
-      <File FileName="Feedr\AddPost.cs" Line="48" Column="48" />
-      <File FileName="Feedr\FeedActivity.cs" Line="4" Column="4" />
-      <File FileName="Feedr\RegisterUser.cs" Line="52" Column="52" />
-      <File FileName="Feedr\ParseHandler.cs" Line="3" Column="3" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.84dbac6f9c56" />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

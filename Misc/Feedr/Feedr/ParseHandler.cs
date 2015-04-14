@@ -12,7 +12,7 @@ namespace Feedr
 		static ParseHandler todoServiceInstance = new ParseHandler();
 		public static ParseHandler Default { get { return todoServiceInstance; } }
 		private ParseHandler () { }
-		public List<Posts> Items { get; private set;}
+		public List<Post> Items { get; private set;}
 
 		public async Task CreateUserAsync (string username,string email,string password,byte[] profilepic)
 		{
@@ -63,12 +63,54 @@ namespace Feedr
 			}
 		}
 
-//		public async Task<Boolean> AddPost()
-//		{
-//
-//		}
+		public async Task<Boolean> AddPost(string Description,byte[] Postpic)
+		{
+			try
+			{
+			
+				ParseFile file = new ParseFile("postpic.jpg", Postpic);
+				await file.SaveAsync();
 
-//			
+				ParseObject Post = new ParseObject("Post");
+				Post["Description"] = Description;
+				Post["Image"] = file;
+				Post["User"] = ParseUser.CurrentUser;
+
+				await Post.SaveAsync();
+				return true;
+			}
+			catch (Exception e) 
+			{
+				Console.WriteLine("Error:" + e.Message);
+				return false;
+			}
+		}
+
+		public async Task<List<Post>> GetAllPosts()
+		{
+			var query = ParseObject.GetQuery ("Post");
+			var result = await query.FindAsync ();
+
+			var PostList = new List<Post> ();
+
+			foreach (var obj in result) {
+
+				Post tempobj = new Post ();
+
+				tempobj.ObjectId = obj.ObjectId;
+				tempobj.CreatedAt = obj.CreatedAt;
+				tempobj.UpdatedAt = obj.UpdatedAt;
+				tempobj.ParseUser = obj.Get<ParseUser>("User");
+				tempobj.Image = obj.Get<ParseFile> ("Image");
+				tempobj.Description = Convert.ToString(obj ["Description"]);
+
+				PostList.Add (tempobj);
+			}
+
+			return PostList;
+
+		}
+
 //		public async Task<Boolean> AddToDoItem(string ItemDescription)
 //		{
 //			ParseObject ToDo = new ParseObject("ToDo");
