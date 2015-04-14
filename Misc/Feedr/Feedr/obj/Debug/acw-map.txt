@@ -3,3 +3,4 @@ Feedr.App;feedr.App
 Feedr.RegisterUser;feedr.RegisterUser
 Feedr.FeedActivity;feedr.FeedActivity
 Feedr.AddPost;feedr.AddPost
+Feedr.DataAdapter;feedr.DataAdapter
