@@ -1,0 +1,17 @@
+/Users/savio/Xamarin---Android/Misc/ParseToDo/ParseToDo/obj/Debug/MonoAndroid,Version=v4.3.AssemblyAttribute.cs
+/Users/savio/Xamarin---Android/Misc/ParseToDo/ParseToDo/bin/Debug/ParseToDo.dll.mdb
+/Users/savio/Xamarin---Android/Misc/ParseToDo/ParseToDo/bin/Debug/ParseToDo.dll
+/Users/savio/Xamarin---Android/Misc/ParseToDo/ParseToDo/bin/Debug/ParseToDo.ParseToDo.apk
+/Users/savio/Xamarin---Android/Misc/ParseToDo/ParseToDo/obj/Debug/android/bin/ParseToDo.ParseToDo.apk
+/Users/savio/Xamarin---Android/Misc/ParseToDo/ParseToDo/obj/Debug/res/layout/main.xml
+/Users/savio/Xamarin---Android/Misc/ParseToDo/ParseToDo/obj/Debug/res/values/strings.xml
+/Users/savio/Xamarin---Android/Misc/ParseToDo/ParseToDo/obj/Debug/res/drawable/icon.png
+/Users/savio/Xamarin---Android/Misc/ParseToDo/ParseToDo/obj/Debug/res/layout/register.xml
+/Users/savio/Xamarin---Android/Misc/ParseToDo/ParseToDo/obj/Debug/res/layout/listactivity.xml
+/Users/savio/Xamarin---Android/Misc/ParseToDo/ParseToDo/obj/Debug/res/layout/customrow.xml
+/Users/savio/Xamarin---Android/Misc/ParseToDo/ParseToDo/obj/Debug/R.cs.flag
+/Users/savio/Xamarin---Android/Misc/ParseToDo/ParseToDo/bin/Debug/ParseToDo.ParseToDo-Signed.apk
+/Users/savio/Xamarin---Android/Misc/ParseToDo/ParseToDo/obj/Debug/uploadflags.txt
+/Users/savio/Xamarin---Android/Misc/ParseToDo/ParseToDo/obj/Debug/ParseToDo.dll
+/Users/savio/Xamarin---Android/Misc/ParseToDo/ParseToDo/obj/Debug/ParseToDo.dll.mdb
+/Users/savio/Xamarin---Android/Misc/ParseToDo/ParseToDo/bin/Debug/Parse.Android.dll

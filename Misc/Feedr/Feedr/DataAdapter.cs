@@ -66,8 +66,8 @@ namespace Feedr
 			view.FindViewById<TextView>(Resource.Id.name).Text = item.ParseUser.Username;
 			view.FindViewById<TextView>(Resource.Id.timestamp).Text = item.CreatedAt.ToString();
 			view.FindViewById<TextView>(Resource.Id.Description).Text = item.Description.ToString ();
-			//var pic = item.ParseUser.Get<ParseFile> ("ProfilePic");
-			//view.FindViewById<ImageView> (Resource.Id.profilePic).SetImageBitmap (GetImageBitmapFromUrl(pic.Url.AbsoluteUri));
+			var pic = item.ParseUser.Get<ParseFile> ("ProfilePic");
+			view.FindViewById<ImageView> (Resource.Id.profilePic).SetImageBitmap (GetImageBitmapFromUrl(pic.Url.AbsoluteUri));
 
 			var pic2 = item.Image;
 			view.FindViewById<ImageView> (Resource.Id.feedImage1).SetImageBitmap (GetImageBitmapFromUrl(pic2.Url.AbsoluteUri));

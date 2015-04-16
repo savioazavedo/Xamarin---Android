@@ -100,7 +100,10 @@ namespace Feedr
 				tempobj.ObjectId = obj.ObjectId;
 				tempobj.CreatedAt = obj.CreatedAt;
 				tempobj.UpdatedAt = obj.UpdatedAt;
-				tempobj.ParseUser = obj.Get<ParseUser>("User");
+
+				ParseUser usrobj = obj.Get<ParseUser> ("User");
+				tempobj.ParseUser = await usrobj.FetchIfNeededAsync ();
+
 				tempobj.Image = obj.Get<ParseFile> ("Image");
 				tempobj.Description = Convert.ToString(obj ["Description"]);
 
