@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AVD_for_Nexus_S_by_Google" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.169.254.138.177:5555" />
   <MonoDevelop.Ide.Workbench ActiveDocument="SimpleCalculator\MainActivity.cs">
     <Files>
-      <File FileName="SimpleCalculator\MainActivity.cs" Line="20" Column="20" />
+      <File FileName="SimpleCalculator\MainActivity.cs" Line="17" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

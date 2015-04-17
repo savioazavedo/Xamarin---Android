@@ -79,15 +79,12 @@ namespace Feedr
 
 			return bitmapData;
 		}
-
-
-
+			
 		void OnRegisterButtonClick (object sender, EventArgs e)
 		{
 			RegisterNewUser();
 		}
-
-
+			
 		private async void RegisterNewUser()
 		{
 			Toast.MakeText (this, "Please wait ...", ToastLength.Short).Show ();
