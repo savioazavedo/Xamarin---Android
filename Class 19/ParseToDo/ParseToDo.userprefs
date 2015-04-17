@@ -1,0 +1,36 @@
+<<<<<<< Updated upstream
+﻿<Properties GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AVD_for_Nexus_S_by_Google" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="ParseToDo\ViewList.cs" Line="1" Column="1" />
+      <File FileName="ParseToDo\DataAdapter.cs" Line="18" Column="18" />
+      <File FileName="ParseToDo\MainActivity.cs" Line="1" Column="1" />
+      <File FileName="ParseToDo\ParseHandler.cs" Line="1" Column="1" />
+      <File FileName="ParseToDo\RegisterUser.cs" Line="1" Column="1" />
+      <File FileName="ParseToDo\ToDo.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ParseToDo MonoForAntroid.PreferredDevice="Nexus 4" />
+=======
+﻿<Properties GitUserInfo="UsingGIT" StartupItem="ParseToDo/ParseToDo.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.192.168.56.101:5555" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ParseToDo/ParseHandler.cs">
+    <Files>
+      <File FileName="ParseToDo/ParseHandler.cs" Line="5" Column="5" />
+      <File FileName="ParseToDo/RegisterUser.cs" Line="1" Column="1" />
+      <File FileName="ParseToDo/ToDo.cs" Line="1" Column="1" />
+      <File FileName="ParseToDo/MainActivity.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ParseToDo MonoForAntroid.PreferredDevice="Nexus 4" />
+>>>>>>> Stashed changes
+</Properties>

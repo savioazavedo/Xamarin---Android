@@ -1,0 +1,47 @@
+C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\bin\Debug\ActionBarSherlockDemo.dll
+C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\bin\Debug\ActionBarSherlockDemo.pdb
+C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\bin\Debug\ActionBarSherlockDemo.dll.mdb
+C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\bin\Debug\ActionBarSherlockDemo.ActionBarSherlockDemo.apk
+C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\bin\Debug\ActionBarSherlockDemo.ActionBarSherlockDemo-Signed.apk
+C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\ActionBarSherlockDemo.dll
+C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\ActionBarSherlockDemo.pdb
+C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\android\bin\ActionBarSherlockDemo.ActionBarSherlockDemo.apk
+C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\res\layout\main.xml
+C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\res\values\strings.xml
+C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\res\drawable\icon.png
+C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\R.cs.flag
+C:\Users\savio.azavedo\Documents\GitHub\Android-Xamarin\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\uploadflags.txt
+\\telmar\users\savio.azavedo\My Documents\Projects\ActionBarSherlockDemo\ActionBarSherlockDemo\bin\Debug\ActionBarSherlockDemo.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\ActionBarSherlockDemo\ActionBarSherlockDemo\bin\Debug\ActionBarSherlockDemo.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\ActionBarSherlockDemo\ActionBarSherlockDemo\bin\Debug\ActionBarSherlockDemo.dll.mdb
+\\telmar\users\savio.azavedo\My Documents\Projects\ActionBarSherlockDemo\ActionBarSherlockDemo\bin\Debug\ActionBarSherlockDemo.ActionBarSherlockDemo.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\ActionBarSherlockDemo\ActionBarSherlockDemo\bin\Debug\ActionBarSherlockDemo.ActionBarSherlockDemo-Signed.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\ActionBarSherlockDemo\ActionBarSherlockDemo\bin\Debug\ActionBarSherlock.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\ActionBarSherlockDemo\ActionBarSherlockDemo\bin\Debug\Xamarin.Android.Support.v4.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\ActionBarSherlockDemo.dll
+\\telmar\users\savio.azavedo\My Documents\Projects\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\ActionBarSherlockDemo.pdb
+\\telmar\users\savio.azavedo\My Documents\Projects\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\android\bin\ActionBarSherlockDemo.ActionBarSherlockDemo.apk
+\\telmar\users\savio.azavedo\My Documents\Projects\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\res\layout\main.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\res\values\strings.xml
+\\telmar\users\savio.azavedo\My Documents\Projects\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\res\drawable\icon.png
+\\telmar\users\savio.azavedo\My Documents\Projects\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\R.cs.flag
+\\telmar\users\savio.azavedo\My Documents\Projects\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\uploadflags.txt
+\\telmar\users\savio.azavedo\My Documents\Projects\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\ActionBarSherlockDemo.csprojResolveAssemblyReference.cache
+\\telmar\users\savio.azavedo\My Documents\Projects\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\res\layout\actionmode.xml
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\bin\Debug\ActionBarSherlockDemo.dll
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\bin\Debug\ActionBarSherlockDemo.pdb
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\bin\Debug\ActionBarSherlockDemo.dll.mdb
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\bin\Debug\ActionBarSherlockDemo.ActionBarSherlockDemo.apk
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\bin\Debug\ActionBarSherlockDemo.ActionBarSherlockDemo-Signed.apk
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\bin\Debug\ActionBarSherlock.dll
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\ActionBarSherlockDemo.csprojResolveAssemblyReference.cache
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\ActionBarSherlockDemo.dll
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\ActionBarSherlockDemo.pdb
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\android\bin\ActionBarSherlockDemo.ActionBarSherlockDemo.apk
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\res\layout\main.xml
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\res\values\strings.xml
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\res\drawable\icon.png
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\res\layout\actionmode.xml
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\R.cs.flag
+C:\Users\savio.azavedo\Documents\GitHub\Android\Xamarin---Android\Misc\ActionBarSherlockDemo\ActionBarSherlockDemo\obj\Debug\uploadflags.txt
