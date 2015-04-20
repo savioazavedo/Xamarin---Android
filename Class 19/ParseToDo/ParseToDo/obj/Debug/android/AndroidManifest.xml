@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="ParseToDo.ParseToDo">
-  <uses-sdk android:minSdkVersion="18" />
+  <uses-sdk android:minSdkVersion="19" />
   <application android:label="ParseToDo" android:name="parsetodo.App" android:debuggable="true">
     <activity android:icon="@drawable/icon" android:label="ParseToDo" android:name="parsetodo.MainActivity">
       <intent-filter>

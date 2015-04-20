@@ -12,7 +12,6 @@ namespace ParseToDo
 		static ParseHandler todoServiceInstance = new ParseHandler();
 		public static ParseHandler Default { get { return todoServiceInstance; } }
 		private ParseHandler () { }
-		public List<ToDo> Items { get; private set;}
 
 		public async Task CreateUserAsync (string username,string email,string password)
 		{

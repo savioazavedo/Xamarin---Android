@@ -30,7 +30,7 @@ namespace ParseToDo
 			btnRegister = FindViewById<Button> (Resource.Id.btnLinkToRegister);
 			txtUsername = FindViewById<EditText> (Resource.Id.username);
 			txtPassword = FindViewById<EditText> (Resource.Id.password);
-
+		
 			btnLogin.Click += LoginClick;
 			btnRegister.Click += RegisterClick;
 

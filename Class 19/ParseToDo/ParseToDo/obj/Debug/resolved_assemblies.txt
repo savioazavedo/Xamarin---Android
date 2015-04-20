@@ -1,2 +1,2 @@
-/Users/savio/Xamarin---Android/Misc/ParseToDo/ParseToDo/bin/Debug/ParseToDo.dll
-/Users/savio/Xamarin---Android/Misc/ParseToDo/Components/parse-1.3.5/lib/android/Parse.Android.dll
+C:\gitHub\Xamarin---Android\Class 19\ParseToDo\ParseToDo\bin\Debug\ParseToDo.dll
+C:\gitHub\Xamarin---Android\Class 19\ParseToDo\Components\parse-1.3.5\lib\android\Parse.Android.dll

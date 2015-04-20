@@ -13,7 +13,6 @@ using Android.Widget;
 using System.Threading.Tasks;
 using Parse;
 
-
 namespace ParseToDo
 {
 	[Activity (Label = "RegisterUser")]			
@@ -24,7 +23,6 @@ namespace ParseToDo
 		EditText txtPassword;
 		Button btnRegister;
 		ParseHandler objParse = ParseHandler.Default;
-
 
 		protected override void OnCreate (Bundle bundle)
 		{
@@ -39,7 +37,6 @@ namespace ParseToDo
 			btnRegister = FindViewById<Button> (Resource.Id.btnRegister);
 	
 			btnRegister.Click += OnRegisterButtonClick;
-
 		}
 
 		void OnRegisterButtonClick (object sender, EventArgs e)
