@@ -16,7 +16,6 @@ using Android.Graphics.Drawables;
 using System.IO;
 using Android.Graphics;
 
-
 namespace Feedr
 {
 	[Activity (Label = "RegisterUser")]			
@@ -29,11 +28,9 @@ namespace Feedr
 		ImageButton btnProfilePic;
 		ParseHandler objParse = ParseHandler.Default;
 
-
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
-
 			// Create your application here
 			SetContentView (Resource.Layout.Register);
 

@@ -1,22 +1,17 @@
-<<<<<<< Updated upstream
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.84dbac6f9c56" />
-  <MonoDevelop.Ide.Workbench />
-=======
-﻿<Properties StartupItem="Feedr/Feedr.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.192.168.56.101:5555" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Feedr/ParseHandler.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Feedr\ParseHandler.cs">
     <Files>
-      <File FileName="Feedr/MainActivity.cs" Line="3" Column="3" />
-      <File FileName="Feedr/Posts.cs" Line="4" Column="4" />
-      <File FileName="Feedr/ParseHandler.cs" Line="28" Column="28" />
-      <File FileName="Feedr/App.cs" Line="1" Column="1" />
-      <File FileName="Feedr/RegisterUser.cs" Line="48" Column="48" />
-      <File FileName="Feedr/FeedActivity.cs" Line="1" Column="1" />
-      <File FileName="Feedr/AddPost.cs" Line="27" Column="27" />
+      <File FileName="Feedr\MainActivity.cs" Line="5" Column="5" />
+      <File FileName="Feedr\AddPost.cs" Line="4" Column="4" />
+      <File FileName="Feedr\ParseHandler.cs" Line="33" Column="33" />
+      <File FileName="Feedr\RegisterUser.cs" Line="26" Column="26" />
+      <File FileName="Feedr\Posts.cs" Line="1" Column="1" />
+      <File FileName="Feedr\FeedActivity.cs" Line="3" Column="3" />
+      <File FileName="Feedr\DataAdapter.cs" Line="32" Column="32" />
+      <File FileName="Feedr\App.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
->>>>>>> Stashed changes
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

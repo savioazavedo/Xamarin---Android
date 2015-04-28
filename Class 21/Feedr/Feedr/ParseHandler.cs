@@ -8,7 +8,6 @@ namespace Feedr
 {
 	public class ParseHandler
 	{
-
 		static ParseHandler todoServiceInstance = new ParseHandler();
 		public static ParseHandler Default { get { return todoServiceInstance; } }
 		private ParseHandler () { }
@@ -16,7 +15,6 @@ namespace Feedr
 
 		public async Task CreateUserAsync (string username,string email,string password,byte[] profilepic)
 		{
-		
 			if (username != "" && email != "" && password != "" && profilepic != null)
 			{
 				ParseFile file = new ParseFile("avatar.jpg", profilepic);
@@ -30,7 +28,6 @@ namespace Feedr
 				}; 
 
 				user["ProfilePic"] = file;
-						
 				await user.SignUpAsync ();
 			}
 		}
