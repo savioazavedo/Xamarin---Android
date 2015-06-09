@@ -41,14 +41,14 @@ namespace WordoftheDay
 
 		public async void LoadTodaysWordAsync()
 		{
-			AndHUD.Shared.Show(this, "Loading ...", 30);
+			//AndHUD.Shared.Show(this, "Loading ...", 30);
 
 			objRest = new RESThandler (@"https://www.wordsmith.org/awad/rss1.xml");
 			var Response = await objRest.ExecuteRequestAsync ();
 			txtword.Text = Response.Channel.Item.Title;
 			txtDescription.Text = Response.Channel.Item.Description;
 
-			AndHUD.Shared.Dismiss (this);
+			//AndHUD.Shared.Dismiss (this);
 		}
 	}
 }

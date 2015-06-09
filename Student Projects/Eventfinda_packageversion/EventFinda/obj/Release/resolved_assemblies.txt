@@ -1,0 +1,12 @@
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\bin\Release\EventFinda.dll
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\packages\Xamarin.GooglePlayServices.22.0.0.0\lib\MonoAndroid41\GooglePlayServicesLib.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v4.1\Mono.Android.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\mscorlib.dll
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\Components\restsharp-105.0.1.0\lib\android\RestSharp.MonoDroid.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Core.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Xml.dll
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\packages\Xamarin.Android.Support.v4.22.0.0.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\packages\Xamarin.Android.Support.v7.AppCompat.22.0.0.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\packages\Xamarin.Android.Support.v7.MediaRouter.22.0.0.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Xml.Linq.dll

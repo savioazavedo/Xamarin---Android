@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="eventfinda.eventfinda">
+  <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="21" />
+  <application android:label="EventFinda" android:theme="@android:style/Theme.Holo.Light.DarkActionBar" android:icon="@drawable/ic_launcher" android:name="mono.android.app.Application">
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDC-0L7xCuvm1ZphgevxQqE9UcqgAr6Y3Q" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <activity android:icon="@drawable/ic_launcher" android:label="Eventure" android:screenOrientation="portrait" android:name="eventfinda.MainActivity" />
+    <activity android:icon="@drawable/ic_launcher" android:label="PopularList" android:screenOrientation="portrait" android:name="eventfinda.PopularList" />
+    <activity android:icon="@drawable/ic_launcher" android:label="SearchEvent" android:screenOrientation="portrait" android:name="eventfinda.SearchEvent" />
+    <activity android:icon="@drawable/ic_launcher" android:label="NearbyList" android:screenOrientation="portrait" android:name="eventfinda.NearbyList" />
+    <activity android:icon="@drawable/ic_launcher" android:label="Detail" android:screenOrientation="portrait" android:name="eventfinda.Detail" />
+    <activity android:icon="@drawable/ic_launcher" android:label="FreeList" android:screenOrientation="portrait" android:name="eventfinda.FreeList" />
+    <activity android:icon="@drawable/ic_launcher" android:label="SearchEventbyName" android:screenOrientation="portrait" android:name="eventfinda.SearchEventbyName" />
+    <activity android:icon="@drawable/ic_launcher" android:label="SearchLocation" android:screenOrientation="portrait" android:name="eventfinda.SearchLocation" />
+    <activity android:label="PaidList" android:screenOrientation="portrait" android:name="eventfinda.PaidList" />
+    <activity android:icon="@drawable/ic_launcher" android:label="SearchCategory" android:screenOrientation="portrait" android:name="eventfinda.SearchCategory" />
+    <activity android:icon="@drawable/ic_launcher" android:label="Eventure" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/Theme.Splash" android:name="eventfinda.splash">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="eventfinda.eventfinda.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+  <permission android:name="eventfinda.eventfinda.permission.MAPS_RECEIVE" android:protectionLevel="signature" />
+  <uses-permission android:name="eventfinda.eventfinda.permission.MAPS_RECEIVE" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+</manifest>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:gravity="center">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+        <Button
+            android:text="POPULAR"
+            android:background="@drawable/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnPopular"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp" />
+        <Button
+            android:text="SEARCH"
+            android:background="@drawable/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSearch"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+        <Button
+            android:text="NEARBY"
+            android:background="@drawable/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnNearby"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+    </LinearLayout>
+</LinearLayout>

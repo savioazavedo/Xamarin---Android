@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{F98C2D0F-E264-4A65-8ECE-8A8C2B987009}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>EventFinda</RootNamespace>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AssemblyName>EventFinda</AssemblyName>
+    <TargetFrameworkVersion>v4.1</TargetFrameworkVersion>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidSupportedAbis>armeabi;armeabi-v7a;x86</AndroidSupportedAbis>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="RestSharp.MonoDroid">
+      <HintPath>..\Components\restsharp-105.0.1.0\lib\android\RestSharp.MonoDroid.dll</HintPath>
+    </Reference>
+    <Reference Include="GooglePlayServicesLib">
+      <HintPath>..\packages\Xamarin.GooglePlayServices.22.0.0.2\lib\MonoAndroid41\GooglePlayServicesLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\packages\Xamarin.Android.Support.v4.22.1.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.AppCompat">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.22.1.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.MediaRouter">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.MediaRouter.22.1.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.MediaRouter.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PopularList.cs" />
+    <Compile Include="SearchEvent.cs" />
+    <Compile Include="ResponseEvents.cs" />
+    <Compile Include="RestHandler.cs" />
+    <Compile Include="DataAdapter.cs" />
+    <Compile Include="NearbyList.cs" />
+    <Compile Include="Detail.cs" />
+    <Compile Include="FreeList.cs" />
+    <Compile Include="SearchEventbyName.cs" />
+    <Compile Include="SearchLocation.cs" />
+    <Compile Include="PaidList.cs" />
+    <Compile Include="Helper.cs" />
+    <Compile Include="SearchCategory.cs" />
+    <Compile Include="splash.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\layout\Menu.axml" />
+    <AndroidResource Include="Resources\layout\Search.axml" />
+    <AndroidResource Include="Resources\layout\ListView.axml" />
+    <AndroidResource Include="Resources\layout\Details.axml" />
+    <AndroidResource Include="Resources\layout\Calendar.axml" />
+    <AndroidResource Include="Resources\layout\CustomRow.axml" />
+    <AndroidResource Include="Resources\drawable\image.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\splashscreen.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\splashscreen.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\splashscreen.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\splashscreen.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\splashscreen.png" />
+    <AndroidResource Include="Resources\drawable\list_selector.xml" />
+    <AndroidResource Include="Resources\drawable\gradient_bg_hover.xml" />
+    <AndroidResource Include="Resources\drawable\button.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Resources\drawable\" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="restsharp">
+      <Version>105.0.1.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="googleplayservices">
+      <Version>22.0.0.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+</Project>

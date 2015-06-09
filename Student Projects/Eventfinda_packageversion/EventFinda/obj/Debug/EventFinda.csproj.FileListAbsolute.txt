@@ -1,0 +1,448 @@
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\bin\Debug\EventFinda.dll
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\bin\Debug\EventFinda.pdb
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\bin\Debug\EventFinda.dll.mdb
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\bin\Debug\EventFinda.EventFinda.apk
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\bin\Debug\EventFinda.EventFinda-Signed.apk
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\obj\Debug\EventFinda.dll
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\obj\Debug\EventFinda.pdb
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\obj\Debug\android\bin\EventFinda.EventFinda.apk
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\obj\Debug\res\layout\main.xml
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\obj\Debug\res\values\strings.xml
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\obj\Debug\res\drawable-hdpi\icon.png
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\obj\Debug\res\drawable-mdpi\icon.png
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\obj\Debug\res\drawable-xhdpi\icon.png
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\obj\Debug\res\drawable-xxhdpi\icon.png
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\obj\Debug\res\drawable-xxxhdpi\icon.png
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\obj\Debug\res\layout\menu.xml
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\obj\Debug\res\layout\search.xml
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\obj\Debug\res\layout\listview.xml
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\obj\Debug\res\layout\details.xml
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\obj\Debug\res\layout\calendar.xml
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\obj\Debug\res\layout\customrow.xml
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\obj\Debug\res\drawable\image.jpg
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\obj\Debug\R.cs.flag
+\\telmar\users\kb019\Desktop\EventFinda\EventFinda\obj\Debug\uploadflags.txt
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\EventFinda.csprojResolveAssemblyReference.cache
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\EventFinda.dll
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\EventFinda.pdb
+E:\NZEventFindA\EventFinda\EventFinda\bin\Debug\EventFinda.dll
+E:\NZEventFindA\EventFinda\EventFinda\bin\Debug\EventFinda.pdb
+E:\NZEventFindA\EventFinda\EventFinda\bin\Debug\EventFinda.dll.mdb
+E:\NZEventFindA\EventFinda\EventFinda\bin\Debug\EventFinda.EventFinda.apk
+E:\NZEventFindA\EventFinda\EventFinda\bin\Debug\EventFinda.EventFinda-Signed.apk
+E:\NZEventFindA\EventFinda\EventFinda\bin\Debug\RestSharp.MonoDroid.dll
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\android\bin\EventFinda.EventFinda.apk
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\layout\main.xml
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\values\strings.xml
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\drawable-hdpi\icon.png
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\drawable-mdpi\icon.png
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\drawable-xhdpi\icon.png
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\drawable-xxhdpi\icon.png
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\drawable-xxxhdpi\icon.png
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\layout\menu.xml
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\layout\search.xml
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\layout\listview.xml
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\layout\details.xml
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\layout\calendar.xml
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\layout\customrow.xml
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\drawable\image.jpg
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\R.cs.flag
+E:\NZEventFindA\EventFinda\EventFinda\obj\Debug\uploadflags.txt
+F:\NZEventFindA\EventFinda\EventFinda\bin\Debug\EventFinda.dll
+F:\NZEventFindA\EventFinda\EventFinda\bin\Debug\EventFinda.pdb
+F:\NZEventFindA\EventFinda\EventFinda\bin\Debug\EventFinda.dll.mdb
+F:\NZEventFindA\EventFinda\EventFinda\bin\Debug\EventFinda.EventFinda.apk
+F:\NZEventFindA\EventFinda\EventFinda\bin\Debug\EventFinda.EventFinda-Signed.apk
+F:\NZEventFindA\EventFinda\EventFinda\bin\Debug\RestSharp.MonoDroid.dll
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\EventFinda.csprojResolveAssemblyReference.cache
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\EventFinda.dll
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\EventFinda.pdb
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\android\bin\EventFinda.EventFinda.apk
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\layout\main.xml
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\values\strings.xml
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\drawable-hdpi\icon.png
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\drawable-mdpi\icon.png
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\drawable-xhdpi\icon.png
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\drawable-xxhdpi\icon.png
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\drawable-xxxhdpi\icon.png
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\layout\menu.xml
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\layout\search.xml
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\layout\listview.xml
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\layout\details.xml
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\layout\calendar.xml
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\layout\customrow.xml
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\res\drawable\image.jpg
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\R.cs.flag
+F:\NZEventFindA\EventFinda\EventFinda\obj\Debug\uploadflags.txt
+F:\NZEventFindA\EventFinda\EventFinda\bin\Debug\GooglePlayServicesLib.dll
+F:\NZEventFindA\EventFinda\EventFinda\bin\Debug\Xamarin.Android.Support.v4.dll
+F:\NZEventFindA\EventFinda\EventFinda\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+F:\NZEventFindA\EventFinda\EventFinda\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.dll
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.pdb
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.dll.mdb
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\eventfinda.eventfinda.apk
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\eventfinda.eventfinda-Signed.apk
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\GooglePlayServicesLib.dll
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\RestSharp.MonoDroid.dll
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v4.dll
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.csprojResolveAssemblyReference.cache
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.dll
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.pdb
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\android\bin\eventfinda.eventfinda.apk
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\main.xml
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\values\strings.xml
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-hdpi\icon.png
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-mdpi\icon.png
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xhdpi\icon.png
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xxhdpi\icon.png
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xxxhdpi\icon.png
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\menu.xml
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\search.xml
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\listview.xml
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\details.xml
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\calendar.xml
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\customrow.xml
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable\image.jpg
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\R.cs.flag
+F:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\uploadflags.txt
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.dll
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.pdb
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.dll.mdb
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\eventfinda.eventfinda.apk
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\eventfinda.eventfinda-Signed.apk
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\GooglePlayServicesLib.dll
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\RestSharp.MonoDroid.dll
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v4.dll
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.csprojResolveAssemblyReference.cache
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.dll
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.pdb
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\android\bin\eventfinda.eventfinda.apk
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\main.xml
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\values\strings.xml
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-hdpi\icon.png
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-mdpi\icon.png
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xhdpi\icon.png
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xxhdpi\icon.png
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xxxhdpi\icon.png
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\menu.xml
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\search.xml
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\listview.xml
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\details.xml
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\calendar.xml
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\customrow.xml
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable\image.jpg
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\R.cs.flag
+E:\NZEventFindA\Eventfinda_Jayasree\EventFinda\obj\Debug\uploadflags.txt
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.dll
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.pdb
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.dll.mdb
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\eventfinda.eventfinda.apk
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\eventfinda.eventfinda-Signed.apk
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\GooglePlayServicesLib.dll
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\RestSharp.MonoDroid.dll
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.csprojResolveAssemblyReference.cache
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.dll
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.pdb
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\android\bin\eventfinda.eventfinda.apk
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\main.xml
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\values\strings.xml
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-mdpi\icon.png
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xxxhdpi\icon.png
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\menu.xml
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\search.xml
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\listview.xml
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\details.xml
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\calendar.xml
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\customrow.xml
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable\image.jpg
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\R.cs.flag
+C:\Users\OEM\Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\uploadflags.txt
+E:\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.dll
+E:\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.pdb
+E:\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.dll.mdb
+E:\Eventfinda_Jayasree\EventFinda\bin\Debug\eventfinda.eventfinda.apk
+E:\Eventfinda_Jayasree\EventFinda\bin\Debug\eventfinda.eventfinda-Signed.apk
+E:\Eventfinda_Jayasree\EventFinda\bin\Debug\GooglePlayServicesLib.dll
+E:\Eventfinda_Jayasree\EventFinda\bin\Debug\RestSharp.MonoDroid.dll
+E:\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v4.dll
+E:\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+E:\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.csprojResolveAssemblyReference.cache
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.dll
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.pdb
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\android\bin\eventfinda.eventfinda.apk
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\main.xml
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\values\strings.xml
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-hdpi\icon.png
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-mdpi\icon.png
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xhdpi\icon.png
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xxhdpi\icon.png
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xxxhdpi\icon.png
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\menu.xml
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\search.xml
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\listview.xml
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\details.xml
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\calendar.xml
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\customrow.xml
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable\image.jpg
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\R.cs.flag
+E:\Eventfinda_Jayasree\EventFinda\obj\Debug\uploadflags.txt
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.csprojResolveAssemblyReference.cache
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.dll
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.pdb
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.dll
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.pdb
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.dll.mdb
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\bin\Debug\eventfinda.eventfinda.apk
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\bin\Debug\eventfinda.eventfinda-Signed.apk
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\bin\Debug\GooglePlayServicesLib.dll
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\bin\Debug\RestSharp.MonoDroid.dll
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v4.dll
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\android\bin\eventfinda.eventfinda.apk
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\main.xml
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\res\values\strings.xml
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-hdpi\icon.png
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-mdpi\icon.png
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xhdpi\icon.png
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xxhdpi\icon.png
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xxxhdpi\icon.png
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\menu.xml
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\search.xml
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\listview.xml
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\details.xml
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\calendar.xml
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\customrow.xml
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable\image.jpg
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\R.cs.flag
+\\telmar\users\JR025\My Documents\Eventfinda_Jayasree\EventFinda\obj\Debug\uploadflags.txt
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.csprojResolveAssemblyReference.cache
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.dll
+F:\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.dll
+F:\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.pdb
+F:\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.dll.mdb
+F:\Eventfinda_Jayasree\EventFinda\bin\Debug\eventfinda.eventfinda.apk
+F:\Eventfinda_Jayasree\EventFinda\bin\Debug\eventfinda.eventfinda-Signed.apk
+F:\Eventfinda_Jayasree\EventFinda\bin\Debug\GooglePlayServicesLib.dll
+F:\Eventfinda_Jayasree\EventFinda\bin\Debug\RestSharp.MonoDroid.dll
+F:\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v4.dll
+F:\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+F:\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.pdb
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\android\bin\eventfinda.eventfinda.apk
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\main.xml
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\values\strings.xml
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-hdpi\icon.png
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-mdpi\icon.png
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xhdpi\icon.png
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xxhdpi\icon.png
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xxxhdpi\icon.png
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\menu.xml
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\search.xml
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\listview.xml
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\details.xml
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\calendar.xml
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\customrow.xml
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable\image.jpg
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\R.cs.flag
+F:\Eventfinda_Jayasree\EventFinda\obj\Debug\uploadflags.txt
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.dll
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.pdb
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\EventFinda.dll.mdb
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\eventfinda.eventfinda.apk
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\eventfinda.eventfinda-Signed.apk
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\GooglePlayServicesLib.dll
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\RestSharp.MonoDroid.dll
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v4.dll
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.csprojResolveAssemblyReference.cache
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.dll
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\EventFinda.pdb
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\android\bin\eventfinda.eventfinda.apk
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\main.xml
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\values\strings.xml
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-hdpi\icon.png
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-mdpi\icon.png
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xhdpi\icon.png
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xxhdpi\icon.png
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable-xxxhdpi\icon.png
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\menu.xml
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\search.xml
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\listview.xml
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\details.xml
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\calendar.xml
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\layout\customrow.xml
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\res\drawable\image.jpg
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\R.cs.flag
+\\telmar\users\EC005\My Documents\Projects\Eventfinda_Jayasree\EventFinda\obj\Debug\uploadflags.txt
+F:\Eventfinda_Ethan\EventFinda\bin\Debug\EventFinda.dll
+F:\Eventfinda_Ethan\EventFinda\bin\Debug\EventFinda.pdb
+F:\Eventfinda_Ethan\EventFinda\bin\Debug\EventFinda.dll.mdb
+F:\Eventfinda_Ethan\EventFinda\bin\Debug\eventfinda.eventfinda.apk
+F:\Eventfinda_Ethan\EventFinda\bin\Debug\eventfinda.eventfinda-Signed.apk
+F:\Eventfinda_Ethan\EventFinda\bin\Debug\GooglePlayServicesLib.dll
+F:\Eventfinda_Ethan\EventFinda\bin\Debug\RestSharp.MonoDroid.dll
+F:\Eventfinda_Ethan\EventFinda\bin\Debug\Xamarin.Android.Support.v4.dll
+F:\Eventfinda_Ethan\EventFinda\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+F:\Eventfinda_Ethan\EventFinda\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\EventFinda.csprojResolveAssemblyReference.cache
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\EventFinda.dll
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\EventFinda.pdb
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\android\bin\eventfinda.eventfinda.apk
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\res\layout\main.xml
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\res\values\strings.xml
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\res\drawable-hdpi\icon.png
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\res\drawable-mdpi\icon.png
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\res\drawable-xhdpi\icon.png
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\res\drawable-xxhdpi\icon.png
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\res\drawable-xxxhdpi\icon.png
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\res\layout\menu.xml
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\res\layout\search.xml
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\res\layout\listview.xml
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\res\layout\details.xml
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\res\layout\calendar.xml
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\res\layout\customrow.xml
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\res\drawable\image.jpg
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\R.cs.flag
+F:\Eventfinda_Ethan\EventFinda\obj\Debug\uploadflags.txt
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\bin\Debug\EventFinda.dll
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\bin\Debug\EventFinda.pdb
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\bin\Debug\EventFinda.dll.mdb
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\bin\Debug\eventfinda.eventfinda.apk
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\bin\Debug\eventfinda.eventfinda-Signed.apk
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\bin\Debug\GooglePlayServicesLib.dll
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\bin\Debug\RestSharp.MonoDroid.dll
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\bin\Debug\Xamarin.Android.Support.v4.dll
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\EventFinda.dll
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\EventFinda.pdb
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\android\bin\eventfinda.eventfinda.apk
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\main.xml
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\values\strings.xml
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-hdpi\icon.png
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-mdpi\icon.png
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xhdpi\icon.png
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxhdpi\icon.png
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxxhdpi\icon.png
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\menu.xml
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\search.xml
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\listview.xml
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\details.xml
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\calendar.xml
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\customrow.xml
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable\image.jpg
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-hdpi\ic_launcher.png
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-mdpi\ic_launcher.png
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xhdpi\ic_launcher.png
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxhdpi\ic_launcher.png
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxxhdpi\ic_launcher.png
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-hdpi\splashscreen.png
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-mdpi\splashscreen.png
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xhdpi\splashscreen.png
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxhdpi\splashscreen.png
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxxhdpi\splashscreen.png
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable\list_selector.xml
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable\gradient_bg_hover.xml
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable\button.xml
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\R.cs.flag
+\\telmar\users\JR025\My Documents\Projects\Eventfinda_packageversion\EventFinda\obj\Debug\uploadflags.txt
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\bin\Debug\EventFinda.dll
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\bin\Debug\EventFinda.pdb
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\bin\Debug\EventFinda.dll.mdb
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\bin\Debug\eventfinda.eventfinda.apk
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\bin\Debug\eventfinda.eventfinda-Signed.apk
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\bin\Debug\GooglePlayServicesLib.dll
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\bin\Debug\RestSharp.MonoDroid.dll
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\bin\Debug\Xamarin.Android.Support.v4.dll
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\EventFinda.csprojResolveAssemblyReference.cache
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\EventFinda.dll
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\EventFinda.pdb
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\android\bin\eventfinda.eventfinda.apk
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\main.xml
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\values\strings.xml
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-hdpi\icon.png
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-mdpi\icon.png
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xhdpi\icon.png
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxhdpi\icon.png
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxxhdpi\icon.png
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\menu.xml
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\search.xml
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\listview.xml
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\details.xml
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\calendar.xml
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\customrow.xml
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable\image.jpg
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-hdpi\ic_launcher.png
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-mdpi\ic_launcher.png
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xhdpi\ic_launcher.png
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxhdpi\ic_launcher.png
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxxhdpi\ic_launcher.png
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-hdpi\splashscreen.png
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-mdpi\splashscreen.png
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xhdpi\splashscreen.png
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxhdpi\splashscreen.png
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxxhdpi\splashscreen.png
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable\list_selector.xml
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable\gradient_bg_hover.xml
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable\button.xml
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\R.cs.flag
+S:\Software\Shared Folder\Eventfinda_packageversion\EventFinda\obj\Debug\uploadflags.txt
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\bin\Debug\EventFinda.dll
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\bin\Debug\EventFinda.pdb
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\bin\Debug\EventFinda.dll.mdb
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\bin\Debug\eventfinda.eventfinda.apk
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\bin\Debug\eventfinda.eventfinda-Signed.apk
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\bin\Debug\GooglePlayServicesLib.dll
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\bin\Debug\RestSharp.MonoDroid.dll
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\EventFinda.csprojResolveAssemblyReference.cache
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\EventFinda.dll
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\EventFinda.pdb
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\android\bin\eventfinda.eventfinda.apk
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\main.xml
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\values\strings.xml
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-hdpi\icon.png
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-mdpi\icon.png
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xhdpi\icon.png
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxxhdpi\icon.png
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\menu.xml
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\search.xml
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\listview.xml
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\details.xml
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\calendar.xml
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\layout\customrow.xml
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable\image.jpg
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-hdpi\ic_launcher.png
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-mdpi\ic_launcher.png
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xhdpi\ic_launcher.png
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxhdpi\ic_launcher.png
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxxhdpi\ic_launcher.png
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-hdpi\splashscreen.png
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-mdpi\splashscreen.png
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xhdpi\splashscreen.png
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxhdpi\splashscreen.png
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxxhdpi\splashscreen.png
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable\list_selector.xml
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable\gradient_bg_hover.xml
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable\button.xml
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\R.cs.flag
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\uploadflags.txt

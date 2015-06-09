@@ -31,33 +31,33 @@ namespace CustomList
 
 			myList.Add (obj);
 
-			Data obj1 = new Data ();
-			obj1.Heading = "Banana";
-			obj1.SubHeading = "Bananas are an excellent source of vitamin B6 ";
-			obj1.ImageURI = "http://www.bbcgoodfood.com/sites/bbcgoodfood.com/files/glossary/banana-crop.jpg";
+//			Data obj1 = new Data ();
+//			obj1.Heading = "Banana";
+//			obj1.SubHeading = "Bananas are an excellent source of vitamin B6 ";
+//			obj1.ImageURI = "http://www.bbcgoodfood.com/sites/bbcgoodfood.com/files/glossary/banana-crop.jpg";
+//
+//			myList.Add (obj1);
+//
+//			Data obj2 = new Data ();
+//			obj2.Heading = "Kiwi Fruit";
+//			obj2.SubHeading = "Kiwifruit is a rich source of vitamin C";
+//			obj2.ImageURI = "http://www.wiffens.com/wp-content/uploads/kiwi.png";
+//
+//			myList.Add (obj2);
+//
+//			Data obj3 = new Data ();
+//			obj3.Heading = "Pineapple";
+//			obj3.SubHeading = "Raw pineapple is an excellent source of manganese";
+//			obj3.ImageURI = "http://www.medicalnewstoday.com/images/articles/276/276903/pineapple.jpg";
+//
+//			myList.Add (obj3);
+//
+//			Data obj4 = new Data ();
+//			obj4.Heading = "Strawberries";
+//			obj4.SubHeading = "One serving (100 g)of strawberries contains approximately 33 kilocalories";
+//			obj4.ImageURI = "https://ecs3.tokopedia.net/newimg/product-1/2014/8/18/5088/5088_8dac78de-2694-11e4-8c99-6be54908a8c2.jpg";
 
-			myList.Add (obj1);
-
-			Data obj2 = new Data ();
-			obj2.Heading = "Kiwi Fruit";
-			obj2.SubHeading = "Kiwifruit is a rich source of vitamin C";
-			obj2.ImageURI = "http://www.wiffens.com/wp-content/uploads/kiwi.png";
-
-			myList.Add (obj2);
-
-			Data obj3 = new Data ();
-			obj3.Heading = "Pineapple";
-			obj3.SubHeading = "Raw pineapple is an excellent source of manganese";
-			obj3.ImageURI = "http://www.medicalnewstoday.com/images/articles/276/276903/pineapple.jpg";
-
-			myList.Add (obj3);
-
-			Data obj4 = new Data ();
-			obj4.Heading = "Strawberries";
-			obj4.SubHeading = "One serving (100 g)of strawberries contains approximately 33 kilocalories";
-			obj4.ImageURI = "https://ecs3.tokopedia.net/newimg/product-1/2014/8/18/5088/5088_8dac78de-2694-11e4-8c99-6be54908a8c2.jpg";
-
-			myList.Add (obj4);
+			//myList.Add (obj4);
 			listView.Adapter = new DataAdapter(this,myList);
 
 		}

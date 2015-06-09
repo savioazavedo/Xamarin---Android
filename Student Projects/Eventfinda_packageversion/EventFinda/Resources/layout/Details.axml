@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="horizontal"
+    android:scrollbarStyle="insideOverlay"
+    android:overScrollMode="always">
+    <ImageView
+        android:src="@drawable/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Singin' In The Rain"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textTitle" />
+        <TextView
+            android:text="The Civic, Cnr Queen &amp; Wellesley Sts, Auckland"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textVenue" />
+        <TextView
+            android:text="Wednesday 6 May 2015 2:00pm – 4:30pm"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textDate" />
+        <TextView
+            android:text="Restrictions:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textRestrictions" />
+        <TextView
+            android:text="Ticket Information:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textTicketInfo" />
+        <TextView
+            android:text="Websites:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textWebsite" />
+        <TextView
+            android:text="Details...."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textDescription"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.MapFragment"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+</LinearLayout>

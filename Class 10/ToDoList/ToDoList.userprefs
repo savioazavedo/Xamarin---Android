@@ -1,6 +1,13 @@
 ﻿<Properties StartupItem="ToDoList/ToDoList.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.4100d56c49779000" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AVD_for_Nexus_S_by_Google" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoList\ToDo.cs">
+    <Files>
+      <File FileName="ToDoList\AddItem.cs" Line="4" Column="4" />
+      <File FileName="ToDoList\ToDo.cs" Line="23" Column="23" />
+      <File FileName="ToDoList\EditItem.cs" Line="14" Column="14" />
+      <File FileName="ToDoList\MainActivity.cs" Line="37" Column="37" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
