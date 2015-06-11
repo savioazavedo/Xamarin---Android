@@ -10,12 +10,12 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-
+using AndroidHUD;
 
 
 namespace EventFinda
 {
-	[Activity (Label = "PopularList", Icon = "@drawable/ic_launcher",ScreenOrientation=Android.Content.PM.ScreenOrientation.Portrait)]			
+	[Activity (Label = "Popular Events",Icon = "@drawable/OnlyLogo",ScreenOrientation=Android.Content.PM.ScreenOrientation.Portrait)]			
 	public class PopularList : Activity
 	{
 		RestHandler objRest;
@@ -33,10 +33,12 @@ namespace EventFinda
 		}
 		public async void LoadPopularEvents()
 		{
+			AndHUD.Shared.Show(this, "Finding popular events", 60);
 			objRest = new RestHandler (@"http://api.eventfinder.co.nz/v2/events.xml?&order=popularity");
 			var Response = await objRest.ExecuteRequestAsync ();
 			lstPopularEvents.Adapter = new DataAdapter (this, Response.Event);
 			tmpPopularList = Response.Event;
+			AndHUD.Shared.Dismiss ();
 		}
 		void OnlstPopularEventsClick (object sender, AdapterView.ItemClickEventArgs e)
 		{
@@ -58,7 +60,7 @@ namespace EventFinda
 			}
 			PopularDetail.PutExtra ("Description", objHelper.removecdata(PopularItem.Description));
 			PopularDetail.PutExtra ("Website", PopularItem.Url);
-			Toast.MakeText (this, "latitude" + PopularItem.Point.Lat, ToastLength.Short).Show ();
+			//Toast.MakeText (this, "latitude" + PopularItem.Point.Lat, ToastLength.Short).Show ();
 			PopularDetail.PutExtra ("LatitudeMap", PopularItem.Point.Lat);
 		
 			PopularDetail.PutExtra ("LongitudeinMap", PopularItem.Point.Lng);

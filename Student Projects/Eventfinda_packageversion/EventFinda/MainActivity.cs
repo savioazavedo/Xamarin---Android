@@ -12,7 +12,7 @@ using System.Threading;
 
 namespace EventFinda
 {
-	[Activity (Label = "Eventure",   Icon = "@drawable/ic_launcher",ScreenOrientation=Android.Content.PM.ScreenOrientation.Portrait)]
+	[Activity (Label = "Eventure",   Icon = "@drawable/OnlyLogo",ScreenOrientation=Android.Content.PM.ScreenOrientation.Portrait)]
 	public class MainActivity : Activity, ILocationListener
 	{ 
 		string lat;
@@ -36,7 +36,7 @@ namespace EventFinda
 			btnNearby.Click += OnbtnNearbyClick;
 			btnSearch.Click += OnbtnSearchClick;
 			GetLocation ();
-					}
+		}
 
 
 		protected override void OnResume ()
@@ -52,7 +52,6 @@ namespace EventFinda
 			string locationProvider = locMgr.GetBestProvider (LocationCriteria, true);
 			if (locationProvider != null) {
 				locMgr.RequestLocationUpdates (locationProvider, 2000, 1, this);
-				Toast.MakeText (this, "Provider: " + locationProvider, ToastLength.Short).Show ();
 			} else {
 				Toast.MakeText(this, "No Location provider available",  ToastLength.Short).Show ();
 			}
@@ -66,15 +65,15 @@ namespace EventFinda
 		}
 		public void OnProviderEnabled (string provider)
 		{
-			Toast.MakeText (this, "provider enabled", ToastLength.Short).Show ();
+			//Toast.MakeText (this, "provider enabled", ToastLength.Short).Show ();
 		}
 		public void OnProviderDisabled (string provider)
 		{
-			Toast.MakeText (this, "provider disabled", ToastLength.Short).Show ();
+			//Toast.MakeText (this, "provider disabled", ToastLength.Short).Show ();
 		}
 		public void OnStatusChanged (string provider, Availability status, Bundle extras)
 		{
-			Toast.MakeText (this, "provider status" + status.ToString (), ToastLength.Short).Show ();
+			//Toast.MakeText (this, "provider status" + status.ToString (), ToastLength.Short).Show ();
 		}
 
 		void OnbtnPopularClick (object sender, EventArgs e)

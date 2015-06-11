@@ -10,10 +10,11 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using AndroidHUD;
 
 namespace EventFinda
 {
-	[Activity (Label = "NearbyList", Icon = "@drawable/ic_launcher",ScreenOrientation=Android.Content.PM.ScreenOrientation.Portrait)]			
+	[Activity (Label = "Nearby Events", Icon = "@drawable/OnlyLogo",ScreenOrientation=Android.Content.PM.ScreenOrientation.Portrait)]			
 	public class NearbyList : Activity
 	{
 		RestHandler objRest;
@@ -32,12 +33,14 @@ namespace EventFinda
 		}
 		public async void LoadNearbyEvents()
 		{
+			AndHUD.Shared.Show(this, "Finding nearby events", 60);
 			var lat= Convert.ToDouble (Intent.GetStringExtra("Latitude"));
 			var lng = Convert.ToDouble(Intent.GetStringExtra("Longitude"));
 			objRest = new RestHandler (@"http://api.eventfinder.co.nz/v2/events.xml?point="+ lat + "," + lng + "&radius=20");
 			var Response = await objRest.ExecuteRequestAsync ();
 			lstNearbyEvents.Adapter = new DataAdapter (this, Response.Event);
 			tmpNearbyList = Response.Event;
+			AndHUD.Shared.Dismiss ();
 
 		}
 		void OnlstNearbyEventsClick (object sender, AdapterView.ItemClickEventArgs e)
@@ -60,7 +63,7 @@ namespace EventFinda
 			}
 			NearbyDetail.PutExtra ("Description", objHelper.removecdata(NearbyItem.Description));
 			NearbyDetail.PutExtra ("Website", NearbyItem.Url);
-			Toast.MakeText (this, "latitude" + NearbyItem.Point.Lat, ToastLength.Short).Show ();
+			//Toast.MakeText (this, "latitude" + NearbyItem.Point.Lat, ToastLength.Short).Show ();
 			NearbyDetail.PutExtra ("LatitudeMap", NearbyItem.Point.Lat);
 
 			NearbyDetail.PutExtra ("LongitudeinMap", NearbyItem.Point.Lng);

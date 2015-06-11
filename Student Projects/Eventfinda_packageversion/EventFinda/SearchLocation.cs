@@ -10,10 +10,11 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using AndroidHUD;
 
 namespace EventFinda
 {
-	[Activity (Label = "SearchLocation", Icon = "@drawable/ic_launcher",ScreenOrientation=Android.Content.PM.ScreenOrientation.Portrait)]			
+	[Activity (Label = "Search Results", Icon = "@drawable/OnlyLogo",ScreenOrientation=Android.Content.PM.ScreenOrientation.Portrait)]			
 	public class SearchLocation : Activity
 	{
 
@@ -33,11 +34,12 @@ namespace EventFinda
 		public async void LoadSearchEventsbyLocation ()
 		{
 		var searchlocations= Intent.GetStringExtra("SearchLocations");
-
+			AndHUD.Shared.Show(this, "Searching events",60);
 		objRest = new RestHandler (@"http://api.eventfinder.co.nz/v2/events.xml?autocomplete="+ searchlocations +"&fields=Location:(name)");
 		var Response = await objRest.ExecuteRequestAsync ();
 		lstEventsSearchbyLocation.Adapter = new DataAdapter (this, Response.Event);
 		tmpEventsSearchByLocation = Response.Event;
+			AndHUD.Shared.Dismiss ();
 	}
 		void OnlstEventsSearchbyLocationClick (object sender, AdapterView.ItemClickEventArgs e)
 		{
@@ -59,7 +61,7 @@ namespace EventFinda
 			}
 			EventSearchbyLocationDetail.PutExtra ("Description",objHelper.removecdata(EventSearchbyLocationItem.Description));
 			EventSearchbyLocationDetail.PutExtra ("Website", EventSearchbyLocationItem.Url);
-			Toast.MakeText (this, "latitude" + EventSearchbyLocationItem.Point.Lat, ToastLength.Short).Show ();
+			//Toast.MakeText (this, "latitude" + EventSearchbyLocationItem.Point.Lat, ToastLength.Short).Show ();
 			EventSearchbyLocationDetail.PutExtra ("LatitudeMap", EventSearchbyLocationItem.Point.Lat);
 
 			EventSearchbyLocationDetail.PutExtra ("LongitudeinMap",EventSearchbyLocationItem.Point.Lng);

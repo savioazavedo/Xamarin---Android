@@ -10,10 +10,11 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using AndroidHUD;
 
 namespace EventFinda
 {
-	[Activity (Label = "SearchCategory", Icon = "@drawable/ic_launcher",ScreenOrientation=Android.Content.PM.ScreenOrientation.Portrait)]			
+	[Activity (Label = "Search Results", Icon = "@drawable/OnlyLogo",ScreenOrientation=Android.Content.PM.ScreenOrientation.Portrait)]			
 	public class SearchCategory : Activity
 	{
 		RestHandler objRest;
@@ -34,10 +35,12 @@ namespace EventFinda
 		{
 			var searchcategory= Intent.GetStringExtra("SearchCategory");
 
+			AndHUD.Shared.Show(this, "Searching events", 60);
 			objRest = new RestHandler (@"http://api.eventfinder.co.nz/v2/events.xml?autocomplete="+ searchcategory +"&fields=Category:(name)");
 			var Response = await objRest.ExecuteRequestAsync ();
 			lstEventsSearchbyCategory.Adapter = new DataAdapter (this, Response.Event);
 			tmpEventsSearchByCategory = Response.Event;
+			AndHUD.Shared.Dismiss();
 		}
 		void OnlstEventsSearchbyCategoryClick (object sender, AdapterView.ItemClickEventArgs e)
 		{
@@ -59,7 +62,7 @@ namespace EventFinda
 			}
 			EventSearchbyCategoryDetail.PutExtra ("Description",objHelper.removecdata(EventSearchbyCategoryItem.Description));
 			EventSearchbyCategoryDetail.PutExtra ("Website", EventSearchbyCategoryItem.Url);
-			Toast.MakeText (this, "latitude" + EventSearchbyCategoryItem.Point.Lat, ToastLength.Short).Show ();
+			//Toast.MakeText (this, "latitude" + EventSearchbyCategoryItem.Point.Lat, ToastLength.Short).Show ();
 			EventSearchbyCategoryDetail.PutExtra ("LatitudeMap", EventSearchbyCategoryItem.Point.Lat);
 
 			EventSearchbyCategoryDetail.PutExtra ("LongitudeinMap",EventSearchbyCategoryItem.Point.Lng);

@@ -10,10 +10,11 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using AndroidHUD;
 
 namespace EventFinda
 {
-	[Activity (Label = "SearchEventbyName", Icon = "@drawable/ic_launcher",ScreenOrientation=Android.Content.PM.ScreenOrientation.Portrait)]			
+	[Activity (Label = "Search Results",Icon = "@drawable/OnlyLogo",ScreenOrientation=Android.Content.PM.ScreenOrientation.Portrait)]			
 	public class SearchEventbyName : Activity
 	{
 		RestHandler objRest;
@@ -33,10 +34,12 @@ namespace EventFinda
 		{
 			var searchname= Intent.GetStringExtra("SearchName");
 
+			AndHUD.Shared.Show(this, "Searching events", 60);
 			objRest = new RestHandler (@"http://api.eventfinder.co.nz/v2/events.xml?autocomplete="+ searchname +"&fields=Event:(name)");
 			var Response = await objRest.ExecuteRequestAsync ();
 			lstEventsSearchbyName.Adapter = new DataAdapter (this, Response.Event);
 			tmpEventsSearchByName = Response.Event;
+			AndHUD.Shared.Dismiss ();
 		}
 		void OnlstEventsSearchbyNameClick (object sender, AdapterView.ItemClickEventArgs e)
 		{
@@ -58,7 +61,7 @@ namespace EventFinda
 			}
 			EventSearchbyNameDetail.PutExtra ("Description",objHelper.removecdata(EventSearchbyNameItem.Description));
 			EventSearchbyNameDetail.PutExtra ("Website", EventSearchbyNameItem.Url);
-			Toast.MakeText (this, "latitude" + EventSearchbyNameItem.Point.Lat, ToastLength.Short).Show ();
+			//Toast.MakeText (this, "latitude" + EventSearchbyNameItem.Point.Lat, ToastLength.Short).Show ();
 			EventSearchbyNameDetail.PutExtra ("LatitudeMap", EventSearchbyNameItem.Point.Lat);
 
 			EventSearchbyNameDetail.PutExtra ("LongitudeinMap",EventSearchbyNameItem.Point.Lng);

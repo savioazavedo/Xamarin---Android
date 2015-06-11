@@ -17,7 +17,7 @@ using Android.Gms.Maps.Model;
 
 namespace EventFinda
 {
-	[Activity (Label = "Detail", Icon = "@drawable/ic_launcher",ScreenOrientation=Android.Content.PM.ScreenOrientation.Portrait)]			
+	[Activity (Label = "Event Details", Icon = "@drawable/OnlyLogo",ScreenOrientation=Android.Content.PM.ScreenOrientation.Portrait)]			
 	public class Detail : Activity
 	{
 		TextView TextName;

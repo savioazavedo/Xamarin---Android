@@ -13,7 +13,7 @@ using Android.Widget;
 
 namespace EventFinda
 {
-	[Activity (Label = "SearchEvent", Icon = "@drawable/ic_launcher",ScreenOrientation=Android.Content.PM.ScreenOrientation.Portrait)]			
+	[Activity (Label = "Search Results", Icon = "@drawable/OnlyLogo",ScreenOrientation=Android.Content.PM.ScreenOrientation.Portrait)]			
 	public class SearchEvent : Activity
 	{
 
@@ -60,24 +60,22 @@ namespace EventFinda
 
 			Search = FindViewById<Button> (Resource.Id.btnSearch);
 
-
-
-
-
 			Search.Click += onbtnSearchClick;
 			btnFree.Click += onbtnFreeClick;
 			btnpaid.Click += onbtnPaidClick;
 			// Create your application here
 		}
+
 		public void onbtnFreeClick (object sender, EventArgs e)
 		{
 			StartActivity (typeof(FreeList));
 		}
-		public void onbtnPaidClick(object sender, EventArgs e)
-			{
-			StartActivity (typeof(PaidList));
 
-			}
+		public void onbtnPaidClick(object sender, EventArgs e)
+		{
+			StartActivity (typeof(PaidList));
+		}
+
 		public void onbtnSearchClick(object sender, EventArgs e)
 		{
 			if ((SearchItem.Text != "") || (acItem.Text !="") || (acItem1.Text != "")) {
@@ -96,10 +94,11 @@ namespace EventFinda
 					SearchEventbyCategoryList.PutExtra ("SearchCategory", acItem1.Text);
 					StartActivity (SearchEventbyCategoryList);
 				}
-							}
-					else {
+			}
+			else 
+			{
 				Toast.MakeText (this, "Please enter one of textbox partially to search", ToastLength.Long).Show ();
-					}
+			}
 
 
 		}

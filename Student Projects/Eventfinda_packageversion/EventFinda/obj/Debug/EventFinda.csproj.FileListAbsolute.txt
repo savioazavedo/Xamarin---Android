@@ -413,7 +413,6 @@ C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFind
 C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\bin\Debug\Xamarin.Android.Support.v4.dll
 C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
 C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
-C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\EventFinda.csprojResolveAssemblyReference.cache
 C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\EventFinda.dll
 C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\EventFinda.pdb
 C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\android\bin\eventfinda.eventfinda.apk
@@ -444,5 +443,10 @@ C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFind
 C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable\list_selector.xml
 C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable\gradient_bg_hover.xml
 C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable\button.xml
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-hdpi\onlylogo.jpg
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-mdpi\onlylogo.jpg
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xhdpi\onlylogo.jpg
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxhdpi\onlylogo.jpg
+C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\res\drawable-xxxhdpi\onlylogo.jpg
 C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\R.cs.flag
 C:\gitHub\Xamarin---Android\Student Projects\Eventfinda_packageversion\EventFinda\obj\Debug\uploadflags.txt

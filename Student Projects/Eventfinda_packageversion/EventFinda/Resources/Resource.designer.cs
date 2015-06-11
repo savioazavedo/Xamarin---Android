@@ -26,6 +26,43 @@ namespace EventFinda
 		
 		public static void UpdateIdValues()
 		{
+			global::AndroidHUD.Resource.Attribute.ahBarColor = global::EventFinda.Resource.Attribute.ahBarColor;
+			global::AndroidHUD.Resource.Attribute.ahBarLength = global::EventFinda.Resource.Attribute.ahBarLength;
+			global::AndroidHUD.Resource.Attribute.ahBarWidth = global::EventFinda.Resource.Attribute.ahBarWidth;
+			global::AndroidHUD.Resource.Attribute.ahCircleColor = global::EventFinda.Resource.Attribute.ahCircleColor;
+			global::AndroidHUD.Resource.Attribute.ahDelayMillis = global::EventFinda.Resource.Attribute.ahDelayMillis;
+			global::AndroidHUD.Resource.Attribute.ahRadius = global::EventFinda.Resource.Attribute.ahRadius;
+			global::AndroidHUD.Resource.Attribute.ahRimColor = global::EventFinda.Resource.Attribute.ahRimColor;
+			global::AndroidHUD.Resource.Attribute.ahRimWidth = global::EventFinda.Resource.Attribute.ahRimWidth;
+			global::AndroidHUD.Resource.Attribute.ahSpinSpeed = global::EventFinda.Resource.Attribute.ahSpinSpeed;
+			global::AndroidHUD.Resource.Attribute.ahText = global::EventFinda.Resource.Attribute.ahText;
+			global::AndroidHUD.Resource.Attribute.ahTextColor = global::EventFinda.Resource.Attribute.ahTextColor;
+			global::AndroidHUD.Resource.Attribute.ahTextSize = global::EventFinda.Resource.Attribute.ahTextSize;
+			global::AndroidHUD.Resource.Drawable.ic_errorstatus = global::EventFinda.Resource.Drawable.ic_errorstatus;
+			global::AndroidHUD.Resource.Drawable.ic_successstatus = global::EventFinda.Resource.Drawable.ic_successstatus;
+			global::AndroidHUD.Resource.Drawable.roundedbg = global::EventFinda.Resource.Drawable.roundedbg;
+			global::AndroidHUD.Resource.Drawable.roundedbgdark = global::EventFinda.Resource.Drawable.roundedbgdark;
+			global::AndroidHUD.Resource.Id.loadingImage = global::EventFinda.Resource.Id.loadingImage;
+			global::AndroidHUD.Resource.Id.loadingProgressBar = global::EventFinda.Resource.Id.loadingProgressBar;
+			global::AndroidHUD.Resource.Id.loadingProgressWheel = global::EventFinda.Resource.Id.loadingProgressWheel;
+			global::AndroidHUD.Resource.Id.textViewStatus = global::EventFinda.Resource.Id.textViewStatus;
+			global::AndroidHUD.Resource.Layout.loading = global::EventFinda.Resource.Layout.loading;
+			global::AndroidHUD.Resource.Layout.loadingimage = global::EventFinda.Resource.Layout.loadingimage;
+			global::AndroidHUD.Resource.Layout.loadingprogress = global::EventFinda.Resource.Layout.loadingprogress;
+			global::AndroidHUD.Resource.String.library_name = global::EventFinda.Resource.String.library_name;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel = global::EventFinda.Resource.Styleable.ProgressWheel;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarColor = global::EventFinda.Resource.Styleable.ProgressWheel_ahBarColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarLength = global::EventFinda.Resource.Styleable.ProgressWheel_ahBarLength;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarWidth = global::EventFinda.Resource.Styleable.ProgressWheel_ahBarWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahCircleColor = global::EventFinda.Resource.Styleable.ProgressWheel_ahCircleColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahDelayMillis = global::EventFinda.Resource.Styleable.ProgressWheel_ahDelayMillis;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRadius = global::EventFinda.Resource.Styleable.ProgressWheel_ahRadius;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimColor = global::EventFinda.Resource.Styleable.ProgressWheel_ahRimColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimWidth = global::EventFinda.Resource.Styleable.ProgressWheel_ahRimWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahSpinSpeed = global::EventFinda.Resource.Styleable.ProgressWheel_ahSpinSpeed;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahText = global::EventFinda.Resource.Styleable.ProgressWheel_ahText;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextColor = global::EventFinda.Resource.Styleable.ProgressWheel_ahTextColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize = global::EventFinda.Resource.Styleable.ProgressWheel_ahTextSize;
 		}
 		
 		public partial class Animation
@@ -203,6 +240,42 @@ namespace EventFinda
 			
 			// aapt resource value: 0x7f0100d1
 			public const int adUnitId = 2130772177;
+			
+			// aapt resource value: 0x7f0100f7
+			public const int ahBarColor = 2130772215;
+			
+			// aapt resource value: 0x7f0100ff
+			public const int ahBarLength = 2130772223;
+			
+			// aapt resource value: 0x7f0100fe
+			public const int ahBarWidth = 2130772222;
+			
+			// aapt resource value: 0x7f0100fc
+			public const int ahCircleColor = 2130772220;
+			
+			// aapt resource value: 0x7f0100fb
+			public const int ahDelayMillis = 2130772219;
+			
+			// aapt resource value: 0x7f0100fd
+			public const int ahRadius = 2130772221;
+			
+			// aapt resource value: 0x7f0100f8
+			public const int ahRimColor = 2130772216;
+			
+			// aapt resource value: 0x7f0100f9
+			public const int ahRimWidth = 2130772217;
+			
+			// aapt resource value: 0x7f0100fa
+			public const int ahSpinSpeed = 2130772218;
+			
+			// aapt resource value: 0x7f0100f4
+			public const int ahText = 2130772212;
+			
+			// aapt resource value: 0x7f0100f5
+			public const int ahTextColor = 2130772213;
+			
+			// aapt resource value: 0x7f0100f6
+			public const int ahTextSize = 2130772214;
 			
 			// aapt resource value: 0x7f0100ad
 			public const int alertDialogButtonGroupStyle = 2130772141;
@@ -1652,112 +1725,127 @@ namespace EventFinda
 			public const int ic_cast_on_light = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_launcher = 2130837599;
+			public const int ic_errorstatus = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_media_pause = 2130837600;
+			public const int ic_launcher = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_media_play = 2130837601;
+			public const int ic_media_pause = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_media_route_disabled_mono_dark = 2130837602;
+			public const int ic_media_play = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_media_route_off_mono_dark = 2130837603;
+			public const int ic_media_route_disabled_mono_dark = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_media_route_on_0_mono_dark = 2130837604;
+			public const int ic_media_route_off_mono_dark = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_media_route_on_1_mono_dark = 2130837605;
+			public const int ic_media_route_on_0_mono_dark = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_media_route_on_2_mono_dark = 2130837606;
+			public const int ic_media_route_on_1_mono_dark = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_media_route_on_mono_dark = 2130837607;
+			public const int ic_media_route_on_2_mono_dark = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_pause_dark = 2130837608;
+			public const int ic_media_route_on_mono_dark = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_pause_light = 2130837609;
+			public const int ic_pause_dark = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_play_dark = 2130837610;
+			public const int ic_pause_light = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_play_light = 2130837611;
+			public const int ic_play_dark = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_plusone_medium_off_client = 2130837612;
+			public const int ic_play_light = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_plusone_small_off_client = 2130837613;
+			public const int ic_plusone_medium_off_client = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_plusone_standard_off_client = 2130837614;
+			public const int ic_plusone_small_off_client = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_plusone_tall_off_client = 2130837615;
+			public const int ic_plusone_standard_off_client = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_setting_dark = 2130837616;
+			public const int ic_plusone_tall_off_client = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_setting_light = 2130837617;
+			public const int ic_setting_dark = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int Icon = 2130837618;
+			public const int ic_setting_light = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int image = 2130837619;
+			public const int ic_successstatus = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int list_selector = 2130837620;
+			public const int Icon = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int mr_ic_audio_vol = 2130837621;
+			public const int image = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int mr_ic_media_route_connecting_mono_dark = 2130837622;
+			public const int list_selector = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int mr_ic_media_route_connecting_mono_light = 2130837623;
+			public const int mr_ic_audio_vol = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int mr_ic_media_route_mono_dark = 2130837624;
+			public const int mr_ic_media_route_connecting_mono_dark = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int mr_ic_media_route_mono_light = 2130837625;
+			public const int mr_ic_media_route_connecting_mono_light = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int mr_ic_pause_dark = 2130837626;
+			public const int mr_ic_media_route_mono_dark = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int mr_ic_pause_light = 2130837627;
+			public const int mr_ic_media_route_mono_light = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int mr_ic_play_dark = 2130837628;
+			public const int mr_ic_pause_dark = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int mr_ic_play_light = 2130837629;
+			public const int mr_ic_pause_light = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int mr_ic_settings_dark = 2130837630;
+			public const int mr_ic_play_dark = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int mr_ic_settings_light = 2130837631;
+			public const int mr_ic_play_light = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int powered_by_google_dark = 2130837632;
+			public const int mr_ic_settings_dark = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int powered_by_google_light = 2130837633;
+			public const int mr_ic_settings_light = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int splashscreen = 2130837634;
+			public const int OnlyLogo = 2130837634;
+			
+			// aapt resource value: 0x7f020083
+			public const int powered_by_google_dark = 2130837635;
+			
+			// aapt resource value: 0x7f020084
+			public const int powered_by_google_light = 2130837636;
+			
+			// aapt resource value: 0x7f020085
+			public const int roundedbg = 2130837637;
+			
+			// aapt resource value: 0x7f020086
+			public const int roundedbgdark = 2130837638;
+			
+			// aapt resource value: 0x7f020087
+			public const int splashscreen = 2130837639;
 			
 			static Drawable()
 			{
@@ -1829,8 +1917,8 @@ namespace EventFinda
 			// aapt resource value: 0x7f0b000f
 			public const int always = 2131427343;
 			
-			// aapt resource value: 0x7f0b0081
-			public const int art = 2131427457;
+			// aapt resource value: 0x7f0b0085
+			public const int art = 2131427461;
 			
 			// aapt resource value: 0x7f0b000a
 			public const int beginning = 2131427338;
@@ -1838,26 +1926,26 @@ namespace EventFinda
 			// aapt resource value: 0x7f0b0032
 			public const int book_now = 2131427378;
 			
-			// aapt resource value: 0x7f0b0089
-			public const int btnFree = 2131427465;
+			// aapt resource value: 0x7f0b008d
+			public const int btnFree = 2131427469;
 			
-			// aapt resource value: 0x7f0b007a
-			public const int btnNearby = 2131427450;
+			// aapt resource value: 0x7f0b007e
+			public const int btnNearby = 2131427454;
 			
-			// aapt resource value: 0x7f0b008a
-			public const int btnPaid = 2131427466;
+			// aapt resource value: 0x7f0b008e
+			public const int btnPaid = 2131427470;
 			
-			// aapt resource value: 0x7f0b0078
-			public const int btnPopular = 2131427448;
+			// aapt resource value: 0x7f0b007c
+			public const int btnPopular = 2131427452;
 			
-			// aapt resource value: 0x7f0b0079
-			public const int btnSearch = 2131427449;
+			// aapt resource value: 0x7f0b007d
+			public const int btnSearch = 2131427453;
 			
 			// aapt resource value: 0x7f0b004a
 			public const int buttonPanel = 2131427402;
 			
-			// aapt resource value: 0x7f0b0085
-			public const int buttons = 2131427461;
+			// aapt resource value: 0x7f0b0089
+			public const int buttons = 2131427465;
 			
 			// aapt resource value: 0x7f0b002d
 			public const int buyButton = 2131427373;
@@ -1892,8 +1980,8 @@ namespace EventFinda
 			// aapt resource value: 0x7f0b003d
 			public const int default_activity_button = 2131427389;
 			
-			// aapt resource value: 0x7f0b0080
-			public const int default_control_frame = 2131427456;
+			// aapt resource value: 0x7f0b0084
+			public const int default_control_frame = 2131427460;
 			
 			// aapt resource value: 0x7f0b0012
 			public const int dialog = 2131427346;
@@ -1901,8 +1989,8 @@ namespace EventFinda
 			// aapt resource value: 0x7f0b0009
 			public const int disableHome = 2131427337;
 			
-			// aapt resource value: 0x7f0b0086
-			public const int disconnect = 2131427462;
+			// aapt resource value: 0x7f0b008a
+			public const int disconnect = 2131427466;
 			
 			// aapt resource value: 0x7f0b0033
 			public const int donate_with_google = 2131427379;
@@ -1955,8 +2043,8 @@ namespace EventFinda
 			// aapt resource value: 0x7f0b0069
 			public const int linearLayout1 = 2131427433;
 			
-			// aapt resource value: 0x7f0b0088
-			public const int linearLayout2 = 2131427464;
+			// aapt resource value: 0x7f0b008c
+			public const int linearLayout2 = 2131427468;
 			
 			// aapt resource value: 0x7f0b0001
 			public const int listMode = 2131427329;
@@ -1967,11 +2055,20 @@ namespace EventFinda
 			// aapt resource value: 0x7f0b003e
 			public const int list_item = 2131427390;
 			
-			// aapt resource value: 0x7f0b008f
-			public const int lstCategory = 2131427471;
+			// aapt resource value: 0x7f0b0076
+			public const int loadingImage = 2131427446;
 			
-			// aapt resource value: 0x7f0b008d
-			public const int lstLocation = 2131427469;
+			// aapt resource value: 0x7f0b0074
+			public const int loadingProgressBar = 2131427444;
+			
+			// aapt resource value: 0x7f0b0077
+			public const int loadingProgressWheel = 2131427447;
+			
+			// aapt resource value: 0x7f0b0093
+			public const int lstCategory = 2131427475;
+			
+			// aapt resource value: 0x7f0b0091
+			public const int lstLocation = 2131427473;
 			
 			// aapt resource value: 0x7f0b0071
 			public const int map = 2131427441;
@@ -1979,11 +2076,11 @@ namespace EventFinda
 			// aapt resource value: 0x7f0b002f
 			public const int match_parent = 2131427375;
 			
-			// aapt resource value: 0x7f0b007f
-			public const int media_route_control_frame = 2131427455;
+			// aapt resource value: 0x7f0b0083
+			public const int media_route_control_frame = 2131427459;
 			
-			// aapt resource value: 0x7f0b007b
-			public const int media_route_list = 2131427451;
+			// aapt resource value: 0x7f0b007f
+			public const int media_route_list = 2131427455;
 			
 			// aapt resource value: 0x7f0b000b
 			public const int middle = 2131427339;
@@ -2006,8 +2103,8 @@ namespace EventFinda
 			// aapt resource value: 0x7f0b0041
 			public const int parentPanel = 2131427393;
 			
-			// aapt resource value: 0x7f0b0082
-			public const int play_pause = 2131427458;
+			// aapt resource value: 0x7f0b0086
+			public const int play_pause = 2131427462;
 			
 			// aapt resource value: 0x7f0b002a
 			public const int production = 2131427370;
@@ -2021,8 +2118,8 @@ namespace EventFinda
 			// aapt resource value: 0x7f0b004e
 			public const int radio = 2131427406;
 			
-			// aapt resource value: 0x7f0b007d
-			public const int route_name = 2131427453;
+			// aapt resource value: 0x7f0b0081
+			public const int route_name = 2131427457;
 			
 			// aapt resource value: 0x7f0b002b
 			public const int sandbox = 2131427371;
@@ -2072,8 +2169,8 @@ namespace EventFinda
 			// aapt resource value: 0x7f0b002e
 			public const int selectionDetails = 2131427374;
 			
-			// aapt resource value: 0x7f0b007e
-			public const int settings = 2131427454;
+			// aapt resource value: 0x7f0b0082
+			public const int settings = 2131427458;
 			
 			// aapt resource value: 0x7f0b004d
 			public const int shortcut = 2131427405;
@@ -2099,8 +2196,8 @@ namespace EventFinda
 			// aapt resource value: 0x7f0b0015
 			public const int src_over = 2131427349;
 			
-			// aapt resource value: 0x7f0b0087
-			public const int stop = 2131427463;
+			// aapt resource value: 0x7f0b008b
+			public const int stop = 2131427467;
 			
 			// aapt resource value: 0x7f0b002c
 			public const int strict_sandbox = 2131427372;
@@ -2108,8 +2205,8 @@ namespace EventFinda
 			// aapt resource value: 0x7f0b005f
 			public const int submit_area = 2131427423;
 			
-			// aapt resource value: 0x7f0b0084
-			public const int subtitle = 2131427460;
+			// aapt resource value: 0x7f0b0088
+			public const int subtitle = 2131427464;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int tabMode = 2131427330;
@@ -2138,29 +2235,32 @@ namespace EventFinda
 			// aapt resource value: 0x7f0b006b
 			public const int textVenue = 2131427435;
 			
-			// aapt resource value: 0x7f0b0074
-			public const int textView1 = 2131427444;
+			// aapt resource value: 0x7f0b0078
+			public const int textView1 = 2131427448;
+			
+			// aapt resource value: 0x7f0b0079
+			public const int textView2 = 2131427449;
+			
+			// aapt resource value: 0x7f0b007a
+			public const int textView3 = 2131427450;
+			
+			// aapt resource value: 0x7f0b007b
+			public const int textView4 = 2131427451;
 			
 			// aapt resource value: 0x7f0b0075
-			public const int textView2 = 2131427445;
-			
-			// aapt resource value: 0x7f0b0076
-			public const int textView3 = 2131427446;
-			
-			// aapt resource value: 0x7f0b0077
-			public const int textView4 = 2131427447;
+			public const int textViewStatus = 2131427445;
 			
 			// aapt resource value: 0x7f0b006f
 			public const int textWebsite = 2131427439;
 			
-			// aapt resource value: 0x7f0b0083
-			public const int text_wrapper = 2131427459;
+			// aapt resource value: 0x7f0b0087
+			public const int text_wrapper = 2131427463;
 			
 			// aapt resource value: 0x7f0b0040
 			public const int title = 2131427392;
 			
-			// aapt resource value: 0x7f0b007c
-			public const int title_bar = 2131427452;
+			// aapt resource value: 0x7f0b0080
+			public const int title_bar = 2131427456;
 			
 			// aapt resource value: 0x7f0b0043
 			public const int title_template = 2131427395;
@@ -2174,26 +2274,26 @@ namespace EventFinda
 			// aapt resource value: 0x7f0b0067
 			public const int txtCategory = 2131427431;
 			
-			// aapt resource value: 0x7f0b008e
-			public const int txtCategorySearch = 2131427470;
+			// aapt resource value: 0x7f0b0092
+			public const int txtCategorySearch = 2131427474;
 			
 			// aapt resource value: 0x7f0b0066
 			public const int txtDate = 2131427430;
 			
-			// aapt resource value: 0x7f0b0090
-			public const int txtDateFrom = 2131427472;
+			// aapt resource value: 0x7f0b0094
+			public const int txtDateFrom = 2131427476;
 			
-			// aapt resource value: 0x7f0b0091
-			public const int txtDateTo = 2131427473;
+			// aapt resource value: 0x7f0b0095
+			public const int txtDateTo = 2131427477;
 			
-			// aapt resource value: 0x7f0b008b
-			public const int txtEventSearch = 2131427467;
+			// aapt resource value: 0x7f0b008f
+			public const int txtEventSearch = 2131427471;
 			
 			// aapt resource value: 0x7f0b0064
 			public const int txtEventTitle = 2131427428;
 			
-			// aapt resource value: 0x7f0b008c
-			public const int txtLocationSearch = 2131427468;
+			// aapt resource value: 0x7f0b0090
+			public const int txtLocationSearch = 2131427472;
 			
 			// aapt resource value: 0x7f0b0022
 			public const int up = 2131427362;
@@ -2336,34 +2436,43 @@ namespace EventFinda
 			public const int ListView = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int Main = 2130903069;
+			public const int loading = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int Menu = 2130903070;
+			public const int loadingimage = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int mr_media_route_chooser_dialog = 2130903071;
+			public const int loadingprogress = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int mr_media_route_controller_material_dialog_b = 2130903072;
+			public const int Main = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int mr_media_route_list_item = 2130903073;
+			public const int Menu = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int Search = 2130903074;
+			public const int mr_media_route_chooser_dialog = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int select_dialog_item_material = 2130903075;
+			public const int mr_media_route_controller_material_dialog_b = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int select_dialog_multichoice_material = 2130903076;
+			public const int mr_media_route_list_item = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int select_dialog_singlechoice_material = 2130903077;
+			public const int Search = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int support_simple_spinner_dropdown_item = 2130903078;
+			public const int select_dialog_item_material = 2130903078;
+			
+			// aapt resource value: 0x7f030027
+			public const int select_dialog_multichoice_material = 2130903079;
+			
+			// aapt resource value: 0x7f030028
+			public const int select_dialog_singlechoice_material = 2130903080;
+			
+			// aapt resource value: 0x7f030029
+			public const int support_simple_spinner_dropdown_item = 2130903081;
 			
 			static Layout()
 			{
@@ -2540,6 +2649,9 @@ namespace EventFinda
 			
 			// aapt resource value: 0x7f07001e
 			public const int decline = 2131165214;
+			
+			// aapt resource value: 0x7f07003e
+			public const int library_name = 2131165246;
 			
 			// aapt resource value: 0x7f070000
 			public const int mr_media_route_button_content_description = 2131165184;
@@ -4034,6 +4146,56 @@ namespace EventFinda
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
+			
+			public static int[] ProgressWheel = new int[] {
+					2130772212,
+					2130772213,
+					2130772214,
+					2130772215,
+					2130772216,
+					2130772217,
+					2130772218,
+					2130772219,
+					2130772220,
+					2130772221,
+					2130772222,
+					2130772223};
+			
+			// aapt resource value: 3
+			public const int ProgressWheel_ahBarColor = 3;
+			
+			// aapt resource value: 11
+			public const int ProgressWheel_ahBarLength = 11;
+			
+			// aapt resource value: 10
+			public const int ProgressWheel_ahBarWidth = 10;
+			
+			// aapt resource value: 8
+			public const int ProgressWheel_ahCircleColor = 8;
+			
+			// aapt resource value: 7
+			public const int ProgressWheel_ahDelayMillis = 7;
+			
+			// aapt resource value: 9
+			public const int ProgressWheel_ahRadius = 9;
+			
+			// aapt resource value: 4
+			public const int ProgressWheel_ahRimColor = 4;
+			
+			// aapt resource value: 5
+			public const int ProgressWheel_ahRimWidth = 5;
+			
+			// aapt resource value: 6
+			public const int ProgressWheel_ahSpinSpeed = 6;
+			
+			// aapt resource value: 0
+			public const int ProgressWheel_ahText = 0;
+			
+			// aapt resource value: 1
+			public const int ProgressWheel_ahTextColor = 1;
+			
+			// aapt resource value: 2
+			public const int ProgressWheel_ahTextSize = 2;
 			
 			public static int[] SearchView = new int[] {
 					16842970,

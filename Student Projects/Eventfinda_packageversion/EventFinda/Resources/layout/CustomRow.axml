@@ -23,16 +23,13 @@
         android:textStyle="bold" />
     <TextView
         android:id="@+id/txtAddress"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/txtEventTitle"
         android:text="Auckland"
         android:drawableLeft="@android:drawable/ic_menu_mylocation"
         android:layout_toRightOf="@id/Image"
-        android:gravity="center_vertical"
-        android:height="25dp"
-        android:minHeight="25dp"
-        android:maxHeight="25dp" />
+        android:gravity="center_vertical" />
     <TextView
         android:id="@+id/txtDate"
         android:layout_width="wrap_content"

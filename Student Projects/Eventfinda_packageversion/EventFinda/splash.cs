@@ -14,7 +14,7 @@ using System.Threading;
 
 namespace EventFinda
 {
-	[Activity (Label = "Eventure", MainLauncher = true,NoHistory= true, Theme = "@style/Theme.Splash", Icon = "@drawable/ic_launcher", ScreenOrientation=Android.Content.PM.ScreenOrientation.Portrait)]			
+	[Activity (Label = "Eventure", MainLauncher = true,NoHistory= true, Theme = "@style/Theme.Splash", Icon = "@drawable/OnlyLogo", ScreenOrientation=Android.Content.PM.ScreenOrientation.Portrait)]			
 	public class splash : Activity
 	{
 		protected override void OnCreate (Bundle bundle)
