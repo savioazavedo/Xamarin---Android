@@ -1,9 +1,13 @@
 ﻿<Properties StartupItem="EventFinda\EventFinda.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.84dbac6f9c56" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EventFinda\SearchEvent.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.4100d56c49779000" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EventFinda\FreeList.cs">
     <Files>
       <File FileName="EventFinda\DataAdapter.cs" Line="4" Column="4" />
-      <File FileName="EventFinda\SearchEvent.cs" Line="2" Column="2" />
+      <File FileName="EventFinda\SearchEvent.cs" Line="34" Column="34" />
+      <File FileName="EventFinda\SearchCategory.cs" Line="22" Column="22" />
+      <File FileName="EventFinda\MainActivity.cs" Line="18" Column="18" />
+      <File FileName="EventFinda\SearchEventbyName.cs" Line="4" Column="4" />
+      <File FileName="EventFinda\FreeList.cs" Line="19" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

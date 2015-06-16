@@ -9,6 +9,7 @@ using Android.OS;
 using Android.Locations;
 using System.Linq;
 using System.Threading;
+using Android.Net;
 
 namespace EventFinda
 {
@@ -60,7 +61,7 @@ namespace EventFinda
 		public void OnLocationChanged (Android.Locations.Location location)
 		{
 			 lat = location.Latitude.ToString ();
-		 lng = location.Longitude.ToString ();
+			 lng = location.Longitude.ToString ();
 
 		}
 		public void OnProviderEnabled (string provider)
@@ -76,20 +77,50 @@ namespace EventFinda
 			//Toast.MakeText (this, "provider status" + status.ToString (), ToastLength.Short).Show ();
 		}
 
+
+		private Boolean CheckConnectivity()
+		{
+			var connectivityManager = (ConnectivityManager)GetSystemService(ConnectivityService);
+			var activeConnection = connectivityManager.ActiveNetworkInfo;
+
+			if ((activeConnection != null) && activeConnection.IsConnected) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+
+
 		void OnbtnPopularClick (object sender, EventArgs e)
 		{
-			StartActivity (typeof(PopularList));
+			if (CheckConnectivity ()) {
+				StartActivity (typeof(PopularList));
+			} else {
+				Toast.MakeText (this, "Not connected to WIFI or Network.Please check your Internet connection and try again",ToastLength.Long).Show ();
+			}
 		}
 
 		void OnbtnNearbyClick (object sender, EventArgs e)
-		{   var NearbyList = new Intent (this, typeof(NearbyList));
-			NearbyList.PutExtra ("Latitude", lat);
-			NearbyList.PutExtra ("Longitude", lng);
-			StartActivity (NearbyList);
+		{   
+		
+			if (CheckConnectivity ()) {
+				var NearbyList = new Intent (this, typeof(NearbyList));
+				NearbyList.PutExtra ("Latitude", lat);
+				NearbyList.PutExtra ("Longitude", lng);
+				StartActivity (NearbyList);
+			} else {
+				Toast.MakeText (this, "Not connected to WIFI or Network.Please check your Internet connection and try again",ToastLength.Long).Show ();
+			}
+
 		}
 		void OnbtnSearchClick (object sender, EventArgs e)
 		{
-			StartActivity (typeof(SearchEvent));
+					
+			if (CheckConnectivity ()) {
+				StartActivity (typeof(SearchEvent));	
+			} else {
+				Toast.MakeText (this, "Not connected to WIFI or Network.Please check your Internet connection and try again",ToastLength.Long).Show ();
+			}
 
 		}
 	
