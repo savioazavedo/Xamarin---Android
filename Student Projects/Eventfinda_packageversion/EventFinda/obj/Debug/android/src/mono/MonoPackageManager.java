@@ -68,6 +68,7 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"EventFinda.dll",
+		"AndHUD.dll",
 		"GooglePlayServicesLib.dll",
 		"RestSharp.MonoDroid.dll",
 		"Xamarin.Android.Support.v4.dll",

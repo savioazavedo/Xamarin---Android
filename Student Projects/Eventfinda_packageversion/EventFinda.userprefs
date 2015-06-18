@@ -1,13 +1,18 @@
 ﻿<Properties StartupItem="EventFinda\EventFinda.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.4100d56c49779000" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EventFinda\FreeList.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.AVD_for_Nexus_S_by_Google" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EventFinda\SearchEvent.cs">
     <Files>
       <File FileName="EventFinda\DataAdapter.cs" Line="4" Column="4" />
-      <File FileName="EventFinda\SearchEvent.cs" Line="34" Column="34" />
-      <File FileName="EventFinda\SearchCategory.cs" Line="22" Column="22" />
-      <File FileName="EventFinda\MainActivity.cs" Line="18" Column="18" />
-      <File FileName="EventFinda\SearchEventbyName.cs" Line="4" Column="4" />
-      <File FileName="EventFinda\FreeList.cs" Line="19" Column="19" />
+      <File FileName="EventFinda\SearchEvent.cs" Line="66" Column="66" />
+      <File FileName="EventFinda\SearchCategory.cs" Line="18" Column="18" />
+      <File FileName="EventFinda\MainActivity.cs" Line="78" Column="78" />
+      <File FileName="EventFinda\SearchEventbyName.cs" Line="3" Column="3" />
+      <File FileName="EventFinda\FreeList.cs" Line="70" Column="70" />
+      <File FileName="EventFinda\Detail.cs" Line="1" Column="1" />
+      <File FileName="EventFinda\NearbyList.cs" Line="1" Column="1" />
+      <File FileName="EventFinda\ResponseEvents.cs" Line="1" Column="1" />
+      <File FileName="EventFinda\RestHandler.cs" Line="1" Column="1" />
+      <File FileName="EventFinda\PopularList.cs" Line="12" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

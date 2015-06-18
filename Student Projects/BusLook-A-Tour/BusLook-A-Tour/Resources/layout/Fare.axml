@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <TextView
+                android:textSize="14dip"
+                android:layout_row="0"
+                android:layout_column="0" />
+            <TextView
+                android:text="Cash fare"
+                android:textSize="14dip"
+                android:layout_row="0"
+                android:layout_column="1" />
+            <TextView
+                android:text="BUSIT card"
+                android:textSize="14dip"
+                android:layout_row="0"
+                android:layout_column="2" />
+            <Space
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_width="130dp"
+                android:layout_height="8dp" />
+            <Space
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_width="80dp"
+                android:layout_height="8dp" />
+            <TextView
+                android:text="Adult"
+                android:textSize="14dip"
+                android:layout_row="2"
+                android:layout_column="0" />
+            <TextView
+                android:text="$3.30"
+                android:textSize="14dip"
+                android:layout_row="2"
+                android:layout_column="1" />
+            <TextView
+                android:text="$2.40"
+                android:textSize="14dip"
+                android:layout_row="2"
+                android:layout_column="2" />
+            <TextView
+                android:text="Child"
+                android:textSize="14dip"
+                android:layout_row="3"
+                android:layout_column="0" />
+            <TextView
+                android:text="$2.20"
+                android:textSize="14dip"
+                android:layout_row="3"
+                android:layout_column="1" />
+            <TextView
+                android:text="$1.70"
+                android:textSize="14dip"
+                android:layout_row="3"
+                android:layout_column="2" />
+            <TextView
+                android:text="60+ BUSIT card"
+                android:textSize="14dip"
+                android:layout_row="4"
+                android:layout_column="0" />
+            <TextView
+                android:text="N/A"
+                android:textSize="14dip"
+                android:layout_row="4"
+                android:layout_column="1" />
+            <TextView
+                android:text="$1.70"
+                android:textSize="14dip"
+                android:layout_row="4"
+                android:layout_column="2" />
+            <TextView
+                android:text="Adult City Explorer"
+                android:textSize="14dip"
+                android:layout_row="5"
+                android:layout_column="0" />
+            <TextView
+                android:text="$7.90"
+                android:textSize="14dip"
+                android:layout_row="5"
+                android:layout_column="1" />
+            <TextView
+                android:text="$6.30"
+                android:textSize="14dip"
+                android:layout_row="5"
+                android:layout_column="2" />
+            <TextView
+                android:text="Child City Explorer"
+                android:textSize="14dip"
+                android:layout_row="6"
+                android:layout_column="0" />
+            <TextView
+                android:text="$5.80"
+                android:textSize="14dip"
+                android:layout_row="6"
+                android:layout_column="1" />
+            <TextView
+                android:text="$4.50"
+                android:textSize="14dip"
+                android:layout_row="6"
+                android:layout_column="2" />
+        </GridLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:padding="10dp">
+            <TextView
+                android:text="One hour free travel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1"
+                android:textStyle="bold" />
+            <TextView
+                android:text="Purchase a single one way ticket on any Hamilton urban bus and get unlimited free transfers onto another urban bus within one hour of the original ticket purchase time. Remember to hold onto your ticket to redeem your free transfers."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:padding="10dp">
+            <TextView
+                android:text="Child fares"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textStyle="bold" />
+            <TextView
+                android:text="Children under 5 years travel free. Child fares apply to children aged 5-14 and to year 9-13 students with approved school ID, or when in school uniform."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:padding="10dp">
+            <TextView
+                android:text="BUSIT card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textStyle="bold" />
+            <TextView
+                android:text="For regular bus users, the BUSIT card (excluding the 60+ card) is a pre-paid card that can be used on all urban routes and also on the Cambridge, Huntly, Raglan, Taupō, Te Awamutu and Paeroa/Morrinsville services. You can purchase and top up your BUSIT card at the Transport Centre on the corner of Bryce and Anglesea Streets, Hamilton. The driver can also top up your BUSIT card for you."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:padding="10dp">
+            <TextView
+                android:text="City Explorer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textStyle="bold" />
+            <TextView
+                android:text="The City Explorer fare allows for unlimited bus trips per person within the Hamilton city boundary. Travel is valid on the day of issue and up until 3.30 am the following day.  The City Explorer is available for adults and children on BUSIT cards and as a cash ticket.  This ticket type is the cheapest way to travel if you plan on doing more than three trips a day."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

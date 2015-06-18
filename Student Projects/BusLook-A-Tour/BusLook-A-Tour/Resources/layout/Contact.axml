@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout4">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout2"
+                android:padding="10dp">
+                <TextView
+                    android:text="Get in touch "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1"
+                    android:textStyle="bold" />
+                <TextView
+                    android:text="We want you to enjoy using our services and are working hard to make sure you find them easy and reliable to use, so if you have feedback on our services please contact us by email or phone:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout1"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/LLfacebook"
+                    android:layout_marginBottom="5dp">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/imageView1"
+                        android:src="@drawable/fb_icon"
+                        android:minHeight="10dp"
+                        android:maxHeight="10dp"
+                        android:scaleType="fitXY"
+                        android:layout_marginLeft="2dp" />
+                    <Button
+                        android:text="www.facebook.com/BUSITWaikato"
+                        android:id="@+id/btnFacebook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="3dp"
+                        android:background="@null" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/LLmail"
+                    android:layout_marginBottom="5dp">
+                    <ImageButton
+                        android:id="@+id/imageButton1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_communication_email"
+                        android:minWidth="10dp"
+                        android:maxWidth="10dp"
+                        android:scaleType="centerCrop"
+                        android:background="@null"
+                        android:layout_marginLeft="2dp" />
+                    <Button
+                        android:text="BUSIT@waikatoregion.govt.nz"
+                        android:id="@+id/button1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:layout_marginLeft="3dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/LLcall">
+                    <ImageButton
+                        android:src="@drawable/ic_communication_call"
+                        android:id="@+id/IBcall"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:scaleType="centerCrop"
+                        android:minWidth="10dp"
+                        android:maxWidth="10dp"
+                        android:background="@null"
+                        android:layout_marginLeft="2dp" />
+                    <Button
+                        android:text="0800 4 BUSLINE (0800 4 2875 463)"
+                        android:id="@+id/btnCall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:layout_marginLeft="3dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout2"
+                android:padding="10dp">
+                <TextView
+                    android:text="Lost property"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1"
+                    android:textStyle="bold" />
+                <TextView
+                    android:text="If you have lost an item on the bus, please call the team at the Transport Centre on (07)859 0509 or visit the BUSIT! counter inside the Transport Centre."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout3"
+                android:padding="10dp">
+                <Button
+                    android:text="Complaint Form"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnComplaint" />
+                <Button
+                    android:text="Compliment Form"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnCompliment" />
+                <Button
+                    android:text="Question Form"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnQuestion" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

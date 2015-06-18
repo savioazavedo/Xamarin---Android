@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="BusLook-A-Tour\BusLook-A-Tour.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.ZLDUFIINS45DCMAY" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BusLook-A-Tour\MainActivity.cs">
+    <Files>
+      <File FileName="BusLook-A-Tour\MapActivity.cs" Line="16" Column="16" />
+      <File FileName="BusLook-A-Tour\Properties\AndroidManifest.xml" Line="122" Column="122" />
+      <File FileName="BusLook-A-Tour\MainActivity.cs" Line="4" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BusLook-A-Tour MonoForAntroid.PreferredDevice="Nexus 4" MonoForAntroid.PreferredTheme="Theme.Holo.Light.DarkActionBar" />
+</Properties>

@@ -1,0 +1,37 @@
+﻿<Properties StartupItem="BusLook-A-Tour\BusLook-A-Tour.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AVD_for_Nexus_S_by_Google" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BusLook-A-Tour\MainActivity.cs">
+    <Files>
+      <File FileName="BusLook-A-Tour\MainActivity.cs" Line="4" Column="4" />
+      <File FileName="BusLook-A-Tour\BusStopResponse.cs" Line="1" Column="1" />
+      <File FileName="BusLook-A-Tour\DataAdapter.cs" Line="1" Column="1" />
+      <File FileName="BusLook-A-Tour\ParseHandler.cs" Line="1" Column="1" />
+      <File FileName="BusLook-A-Tour\UpdateActivity.cs" Line="1" Column="1" />
+      <File FileName="BusLook-A-Tour\WebViewActicity.cs" Line="1" Column="1" />
+      <File FileName="BusLook-A-Tour\Busit.cs" Line="1" Column="1" />
+      <File FileName="BusLook-A-Tour\App.cs" Line="1" Column="1" />
+      <File FileName="BusLook-A-Tour\Resources\values\Strings.xml" Line="1" Column="1" />
+      <File FileName="BusLook-A-Tour\Properties\AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="BusLook-A-Tour\Properties\AndroidManifest.xml" Line="12" Column="12" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="BusLook-A-Tour" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="ComponentReferenceFolder" expanded="True" />
+            <Node name="Packages" expanded="True" />
+            <Node name="Properties" expanded="True" />
+            <Node name="Resources" expanded="True" />
+            <Node name="MainActivity.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BusLook-A-Tour MonoForAntroid.PreferredDevice="Nexus 4" MonoForAntroid.PreferredTheme="Theme.Holo.Light.DarkActionBar" />
+</Properties>
