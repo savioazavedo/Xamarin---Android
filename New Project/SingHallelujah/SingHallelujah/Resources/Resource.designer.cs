@@ -951,6 +951,9 @@ namespace SingHallelujah
 			// aapt resource value: 0x7f04000b
 			public const int abs__up = 2130968587;
 			
+			// aapt resource value: 0x7f040037
+			public const int cbxStart = 2130968631;
+			
 			// aapt resource value: 0x7f040009
 			public const int disableHome = 2130968585;
 			
@@ -969,8 +972,11 @@ namespace SingHallelujah
 			// aapt resource value: 0x7f040002
 			public const int listMode = 2130968578;
 			
-			// aapt resource value: 0x7f040038
-			public const int lstSongs = 2130968632;
+			// aapt resource value: 0x7f040039
+			public const int lstSongs = 2130968633;
+			
+			// aapt resource value: 0x7f04003a
+			public const int menu_item_share_action_provider_action_bar = 2130968634;
 			
 			// aapt resource value: 0x7f040001
 			public const int normal = 2130968577;
@@ -993,8 +999,8 @@ namespace SingHallelujah
 			// aapt resource value: 0x7f040003
 			public const int tabMode = 2130968579;
 			
-			// aapt resource value: 0x7f040037
-			public const int txtSongLyrics = 2130968631;
+			// aapt resource value: 0x7f040038
+			public const int txtSongLyrics = 2130968632;
 			
 			// aapt resource value: 0x7f040036
 			public const int txtSongTitle = 2130968630;
@@ -1118,6 +1124,22 @@ namespace SingHallelujah
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f0b0000
+			public const int share_action_provider = 2131427328;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}

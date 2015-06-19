@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using System.Collections.Generic;
-
 
 namespace SingHallelujah
 {
@@ -27,7 +27,7 @@ namespace SingHallelujah
 				}
 
 			} catch(Exception e) {
-				Console.WriteLine ("Error:" + e.Message);
+				Console.WriteLine("Error:" + e.Message);
 				return null;
 			}
 		}
@@ -45,10 +45,53 @@ namespace SingHallelujah
 				}
 
 			} catch(Exception e) {
-				Console.WriteLine ("Error:" + e.Message);
+				Console.WriteLine("Error:" + e.Message);
 				return null;
 			}
 		}
+
+		public void AddToFavorites(int Songid,Boolean bFavorite)
+		{
+			try
+			{
+				using (var conn = new SQLite.SQLiteConnection (dbPath)) {
+					var cmd = new SQLite.SQLiteCommand (conn);
+					cmd.CommandText = "Update tblSongs set Favorite='" + bFavorite + "' where songID=" + Songid; 
+					var SongCount = cmd.ExecuteNonQuery();
+				}
+
+			} catch(Exception e) {
+				Console.WriteLine("Error:" + e.Message);
+			}
+		}
+
+		public Boolean CheckFavorite(int SongId)
+		{
+			try
+			{
+				using (var conn = new SQLite.SQLiteConnection (dbPath)) {
+					var cmd = new SQLite.SQLiteCommand (conn);
+					cmd.CommandText = "select * from tblSongs where songID=" + SongId; ; 
+					var SongList = cmd.ExecuteQuery <Song>();
+
+					if(SongList.Count >=1) 
+					{
+						//return true;
+						if(SongList[0].Favorite == "True")
+							return true;
+						else 
+							return false;
+					} else {
+						return false;
+					}
+				}
+			} catch(Exception e) {
+				Console.WriteLine("Error:" + e.Message);
+				return false;
+			}
+		}
+
+
 	}
 }
 

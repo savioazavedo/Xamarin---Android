@@ -7,9 +7,10 @@ namespace SingHallelujah
 	{
 	
 		[PrimaryKey, AutoIncrement]
-		public int SongID { get; set; }
+		public int SongId { get; set; }
 		public string SongName { get; set; }
 		public string Lyrics { get; set; }
+		public string Favorite { get; set;}
 
 		public Song ()
 		{

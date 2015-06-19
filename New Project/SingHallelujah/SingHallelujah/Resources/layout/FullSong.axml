@@ -19,6 +19,13 @@
             android:id="@+id/txtSongTitle"
             android:gravity="center_horizontal"
             android:layout_margin="5dp" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cbxStart"
+            android:button="@android:drawable/btn_star"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center" />
         <TextView
             android:text="Song Lyrics"
             android:textAppearance="?android:attr/textAppearanceMedium"

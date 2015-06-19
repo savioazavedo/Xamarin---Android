@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 using Android.App;
 using Android.Content;
@@ -33,23 +34,46 @@ namespace SingHallelujah
 		static string dbName = "SingHalleluiah.sqlite";
 		string dbPath = Path.Combine (Android.OS.Environment.ExternalStorageDirectory.ToString (), dbName);
 		DatabaseManager objDb = new DatabaseManager();
+		bool favorites= false;
+
 
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 
 			// Set our view from the "main" layout resource
-			SetTheme (Resource.Style.Theme_Sherlock);
+			SetTheme (Resource.Style.Theme_Sherlock_Light_DarkActionBar);
 			base.OnCreate (bundle);
 			SetContentView (Resource.Layout.Main);
 
 			CopyDatabase ();
 
-			myList = objDb.ViewAll();
-
 			lstSongList = FindViewById <ListView>(Resource.Id.lstSongs);
-			lstSongList.Adapter = new DataAdapter(this,myList);
+			LoadAll ();
 			lstSongList.ItemClick += lstSongListClick; 
+		}
+
+		protected override void OnResume ()
+		{
+			base.OnResume ();
+
+			if (favorites == true) {
+				LoadFavorites ();
+			} else {
+				LoadAll ();
+			}
+		}
+
+		public void LoadFavorites()
+		{
+			myList = objDb.ViewAll().FindAll(p => p.Favorite == "True").ToList();
+			lstSongList.Adapter = new DataAdapter(this,myList);
+		}
+
+		public void LoadAll()
+		{
+			myList = objDb.ViewAll();
+			lstSongList.Adapter = new DataAdapter(this,myList);
 		}
 
 		void lstSongListClick (object sender, AdapterView.ItemClickEventArgs e)
@@ -57,8 +81,10 @@ namespace SingHallelujah
 			var SongItem = myList[e.Position];
 			var fullsong = new Intent (this, typeof(FullSong));
 
+			fullsong.PutExtra ("SongId",SongItem.SongId);
 			fullsong.PutExtra ("SongTitle", SongItem.SongName );
 			fullsong.PutExtra ("SongLyrics", SongItem.Lyrics);
+			fullsong.PutExtra ("Favorite",SongItem.Favorite);
 
 			StartActivity (fullsong);
 		}
@@ -69,25 +95,26 @@ namespace SingHallelujah
 
 			try{
 
-			if (!File.Exists(dbPath))
-			{
-				using (BinaryReader br = new BinaryReader(Assets.Open(dbName)))
+				if (!File.Exists(dbPath))
 				{
-					using (BinaryWriter bw = new BinaryWriter(new FileStream(dbPath, FileMode.Create)))
+					using (BinaryReader br = new BinaryReader(Assets.Open(dbName)))
 					{
-						byte[] buffer = new byte[2048];
-						int len = 0;
-						while ((len = br.Read(buffer, 0, buffer.Length)) > 0)
+						using (BinaryWriter bw = new BinaryWriter(new FileStream(dbPath, FileMode.Create)))
 						{
-							bw.Write (buffer, 0, len);
+							byte[] buffer = new byte[2048];
+							int len = 0;
+							while ((len = br.Read(buffer, 0, buffer.Length)) > 0)
+							{
+								bw.Write (buffer, 0, len);
+							}
 						}
 					}
 				}
-			}
 
-			} catch (Exception ex){
-
-
+			} catch (Exception ex) {
+				Toast.MakeText (this,"Error in copying the song database" + ex.Message,ToastLength.Long).Show ();
+				dbPath = Path.Combine (Android.OS.Environment.ExternalStorageDirectory.ToString (), dbName);
+				CopyDatabase ();
 			}
 		}
 			
@@ -107,8 +134,36 @@ namespace SingHallelujah
 				.SetActionView (searchView)
 				.SetShowAsAction (MenuItem.ShowAsActionIfRoom | MenuItem.ShowAsActionCollapseActionView);
 
+			menu.Add ("Favorites")
+				.SetShowAsAction (MenuItem.ShowAsActionIfRoom | MenuItem.ShowAsActionCollapseActionView);
+
+
 			return true;
 		}
+
+		public override bool OnOptionsItemSelected(Xamarin.ActionbarSherlockBinding.Views.IMenuItem item)
+		{
+			var itemTitle = item.TitleFormatted.ToString();
+
+			switch (itemTitle)
+			{
+
+			case "Favorites":
+				item.SetTitle ("All");
+				favorites = true;
+				LoadFavorites ();
+				break;
+
+			case "All":
+				item.SetTitle ("Favorites");
+				LoadAll ();
+				favorites = false;
+				break;
+			}
+
+			return base.OnOptionsItemSelected(item);
+		}
+
 
 
 		public bool OnQueryTextSubmit (String query)

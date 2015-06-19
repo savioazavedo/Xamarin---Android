@@ -63,7 +63,7 @@ namespace SingHallelujah
 				view = context.LayoutInflater.Inflate(Resource.Layout.CustomRow, null);
 
 			view.FindViewById<TextView>(Resource.Id.lbltitle).Text = item.SongName;
-			view.FindViewById<TextView> (Resource.Id.lbldescription).Text = item.Lyrics.Substring(0,20) + " ...";
+			view.FindViewById<TextView> (Resource.Id.lbldescription).Text = Helper.Instance.ProcessString(item.Lyrics);
 			return view;
 		}
 			
