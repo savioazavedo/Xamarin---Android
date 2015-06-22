@@ -2,4 +2,8 @@
 <resources>
 	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">Sing Hallelujah</string>
+	<style name="Theme.Splash" parent ="android:Theme">
+		<item name ="android:windowBackground">@drawable/splashscreen</item>
+		<item name = "android:windowNoTitle">true</item>
+	</style>
 </resources>

@@ -821,6 +821,9 @@ namespace SingHallelujah
 			// aapt resource value: 0x7f020074
 			public const int list_selector = 2130837620;
 			
+			// aapt resource value: 0x7f020075
+			public const int splashscreen = 2130837621;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -1331,6 +1334,9 @@ namespace SingHallelujah
 			// aapt resource value: 0x7f0a0057
 			public const int Theme_Sherlock_NoActionBar = 2131361879;
 			
+			// aapt resource value: 0x7f0a0059
+			public const int Theme_Splash = 2131361881;
+			
 			// aapt resource value: 0x7f0a0000
 			public const int Widget = 2131361792;
 			
@@ -1765,7 +1771,7 @@ namespace SingHallelujah
 					16843362,
 					16843436,
 					16843437,
-					16843834};
+					16844084};
 			
 			// aapt resource value: 5
 			public const int SherlockSpinner_android_dropDownHorizontalOffset = 5;

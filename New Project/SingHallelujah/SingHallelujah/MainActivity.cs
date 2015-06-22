@@ -23,7 +23,7 @@ using System.Collections.Generic;
 
 namespace SingHallelujah
 {
-	[Activity (Label = "Sing Hallelujah", MainLauncher = true, Icon = "@drawable/icon")]
+	[Activity (Label = "Sing Hallelujah", Icon = "@drawable/icon")]
 
 	public class MainActivity : SherlockActivity,SearchView.IOnQueryTextListener,SearchView.IOnSuggestionListener
 	{

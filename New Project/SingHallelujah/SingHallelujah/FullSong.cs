@@ -25,7 +25,7 @@ using System.Collections.Generic;
 
 namespace SingHallelujah
 {
-	[Activity (Label = "Sing Hallelujah")]			
+	[Activity (Label = "Sing Hallelujah", Icon = "@drawable/icon")]			
 	public class FullSong : SherlockActivity
 	{
 
