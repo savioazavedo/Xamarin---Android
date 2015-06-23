@@ -19,16 +19,26 @@ using CursorAdapter = Android.Support.V4.Widget.CursorAdapter;
 using IMenu = Xamarin.ActionbarSherlockBinding.Views.IMenu;
 using System.IO;
 using System.Collections.Generic;
+using AndroidHUD;
 
 
 namespace SingHallelujah
 {
 	[Activity (Label = "Sing Hallelujah", Icon = "@drawable/icon")]
 
-	public class MainActivity : SherlockActivity,SearchView.IOnQueryTextListener,SearchView.IOnSuggestionListener
+	public class MainActivity : SherlockActivity,SearchView.IOnQueryTextListener,SearchView.IOnSuggestionListener, Android.Hardware.ISensorEventListener
 	{
 		//int count = 1;
 
+		 bool hasUpdated = false;
+   		 DateTime lastUpdate;
+    		 float last_x = 0.0f;
+    		 float last_y = 0.0f;
+    		 float last_z = 0.0f;
+
+    		 const int ShakeDetectionTimeLapse = 450;
+    		 const double ShakeThreshold = 800;
+			
 		ListView lstSongList;
 		List<Song> myList;
 		static string dbName = "SingHalleluiah.sqlite";
@@ -50,7 +60,14 @@ namespace SingHallelujah
 
 			lstSongList = FindViewById <ListView>(Resource.Id.lstSongs);
 			LoadAll ();
+
+			AndHUD.Shared.ShowToast(this, "Search for a song \n or \n just Shake", MaskType.Clear, TimeSpan.FromSeconds(4));
 			lstSongList.ItemClick += lstSongListClick; 
+
+			// Register this as a listener with the underlying service.
+        		var sensorManager = GetSystemService (SensorService) as Android.Hardware.SensorManager;
+        		var sensor = sensorManager.GetDefaultSensor (Android.Hardware.SensorType.Accelerometer);
+        		sensorManager.RegisterListener(this, sensor, Android.Hardware.SensorDelay.Game);
 		}
 
 		protected override void OnResume ()
@@ -113,7 +130,7 @@ namespace SingHallelujah
 
 			} catch (Exception ex) {
 				Toast.MakeText (this,"Error in copying the song database" + ex.Message,ToastLength.Long).Show ();
-				dbPath = Path.Combine (Android.OS.Environment.ExternalStorageDirectory.ToString (), dbName);
+				dbPath = Path.Combine (Android.OS.Environment.DataDirectory.ToString (), dbName);
 				CopyDatabase ();
 			}
 		}
@@ -189,6 +206,50 @@ namespace SingHallelujah
 			Toast.MakeText (this, "Suggestion clicked: ", ToastLength.Long).Show ();
 			return true;
 		}
+
+		 #region Android.Hardware.ISensorEventListener implementation
+
+    public void OnAccuracyChanged (Android.Hardware.Sensor sensor, Android.Hardware.SensorStatus accuracy)
+    {
+    }
+
+    public void OnSensorChanged (Android.Hardware.SensorEvent e)
+    {
+        if (e.Sensor.Type == Android.Hardware.SensorType.Accelerometer)
+        {
+            float x = e.Values[0];
+            float y = e.Values[1];
+            float z = e.Values[2];
+
+            DateTime curTime = System.DateTime.Now;
+            if (hasUpdated == false)
+            {
+                hasUpdated = true;
+                lastUpdate = curTime;
+                last_x = x;
+                last_y = y;
+                last_z = z;
+            }
+            else
+            {
+                if ((curTime - lastUpdate).TotalMilliseconds > ShakeDetectionTimeLapse) {
+                    float diffTime = (float)(curTime - lastUpdate).TotalMilliseconds;
+                    lastUpdate = curTime;
+                    float total = x + y + z - last_x - last_y - last_z;
+                    float speed = Math.Abs(total) / diffTime * 10000;
+
+                    if (speed > ShakeThreshold) {
+                        Toast.MakeText(this, "shake detected w/ speed: " + speed, ToastLength.Short).Show();
+                    }
+
+                    last_x = x;
+                    last_y = y;
+                    last_z = z;
+                }
+            }
+        }
+    }
+    #endregion
 	}
 }
 

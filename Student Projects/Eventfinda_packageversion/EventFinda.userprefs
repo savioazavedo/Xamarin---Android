@@ -3,16 +3,18 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="EventFinda\SearchEvent.cs">
     <Files>
       <File FileName="EventFinda\DataAdapter.cs" Line="4" Column="4" />
-      <File FileName="EventFinda\SearchEvent.cs" Line="66" Column="66" />
-      <File FileName="EventFinda\SearchCategory.cs" Line="18" Column="18" />
-      <File FileName="EventFinda\MainActivity.cs" Line="78" Column="78" />
+      <File FileName="EventFinda\SearchEvent.cs" Line="41" Column="41" />
+      <File FileName="EventFinda\SearchCategory.cs" Line="23" Column="23" />
+      <File FileName="EventFinda\MainActivity.cs" Line="51" Column="51" />
       <File FileName="EventFinda\SearchEventbyName.cs" Line="3" Column="3" />
-      <File FileName="EventFinda\FreeList.cs" Line="70" Column="70" />
+      <File FileName="EventFinda\FreeList.cs" Line="1" Column="1" />
       <File FileName="EventFinda\Detail.cs" Line="1" Column="1" />
-      <File FileName="EventFinda\NearbyList.cs" Line="1" Column="1" />
-      <File FileName="EventFinda\ResponseEvents.cs" Line="1" Column="1" />
+      <File FileName="EventFinda\NearbyList.cs" Line="51" Column="51" />
+      <File FileName="EventFinda\ResponseEvents.cs" Line="37" Column="37" />
       <File FileName="EventFinda\RestHandler.cs" Line="1" Column="1" />
-      <File FileName="EventFinda\PopularList.cs" Line="12" Column="12" />
+      <File FileName="EventFinda\PopularList.cs" Line="1" Column="1" />
+      <File FileName="EventFinda\Properties\AndroidManifest.xml" Line="71" Column="71" />
+      <File FileName="EventFinda\splash.cs" Line="4" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
