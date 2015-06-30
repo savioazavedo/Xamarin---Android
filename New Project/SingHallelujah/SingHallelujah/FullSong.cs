@@ -102,6 +102,40 @@ namespace SingHallelujah
 			}
 		}
 
+//		public void ShuffleSong()
+//		{
+//
+//			// find favorite Count
+//
+//			int favCount = objDb.ViewAll().FindAll(p => p.Favorite == "True").ToList().Count();
+//
+//			if (favCount > 10) {
+//				// select from the favorite list
+//
+//				Random r = new Random ();
+//				int songno = r.Next (0, favCount - 1);
+//
+//
+//			} else {
+//				// select from all list
+//				int allCount = objDb.ViewAll ().Count();
+//
+//				Random r = new Random ();
+//				int songno = r.Next (0, allCount - 1);
+//
+//			}
+//
+//		}
+//
+//		public void OpenSong(int position)
+//		{
+//			var SongItem = objDb.ViewAll()[position];
+//
+//			txtSongTitle.Text = SongItem.SongName;
+//			txtSongLyrics.Text = Helper.Instance.RemoveQuote(SongItem.Lyrics);
+//
+//		}
+
 
 	}
 }

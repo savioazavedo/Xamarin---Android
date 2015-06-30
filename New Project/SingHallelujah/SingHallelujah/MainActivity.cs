@@ -30,14 +30,14 @@ namespace SingHallelujah
 	{
 		//int count = 1;
 
-		 bool hasUpdated = false;
-   		 DateTime lastUpdate;
-    		 float last_x = 0.0f;
-    		 float last_y = 0.0f;
-    		 float last_z = 0.0f;
+		bool hasUpdated = false;
+   		DateTime lastUpdate;
+		float last_x = 0.0f;
+		float last_y = 0.0f;
+		float last_z = 0.0f;
 
-    		 const int ShakeDetectionTimeLapse = 450;
-    		 const double ShakeThreshold = 800;
+		const int ShakeDetectionTimeLapse = 450;
+		const double ShakeThreshold = 500;
 			
 		ListView lstSongList;
 		List<Song> myList;
@@ -45,6 +45,7 @@ namespace SingHallelujah
 		string dbPath = Path.Combine (Android.OS.Environment.ExternalStorageDirectory.ToString (), dbName);
 		DatabaseManager objDb = new DatabaseManager();
 		bool favorites= false;
+		bool shuffle = false;
 
 
 		protected override void OnCreate (Bundle bundle)
@@ -65,9 +66,9 @@ namespace SingHallelujah
 			lstSongList.ItemClick += lstSongListClick; 
 
 			// Register this as a listener with the underlying service.
-        		var sensorManager = GetSystemService (SensorService) as Android.Hardware.SensorManager;
-        		var sensor = sensorManager.GetDefaultSensor (Android.Hardware.SensorType.Accelerometer);
-        		sensorManager.RegisterListener(this, sensor, Android.Hardware.SensorDelay.Game);
+    		var sensorManager = GetSystemService (SensorService) as Android.Hardware.SensorManager;
+    		var sensor = sensorManager.GetDefaultSensor (Android.Hardware.SensorType.Accelerometer);
+    		sensorManager.RegisterListener(this, sensor, Android.Hardware.SensorDelay.Game);
 		}
 
 		protected override void OnResume ()
@@ -112,8 +113,8 @@ namespace SingHallelujah
 
 			try{
 
-				if (!File.Exists(dbPath))
-				{
+				//if (!File.Exists(dbPath))
+				//{
 					using (BinaryReader br = new BinaryReader(Assets.Open(dbName)))
 					{
 						using (BinaryWriter bw = new BinaryWriter(new FileStream(dbPath, FileMode.Create)))
@@ -126,7 +127,7 @@ namespace SingHallelujah
 							}
 						}
 					}
-				}
+				//}
 
 			} catch (Exception ex) {
 				Toast.MakeText (this,"Error in copying the song database" + ex.Message,ToastLength.Long).Show ();
@@ -209,47 +210,95 @@ namespace SingHallelujah
 
 		 #region Android.Hardware.ISensorEventListener implementation
 
-    public void OnAccuracyChanged (Android.Hardware.Sensor sensor, Android.Hardware.SensorStatus accuracy)
-    {
-    }
+	    public void OnAccuracyChanged (Android.Hardware.Sensor sensor, Android.Hardware.SensorStatus accuracy)
+	    {
+	    }
 
-    public void OnSensorChanged (Android.Hardware.SensorEvent e)
-    {
-        if (e.Sensor.Type == Android.Hardware.SensorType.Accelerometer)
-        {
-            float x = e.Values[0];
-            float y = e.Values[1];
-            float z = e.Values[2];
+	    public void OnSensorChanged (Android.Hardware.SensorEvent e)
+	    {
+	        if (e.Sensor.Type == Android.Hardware.SensorType.Accelerometer)
+	        {
+	            float x = e.Values[0];
+	            float y = e.Values[1];
+	            float z = e.Values[2];
 
-            DateTime curTime = System.DateTime.Now;
-            if (hasUpdated == false)
-            {
-                hasUpdated = true;
-                lastUpdate = curTime;
-                last_x = x;
-                last_y = y;
-                last_z = z;
-            }
-            else
-            {
-                if ((curTime - lastUpdate).TotalMilliseconds > ShakeDetectionTimeLapse) {
-                    float diffTime = (float)(curTime - lastUpdate).TotalMilliseconds;
-                    lastUpdate = curTime;
-                    float total = x + y + z - last_x - last_y - last_z;
-                    float speed = Math.Abs(total) / diffTime * 10000;
+	            DateTime curTime = System.DateTime.Now;
+	            if (hasUpdated == false)
+	            {
+	                hasUpdated = true;
+	                lastUpdate = curTime;
+	                last_x = x;
+	                last_y = y;
+	                last_z = z;
+	            }
+	            else
+	            {
+	                if ((curTime - lastUpdate).TotalMilliseconds > ShakeDetectionTimeLapse) {
+	                    float diffTime = (float)(curTime - lastUpdate).TotalMilliseconds;
+	                    lastUpdate = curTime;
+	                    float total = x + y + z - last_x - last_y - last_z;
+	                    float speed = Math.Abs(total) / diffTime * 10000;
 
-                    if (speed > ShakeThreshold) {
-                        Toast.MakeText(this, "shake detected w/ speed: " + speed, ToastLength.Short).Show();
-                    }
+	                    if (speed > ShakeThreshold) {
+	                        
+							// Consuming one of the multiple shakes
 
-                    last_x = x;
-                    last_y = y;
-                    last_z = z;
-                }
-            }
-        }
-    }
-    #endregion
+							//if (shuffle == false) {
+							//	Toast.MakeText (this, "shake detected w/ speed: " + speed, ToastLength.Short).Show ();
+								ShuffleSong ();
+							//	shuffle = true;
+							//} else {
+							//	shuffle = true;
+							//}
+	                    }
+
+	                    last_x = x;
+	                    last_y = y;
+	                    last_z = z;
+	                }
+	            }
+	        }
+	    }
+   		 #endregion
+
+		public void ShuffleSong()
+		{
+
+			// find favorite Count
+
+			int favCount = objDb.ViewAll().FindAll(p => p.Favorite == "True").ToList().Count();
+
+			if (favCount > 10) {
+				// select from the favorite list
+
+				Random r = new Random ();
+				int songno = r.Next (0, favCount - 1);
+				OpenSong (songno);
+
+			} else {
+				// select from all list
+				int allCount = objDb.ViewAll ().Count();
+
+				Random r = new Random ();
+				int songno = r.Next (0, allCount - 1);
+				OpenSong (songno);
+			}
+
+		}
+
+		public void OpenSong(int position)
+		{
+			var SongItem = myList[position];
+			var fullsong = new Intent (this, typeof(FullSong));
+
+			fullsong.PutExtra ("SongId",SongItem.SongId);
+			fullsong.PutExtra ("SongTitle", SongItem.SongName );
+			fullsong.PutExtra ("SongLyrics", SongItem.Lyrics);
+			fullsong.PutExtra ("Favorite",SongItem.Favorite);
+
+			StartActivity (fullsong);
+		}
+
 	}
 }
 
