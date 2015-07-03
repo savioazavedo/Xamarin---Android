@@ -44,6 +44,8 @@ namespace SingHallelujah
 			// Inflate your menu.
 			SupportMenuInflater.Inflate (Resource.Menu.share_action_provider, menu);
 
+			ActionBar.SetHomeButtonEnabled(true);
+			ActionBar.SetDisplayHomeAsUpEnabled (true);
 
 			var actionItem = menu.FindItem (Resource.Id.menu_item_share_action_provider_action_bar);
 			var actionProvider = (Xamarin.ActionbarSherlockBinding.Widget.ShareActionProvider)actionItem.ActionProvider;
@@ -63,6 +65,19 @@ namespace SingHallelujah
 			shareIntent.PutExtra(Android.Content.Intent.ExtraText,txtSongLyrics.Text);
 
 			return shareIntent;
+		}
+
+		public override bool OnOptionsItemSelected(Xamarin.ActionbarSherlockBinding.Views.IMenuItem item)
+		{
+			switch (item.ItemId)
+			{
+			case Android.Resource.Id.Home:
+				Finish();
+				return true;
+
+			default:
+				return base.OnOptionsItemSelected(item);
+			}
 		}
 
 		protected override void OnCreate (Bundle bundle)
@@ -101,41 +116,6 @@ namespace SingHallelujah
 				Toast.MakeText (this,"Removed from favorites",ToastLength.Short).Show ();
 			}
 		}
-
-//		public void ShuffleSong()
-//		{
-//
-//			// find favorite Count
-//
-//			int favCount = objDb.ViewAll().FindAll(p => p.Favorite == "True").ToList().Count();
-//
-//			if (favCount > 10) {
-//				// select from the favorite list
-//
-//				Random r = new Random ();
-//				int songno = r.Next (0, favCount - 1);
-//
-//
-//			} else {
-//				// select from all list
-//				int allCount = objDb.ViewAll ().Count();
-//
-//				Random r = new Random ();
-//				int songno = r.Next (0, allCount - 1);
-//
-//			}
-//
-//		}
-//
-//		public void OpenSong(int position)
-//		{
-//			var SongItem = objDb.ViewAll()[position];
-//
-//			txtSongTitle.Text = SongItem.SongName;
-//			txtSongLyrics.Text = Helper.Instance.RemoveQuote(SongItem.Lyrics);
-//
-//		}
-
 
 	}
 }

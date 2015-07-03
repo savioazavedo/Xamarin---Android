@@ -35,6 +35,14 @@ namespace SingHallelujah
 			string replacement = input.Replace ("\"", "") ;
 			return replacement;
 		}
+
+		public string RemoveTabsandSpaces(string input)
+		{
+			string replacement = Regex.Replace(input, @"\t|\n|\r", "");
+			replacement = Regex.Replace(replacement, @"  |   ", " ");;
+			return replacement;
+		}
+
 	}
 }
 

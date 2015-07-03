@@ -62,8 +62,8 @@ namespace SingHallelujah
 			if (view == null) // no view to re-use, create new
 				view = context.LayoutInflater.Inflate(Resource.Layout.CustomRow, null);
 
-			view.FindViewById<TextView>(Resource.Id.lbltitle).Text = item.SongName;
-			view.FindViewById<TextView> (Resource.Id.lbldescription).Text = Helper.Instance.ProcessString(item.Lyrics);
+			view.FindViewById<TextView>(Resource.Id.lbltitle).Text = Helper.Instance.RemoveTabsandSpaces(item.SongName).TrimStart();
+			view.FindViewById<TextView> (Resource.Id.lbldescription).Text = Helper.Instance.ProcessString(item.Lyrics).TrimStart();
 			return view;
 		}
 			

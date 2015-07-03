@@ -3,7 +3,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="EventFinda\SearchEvent.cs">
     <Files>
       <File FileName="EventFinda\DataAdapter.cs" Line="1" Column="1" />
-      <File FileName="EventFinda\SearchEvent.cs" Line="61" Column="61" />
+      <File FileName="EventFinda\SearchEvent.cs" Line="2" Column="2" />
       <File FileName="EventFinda\SearchCategory.cs" Line="1" Column="1" />
       <File FileName="EventFinda\MainActivity.cs" Line="1" Column="1" />
       <File FileName="EventFinda\SearchEventbyName.cs" Line="1" Column="1" />
