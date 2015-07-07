@@ -175,7 +175,8 @@ namespace SingHallelujah
 			
 		public bool OnQueryTextSubmit (String query)
 		{
-			Toast.MakeText (this, "You searched for: " + query, ToastLength.Long).Show ();
+			myList = objDb.SearchByName(query);
+			lstSongList.Adapter = new DataAdapter(this,myList);
 			return true;
 		}
 
