@@ -1,15 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.84dbac6f9c56" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SingHallelujah\DatabaseManager.cs">
-    <Files>
-      <File FileName="SingHallelujah\FullSong.cs" Line="36" Column="36" />
-      <File FileName="SingHallelujah\DataAdapter.cs" Line="21" Column="21" />
-      <File FileName="SingHallelujah\DatabaseManager.cs" Line="7" Column="7" />
-      <File FileName="SingHallelujah\Singleton.cs" Line="4" Column="4" />
-      <File FileName="SingHallelujah\MainActivity.cs" Line="27" Column="27" />
-      <File FileName="SingHallelujah\Song.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.4100d56c49779000" />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -48,6 +48,7 @@ namespace SingHallelujah
 
 			// Set our view from the "main" layout resource
 			SetTheme (Resource.Style.Theme_Sherlock_Light_DarkActionBar);
+
 			base.OnCreate (bundle);
 			SetContentView (Resource.Layout.Main);
 
@@ -58,6 +59,8 @@ namespace SingHallelujah
 
 			AndHUD.Shared.ShowToast(this, "Search for a song", MaskType.Clear, TimeSpan.FromSeconds(4));
 			lstSongList.ItemClick += lstSongListClick; 
+
+			lstSongList.FastScrollEnabled = true;
 		}
 
 		protected override void OnResume ()
@@ -85,6 +88,7 @@ namespace SingHallelujah
 
 		void lstSongListClick (object sender, AdapterView.ItemClickEventArgs e)
 		{
+
 			var SongItem = myList[e.Position];
 			var fullsong = new Intent (this, typeof(FullSong));
 
@@ -92,7 +96,7 @@ namespace SingHallelujah
 			fullsong.PutExtra ("SongTitle", SongItem.SongName );
 			fullsong.PutExtra ("SongLyrics", SongItem.Lyrics);
 			fullsong.PutExtra ("Favorite",SongItem.Favorite);
-
+		
 			StartActivity (fullsong);
 		}
 
