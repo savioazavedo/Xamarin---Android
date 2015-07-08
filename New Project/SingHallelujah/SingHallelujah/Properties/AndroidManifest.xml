@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="SingHallelujah.SingHallelujah" android:installLocation="preferExternal">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" android:installLocation="preferExternal" package="com.singhallelujah">
 	<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="21" />
-	<application android:label="SingHallelujah" android:theme="@android:style/Theme.DeviceDefault.Light"></application>
+	<application android:label="Sing Hallelujah" android:theme="@android:style/Theme.DeviceDefault.Light"></application>
 	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 </manifest>

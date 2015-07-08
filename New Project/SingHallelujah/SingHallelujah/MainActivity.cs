@@ -52,12 +52,14 @@ namespace SingHallelujah
 			base.OnCreate (bundle);
 			SetContentView (Resource.Layout.Main);
 
+			AndHUD.Shared.ShowToast(this, "Loading Songs", MaskType.Clear, TimeSpan.FromSeconds(4));
+
 			CopyDatabase ();
 
 			lstSongList = FindViewById <ListView>(Resource.Id.lstSongs);
 			LoadAll ();
 
-			AndHUD.Shared.ShowToast(this, "Search for a song", MaskType.Clear, TimeSpan.FromSeconds(4));
+
 			lstSongList.ItemClick += lstSongListClick; 
 
 			lstSongList.FastScrollEnabled = true;

@@ -52,7 +52,10 @@ namespace SingHallelujah
 			//actionProvider.SetShareHistoryFileName (Xamarin.ActionbarSherlockBinding.Widget.ShareActionProvider.DefaultShareHistoryFileName);
 
 			actionProvider.SetShareIntent (CreateShareIntent ());
-		
+
+			menu.Add ("Credits")
+				.SetShowAsAction (MenuItem.ShowAsActionIfRoom | MenuItem.ShowAsActionCollapseActionView);
+				
 			return true;
 		}
 
@@ -69,6 +72,14 @@ namespace SingHallelujah
 
 		public override bool OnOptionsItemSelected(Xamarin.ActionbarSherlockBinding.Views.IMenuItem item)
 		{
+			var itemTitle = item.TitleFormatted.ToString();
+
+			if(itemTitle == "Credits")
+			{
+
+				OpenModalDialog ();
+			}
+
 			switch (item.ItemId)
 			{
 			case Android.Resource.Id.Home:
@@ -79,6 +90,17 @@ namespace SingHallelujah
 				return base.OnOptionsItemSelected(item);
 			}
 		}
+
+		public void OpenModalDialog()
+		{
+			var builder = new AlertDialog.Builder(this);
+			builder.SetTitle("Sing Hallelujah");
+			builder.SetMessage ("Thanks to Ajesh Bellakonda who helped in preparing the database of songs.\nA true Jesus Youth at heart.");
+			builder.SetPositiveButton("Ok", (sender, args) => { /* do stuff on OK */ });
+			builder.SetCancelable(false);
+			builder.Show ();
+		}
+
 
 		protected override void OnCreate (Bundle bundle)
 		{
