@@ -1,15 +1,16 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.84dbac6f9c56" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SingHallelujah\DatabaseManager.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SingHallelujah\Properties\AndroidManifest.xml">
     <Files>
-      <File FileName="SingHallelujah\MainActivity.cs" Line="3" Column="3" />
-      <File FileName="SingHallelujah\DatabaseManager.cs" Line="48" Column="48" />
-      <File FileName="SingHallelujah\DataAdapter.cs" Line="2" Column="2" />
-      <File FileName="SingHallelujah\Singleton.cs" Line="21" Column="21" />
-      <File FileName="SingHallelujah\Song.cs" Line="31" Column="31" />
-      <File FileName="SingHallelujah\FullSong.cs" Line="38" Column="38" />
-      <File FileName="SingHallelujah\Properties\AssemblyInfo.cs" Line="43" Column="43" />
-      <File FileName="SingHallelujah\Properties\AndroidManifest.xml" Line="12" Column="12" />
+      <File FileName="SingHallelujah\MainActivity.cs" Line="1" Column="1" />
+      <File FileName="SingHallelujah\DatabaseManager.cs" Line="26" Column="26" />
+      <File FileName="SingHallelujah\DataAdapter.cs" Line="1" Column="1" />
+      <File FileName="SingHallelujah\Singleton.cs" Line="1" Column="1" />
+      <File FileName="SingHallelujah\Song.cs" Line="1" Column="1" />
+      <File FileName="SingHallelujah\FullSong.cs" Line="1" Column="1" />
+      <File FileName="SingHallelujah\Properties\AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="SingHallelujah\Properties\AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="SingHallelujah\Assets\AboutAssets.txt" Line="74" Column="74" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
