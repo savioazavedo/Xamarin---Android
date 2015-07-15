@@ -41,7 +41,6 @@ namespace SingHallelujah
 		bool favorites= false;
 		bool shuffle = false;
 
-
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);

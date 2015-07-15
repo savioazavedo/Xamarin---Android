@@ -1,9 +1,9 @@
 ﻿<Properties StartupItem="EventFinda\EventFinda.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.AVD_for_Nexus_S_by_Google" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.4100d56c49779000" />
   <MonoDevelop.Ide.Workbench ActiveDocument="EventFinda\SearchEvent.cs">
     <Files>
       <File FileName="EventFinda\DataAdapter.cs" Line="1" Column="1" />
-      <File FileName="EventFinda\SearchEvent.cs" Line="2" Column="2" />
+      <File FileName="EventFinda\SearchEvent.cs" Line="3" Column="3" />
       <File FileName="EventFinda\SearchCategory.cs" Line="1" Column="1" />
       <File FileName="EventFinda\MainActivity.cs" Line="1" Column="1" />
       <File FileName="EventFinda\SearchEventbyName.cs" Line="1" Column="1" />

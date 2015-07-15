@@ -1,0 +1,30 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.4100d56c49779000" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MaterialDesign\MainActivity.cs">
+    <Files>
+      <File FileName="MaterialDesign\MainActivity.cs" Line="4" Column="4" />
+      <File FileName="MaterialDesign\Properties\AndroidManifest.xml" Line="12" Column="12" />
+      <File FileName="MaterialDesign\Resources\menu\nav_menu.xml" Line="8" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="MaterialDesign" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="ComponentReferenceFolder" expanded="True" />
+            <Node name="Packages" expanded="True">
+              <Node name="Xamarin.Android.Support.Design" selected="True" />
+            </Node>
+            <Node name="Assets" expanded="True" />
+            <Node name="Properties" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MaterialDesign MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>
