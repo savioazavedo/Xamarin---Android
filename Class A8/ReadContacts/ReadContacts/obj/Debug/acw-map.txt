@@ -1,5 +1,0 @@
-ReadContacts.Activity1;readcontacts.Activity1
-Xamarin.AsyncQuery`1;xamarin.AsyncQuery_1
-Xamarin.Geolocation.GeolocationContinuousListener;xamarin.geolocation.GeolocationContinuousListener
-Xamarin.Geolocation.GeolocationSingleListener;xamarin.geolocation.GeolocationSingleListener
-Xamarin.Media.MediaPickerActivity;xamarin.media.MediaPickerActivity

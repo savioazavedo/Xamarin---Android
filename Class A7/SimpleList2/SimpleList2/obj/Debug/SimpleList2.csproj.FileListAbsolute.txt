@@ -11,3 +11,15 @@
 \\telmar\users\savio.azavedo\My Documents\Projects\SimpleList2\SimpleList2\obj\Debug\res\drawable\icon.png
 \\telmar\users\savio.azavedo\My Documents\Projects\SimpleList2\SimpleList2\obj\Debug\R.cs.flag
 \\telmar\users\savio.azavedo\My Documents\Projects\SimpleList2\SimpleList2\obj\Debug\uploadflags.txt
+C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\bin\Debug\SimpleList2.dll
+C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\bin\Debug\SimpleList2.pdb
+C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\bin\Debug\SimpleList2.SimpleList2.apk
+C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\bin\Debug\SimpleList2.SimpleList2-Signed.apk
+C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\obj\Debug\SimpleList2.dll
+C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\obj\Debug\SimpleList2.pdb
+C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\obj\Debug\android\bin\SimpleList2.SimpleList2.apk
+C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\obj\Debug\res\layout\main.xml
+C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\obj\Debug\res\values\strings.xml
+C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\obj\Debug\res\drawable\icon.png
+C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\obj\Debug\R.cs.flag
+C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\obj\Debug\uploadflags.txt

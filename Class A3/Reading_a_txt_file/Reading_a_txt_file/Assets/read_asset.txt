@@ -1,0 +1,15 @@
+﻿Assets provide a way to include arbitrary files like text, xml, 
+fonts, music, and video in your application. If you try to inclu
+de these files as "resources", Android will process them into it
+s resource system and you will not be able to get the raw data. 
+If you want to access data untouched, Assets are one way to do i
+t.Assets added to your project will show up just like a file syst
+em that can read from by your application using AssetManager.
+In this simple demo, we are going to add a text file asset to
+ our project, read it using AssetManager, and display it in a
+ TextView.Add Asset to ProjectAssets go in the Assets folder 
+of your project. Add a new text file to this folder called r
+ead_asset.txt. Place some text in it like "I came from an asset!".
+Next you have to tell Visual Studio that this is an asset file.
+ Bring up the properties window for the file and set the BuildA
+ction to AndroidAsset:

@@ -1,2 +1,0 @@
-\\telmar\users\savio.azavedo\My Documents\Projects\ReadContacts\ReadContacts\bin\Debug\ReadContacts.dll
-\\telmar\users\savio.azavedo\My Documents\Projects\ReadContacts\Components\xamarin.mobile-0.7.5\lib\android\Xamarin.Mobile.dll

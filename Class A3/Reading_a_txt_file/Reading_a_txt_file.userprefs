@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Reading_a_txt_file\Reading_a_txt_file.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.341af677" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Reading_a_txt_file\MainActivity.cs">
+    <Files>
+      <File FileName="Reading_a_txt_file\MainActivity.cs" Line="27" Column="27" />
+      <File FileName="Reading_a_txt_file\Assets\read_asset.txt" Line="62" Column="62" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Reading__a__txt__file MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>

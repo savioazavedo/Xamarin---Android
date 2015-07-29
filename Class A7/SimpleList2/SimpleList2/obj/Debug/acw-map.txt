@@ -1,1 +1,4 @@
-SimpleList2.MainActivity;simplelist2.MainActivity
+SimpleList2.MainActivity, SimpleList2;md560e4e801ee6b3bd026219e33916cc55a.MainActivity
+SimpleList2.MainActivity, SimpleList2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md560e4e801ee6b3bd026219e33916cc55a.MainActivity
+SimpleList2.MainActivity;md560e4e801ee6b3bd026219e33916cc55a.MainActivity
+simplelist2.MainActivity;md560e4e801ee6b3bd026219e33916cc55a.MainActivity
