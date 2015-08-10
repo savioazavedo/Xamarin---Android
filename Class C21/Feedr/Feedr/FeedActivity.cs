@@ -30,6 +30,8 @@ namespace Feedr
 			// Create your application here
 			SetContentView (Resource.Layout.Main);
 
+
+            
 			FeedList = FindViewById<ListView> (Resource.Id.Feedlist);
 			LoadFeeds ();
 		}

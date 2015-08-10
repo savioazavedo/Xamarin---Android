@@ -26,3 +26,17 @@ C:\gitHub\Xamarin---Android\Class 8\CustomList\CustomList\obj\Debug\res\drawable
 C:\gitHub\Xamarin---Android\Class 8\CustomList\CustomList\obj\Debug\res\layout\customrow.xml
 C:\gitHub\Xamarin---Android\Class 8\CustomList\CustomList\obj\Debug\R.cs.flag
 C:\gitHub\Xamarin---Android\Class 8\CustomList\CustomList\obj\Debug\uploadflags.txt
+C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\bin\Debug\CustomList.dll
+C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\bin\Debug\CustomList.pdb
+C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\bin\Debug\CustomList.CustomList.apk
+C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\bin\Debug\CustomList.CustomList-Signed.apk
+C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\CustomList.csprojResolveAssemblyReference.cache
+C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\CustomList.dll
+C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\CustomList.pdb
+C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\android\bin\CustomList.CustomList.apk
+C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\res\layout\main.xml
+C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\res\values\strings.xml
+C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\res\drawable\icon.png
+C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\res\layout\customrow.xml
+C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\R.cs.flag
+C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\uploadflags.txt

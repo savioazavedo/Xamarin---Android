@@ -1,2 +1,8 @@
-CustomList.MainActivity;customlist.MainActivity
-CustomList.DataAdapter;customlist.DataAdapter
+CustomList.MainActivity, CustomList;md5ac135dedc3f073f558dbae7ae7b1f61a.MainActivity
+CustomList.MainActivity, CustomList, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ac135dedc3f073f558dbae7ae7b1f61a.MainActivity
+CustomList.MainActivity;md5ac135dedc3f073f558dbae7ae7b1f61a.MainActivity
+customlist.MainActivity;md5ac135dedc3f073f558dbae7ae7b1f61a.MainActivity
+CustomList.DataAdapter, CustomList;md5ac135dedc3f073f558dbae7ae7b1f61a.DataAdapter
+CustomList.DataAdapter, CustomList, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ac135dedc3f073f558dbae7ae7b1f61a.DataAdapter
+CustomList.DataAdapter;md5ac135dedc3f073f558dbae7ae7b1f61a.DataAdapter
+customlist.DataAdapter;md5ac135dedc3f073f558dbae7ae7b1f61a.DataAdapter
