@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eeeeee">
+    <TextView
+        android:text="Locations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitle_Locations"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        android:typeface="normal"
+        android:textColor="#eeeeee"
+        android:background="#252525"
+        android:padding="10dp" />
+    <TextView
+        android:text="Add Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitle2_Locations"
+        android:textSize="18sp"
+        android:textColor="#3f3f3f"
+        android:background="#CCCCCC"
+        android:typeface="normal"
+        android:textStyle="bold"
+        android:padding="10dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editLocation_Locations"
+        android:singleLine="true" />
+    <Button
+        android:text="Check Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddLocation_Locations"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:text="Select Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitle3_Locations"
+        android:textSize="18sp"
+        android:textColor="#3f3f3f"
+        android:background="#CCCCCC"
+        android:typeface="normal"
+        android:textStyle="bold"
+        android:padding="10dp" />
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ListFavs_Locations"
+        android:divider="#000000" />
+</LinearLayout>

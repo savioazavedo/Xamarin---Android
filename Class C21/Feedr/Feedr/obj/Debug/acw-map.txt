@@ -1,6 +1,24 @@
-Feedr.MainActivity;feedr.MainActivity
-Feedr.App;feedr.App
-Feedr.RegisterUser;feedr.RegisterUser
-Feedr.FeedActivity;feedr.FeedActivity
-Feedr.AddPost;feedr.AddPost
-Feedr.DataAdapter;feedr.DataAdapter
+Feedr.MainActivity, Feedr;md50ee0a6596e0c038ae9ac7f7bb6e46733.MainActivity
+Feedr.MainActivity, Feedr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50ee0a6596e0c038ae9ac7f7bb6e46733.MainActivity
+Feedr.MainActivity;md50ee0a6596e0c038ae9ac7f7bb6e46733.MainActivity
+feedr.MainActivity;md50ee0a6596e0c038ae9ac7f7bb6e46733.MainActivity
+Feedr.App, Feedr;md50ee0a6596e0c038ae9ac7f7bb6e46733.App
+Feedr.App, Feedr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50ee0a6596e0c038ae9ac7f7bb6e46733.App
+Feedr.App;md50ee0a6596e0c038ae9ac7f7bb6e46733.App
+feedr.App;md50ee0a6596e0c038ae9ac7f7bb6e46733.App
+Feedr.RegisterUser, Feedr;md50ee0a6596e0c038ae9ac7f7bb6e46733.RegisterUser
+Feedr.RegisterUser, Feedr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50ee0a6596e0c038ae9ac7f7bb6e46733.RegisterUser
+Feedr.RegisterUser;md50ee0a6596e0c038ae9ac7f7bb6e46733.RegisterUser
+feedr.RegisterUser;md50ee0a6596e0c038ae9ac7f7bb6e46733.RegisterUser
+Feedr.FeedActivity, Feedr;md50ee0a6596e0c038ae9ac7f7bb6e46733.FeedActivity
+Feedr.FeedActivity, Feedr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50ee0a6596e0c038ae9ac7f7bb6e46733.FeedActivity
+Feedr.FeedActivity;md50ee0a6596e0c038ae9ac7f7bb6e46733.FeedActivity
+feedr.FeedActivity;md50ee0a6596e0c038ae9ac7f7bb6e46733.FeedActivity
+Feedr.AddPost, Feedr;md50ee0a6596e0c038ae9ac7f7bb6e46733.AddPost
+Feedr.AddPost, Feedr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50ee0a6596e0c038ae9ac7f7bb6e46733.AddPost
+Feedr.AddPost;md50ee0a6596e0c038ae9ac7f7bb6e46733.AddPost
+feedr.AddPost;md50ee0a6596e0c038ae9ac7f7bb6e46733.AddPost
+Feedr.DataAdapter, Feedr;md50ee0a6596e0c038ae9ac7f7bb6e46733.DataAdapter
+Feedr.DataAdapter, Feedr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50ee0a6596e0c038ae9ac7f7bb6e46733.DataAdapter
+Feedr.DataAdapter;md50ee0a6596e0c038ae9ac7f7bb6e46733.DataAdapter
+feedr.DataAdapter;md50ee0a6596e0c038ae9ac7f7bb6e46733.DataAdapter

@@ -1,1 +1,6 @@
-\\telmar\users\savio.azavedo\My Documents\Projects\BMICalculator\BMICalculator\bin\Debug\BMICalculator.dll
+C:\gitHub\Xamarin---Android\Class A2\BMICalculator\BMICalculator\obj\Debug\assemblies\BMICalculator.dll
+C:\gitHub\Xamarin---Android\Class A2\BMICalculator\BMICalculator\obj\Debug\assemblies\Mono.Android.dll
+C:\gitHub\Xamarin---Android\Class A2\BMICalculator\BMICalculator\obj\Debug\assemblies\mscorlib.dll
+C:\gitHub\Xamarin---Android\Class A2\BMICalculator\BMICalculator\obj\Debug\assemblies\System.Core.dll
+C:\gitHub\Xamarin---Android\Class A2\BMICalculator\BMICalculator\obj\Debug\assemblies\System.dll
+C:\gitHub\Xamarin---Android\Class A2\BMICalculator\BMICalculator\obj\Debug\assemblies\System.Xml.dll

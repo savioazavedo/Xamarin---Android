@@ -1,5 +1,20 @@
-ParseToDo.MainActivity;parsetodo.MainActivity
-ParseToDo.RegisterUser;parsetodo.RegisterUser
-ParseToDo.App;parsetodo.App
-ParseToDo.ViewList;parsetodo.ViewList
-ParseToDo.DataAdapter;parsetodo.DataAdapter
+ParseToDo.MainActivity, ParseToDo;md5de84e789be081f016a0945a66ae44089.MainActivity
+ParseToDo.MainActivity, ParseToDo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5de84e789be081f016a0945a66ae44089.MainActivity
+ParseToDo.MainActivity;md5de84e789be081f016a0945a66ae44089.MainActivity
+parsetodo.MainActivity;md5de84e789be081f016a0945a66ae44089.MainActivity
+ParseToDo.RegisterUser, ParseToDo;md5de84e789be081f016a0945a66ae44089.RegisterUser
+ParseToDo.RegisterUser, ParseToDo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5de84e789be081f016a0945a66ae44089.RegisterUser
+ParseToDo.RegisterUser;md5de84e789be081f016a0945a66ae44089.RegisterUser
+parsetodo.RegisterUser;md5de84e789be081f016a0945a66ae44089.RegisterUser
+ParseToDo.App, ParseToDo;md5de84e789be081f016a0945a66ae44089.App
+ParseToDo.App, ParseToDo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5de84e789be081f016a0945a66ae44089.App
+ParseToDo.App;md5de84e789be081f016a0945a66ae44089.App
+parsetodo.App;md5de84e789be081f016a0945a66ae44089.App
+ParseToDo.ViewList, ParseToDo;md5de84e789be081f016a0945a66ae44089.ViewList
+ParseToDo.ViewList, ParseToDo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5de84e789be081f016a0945a66ae44089.ViewList
+ParseToDo.ViewList;md5de84e789be081f016a0945a66ae44089.ViewList
+parsetodo.ViewList;md5de84e789be081f016a0945a66ae44089.ViewList
+ParseToDo.DataAdapter, ParseToDo;md5de84e789be081f016a0945a66ae44089.DataAdapter
+ParseToDo.DataAdapter, ParseToDo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5de84e789be081f016a0945a66ae44089.DataAdapter
+ParseToDo.DataAdapter;md5de84e789be081f016a0945a66ae44089.DataAdapter
+parsetodo.DataAdapter;md5de84e789be081f016a0945a66ae44089.DataAdapter

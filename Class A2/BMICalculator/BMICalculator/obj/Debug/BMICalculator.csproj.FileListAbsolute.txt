@@ -11,3 +11,16 @@
 \\telmar\users\savio.azavedo\My Documents\Projects\BMICalculator\BMICalculator\obj\Debug\res\drawable\icon.png
 \\telmar\users\savio.azavedo\My Documents\Projects\BMICalculator\BMICalculator\obj\Debug\R.cs.flag
 \\telmar\users\savio.azavedo\My Documents\Projects\BMICalculator\BMICalculator\obj\Debug\uploadflags.txt
+C:\gitHub\Xamarin---Android\Class A2\BMICalculator\BMICalculator\bin\Debug\BMICalculator.dll
+C:\gitHub\Xamarin---Android\Class A2\BMICalculator\BMICalculator\bin\Debug\BMICalculator.pdb
+C:\gitHub\Xamarin---Android\Class A2\BMICalculator\BMICalculator\bin\Debug\BMICalculator.BMICalculator.apk
+C:\gitHub\Xamarin---Android\Class A2\BMICalculator\BMICalculator\bin\Debug\BMICalculator.BMICalculator-Signed.apk
+C:\gitHub\Xamarin---Android\Class A2\BMICalculator\BMICalculator\obj\Debug\BMICalculator.csprojResolveAssemblyReference.cache
+C:\gitHub\Xamarin---Android\Class A2\BMICalculator\BMICalculator\obj\Debug\BMICalculator.dll
+C:\gitHub\Xamarin---Android\Class A2\BMICalculator\BMICalculator\obj\Debug\BMICalculator.pdb
+C:\gitHub\Xamarin---Android\Class A2\BMICalculator\BMICalculator\obj\Debug\android\bin\BMICalculator.BMICalculator.apk
+C:\gitHub\Xamarin---Android\Class A2\BMICalculator\BMICalculator\obj\Debug\res\layout\main.xml
+C:\gitHub\Xamarin---Android\Class A2\BMICalculator\BMICalculator\obj\Debug\res\values\strings.xml
+C:\gitHub\Xamarin---Android\Class A2\BMICalculator\BMICalculator\obj\Debug\res\drawable\icon.png
+C:\gitHub\Xamarin---Android\Class A2\BMICalculator\BMICalculator\obj\Debug\R.cs.flag
+C:\gitHub\Xamarin---Android\Class A2\BMICalculator\BMICalculator\obj\Debug\uploadflags.txt

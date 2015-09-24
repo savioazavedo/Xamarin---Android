@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMICalculator", "BMICalculator\BMICalculator.csproj", "{2A96A2C1-E1C7-41CF-A29D-6A7E8307BCAD}"
 EndProject
 Global
@@ -11,8 +13,12 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2A96A2C1-E1C7-41CF-A29D-6A7E8307BCAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2A96A2C1-E1C7-41CF-A29D-6A7E8307BCAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A96A2C1-E1C7-41CF-A29D-6A7E8307BCAD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{2A96A2C1-E1C7-41CF-A29D-6A7E8307BCAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A96A2C1-E1C7-41CF-A29D-6A7E8307BCAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = BMICalculator\BMICalculator.csproj

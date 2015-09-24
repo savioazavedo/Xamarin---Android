@@ -19,7 +19,7 @@ namespace ParseToDo
 
 			// Initialize the Parse client with your Application ID and .NET Key found on
 			// your Parse dashboard
-			ParseClient.Initialize("FS89tYpihCDsmsDLXGa3onAzUbL1eTfO2R3aePO0", "rjIhcoKg47uTmCFTiQaZud1qtiPTIAb4GPOsUTB5");
+			ParseClient.Initialize("ijyefB9T5VxmxRY98XLdMejw3dNRwB2unMOKWLQE", "oWhmNr2PmlDqjjhcr70g5BLubCX5fpEXwcNK9wTy");
 		}
 	}
 }

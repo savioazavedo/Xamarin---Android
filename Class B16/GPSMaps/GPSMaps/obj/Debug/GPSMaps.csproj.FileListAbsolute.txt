@@ -16,3 +16,21 @@ C:\gitHub\Xamarin---Android\Misc\GPSMaps\GPSMaps\obj\Debug\res\drawable\icon.png
 C:\gitHub\Xamarin---Android\Misc\GPSMaps\GPSMaps\obj\Debug\res\layout\map.xml
 C:\gitHub\Xamarin---Android\Misc\GPSMaps\GPSMaps\obj\Debug\R.cs.flag
 C:\gitHub\Xamarin---Android\Misc\GPSMaps\GPSMaps\obj\Debug\uploadflags.txt
+C:\gitHub\Xamarin---Android\Class B16\GPSMaps\GPSMaps\bin\Debug\GPSMaps.dll
+C:\gitHub\Xamarin---Android\Class B16\GPSMaps\GPSMaps\bin\Debug\GPSMaps.pdb
+C:\gitHub\Xamarin---Android\Class B16\GPSMaps\GPSMaps\bin\Debug\gpsmaps.gpsmaps.apk
+C:\gitHub\Xamarin---Android\Class B16\GPSMaps\GPSMaps\bin\Debug\gpsmaps.gpsmaps-Signed.apk
+C:\gitHub\Xamarin---Android\Class B16\GPSMaps\GPSMaps\bin\Debug\GooglePlayServicesLib.dll
+C:\gitHub\Xamarin---Android\Class B16\GPSMaps\GPSMaps\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\gitHub\Xamarin---Android\Class B16\GPSMaps\GPSMaps\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\gitHub\Xamarin---Android\Class B16\GPSMaps\GPSMaps\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\gitHub\Xamarin---Android\Class B16\GPSMaps\GPSMaps\obj\Debug\GPSMaps.csprojResolveAssemblyReference.cache
+C:\gitHub\Xamarin---Android\Class B16\GPSMaps\GPSMaps\obj\Debug\GPSMaps.dll
+C:\gitHub\Xamarin---Android\Class B16\GPSMaps\GPSMaps\obj\Debug\GPSMaps.pdb
+C:\gitHub\Xamarin---Android\Class B16\GPSMaps\GPSMaps\obj\Debug\android\bin\gpsmaps.gpsmaps.apk
+C:\gitHub\Xamarin---Android\Class B16\GPSMaps\GPSMaps\obj\Debug\res\layout\main.xml
+C:\gitHub\Xamarin---Android\Class B16\GPSMaps\GPSMaps\obj\Debug\res\values\strings.xml
+C:\gitHub\Xamarin---Android\Class B16\GPSMaps\GPSMaps\obj\Debug\res\drawable\icon.png
+C:\gitHub\Xamarin---Android\Class B16\GPSMaps\GPSMaps\obj\Debug\res\layout\map.xml
+C:\gitHub\Xamarin---Android\Class B16\GPSMaps\GPSMaps\obj\Debug\R.cs.flag
+C:\gitHub\Xamarin---Android\Class B16\GPSMaps\GPSMaps\obj\Debug\uploadflags.txt
