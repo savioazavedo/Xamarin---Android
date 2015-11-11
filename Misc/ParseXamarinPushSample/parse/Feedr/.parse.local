@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "Feedr": {
+      "applicationId": "pOFmNcDC6e3KKKOgByXQYBEPVmypu7j0SDGP2k0o"
+    },
+    "_default": {
+      "link": "Feedr"
+    }
+  }
+}
