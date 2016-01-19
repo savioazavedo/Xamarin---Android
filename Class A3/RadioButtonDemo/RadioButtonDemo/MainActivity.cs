@@ -34,7 +34,6 @@ namespace RadioButtonDemo
 
 			rbGroup = FindViewById<RadioGroup> (Resource.Id.widget39);
 
-
 			btnSelection.Click += OnButtonSelectionClick;
 		}
 

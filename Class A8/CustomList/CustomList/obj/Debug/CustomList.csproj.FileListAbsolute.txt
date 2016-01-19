@@ -30,7 +30,6 @@ C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\bin\Debug\CustomList.
 C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\bin\Debug\CustomList.pdb
 C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\bin\Debug\CustomList.CustomList.apk
 C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\bin\Debug\CustomList.CustomList-Signed.apk
-C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\CustomList.csprojResolveAssemblyReference.cache
 C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\CustomList.dll
 C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\CustomList.pdb
 C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\android\bin\CustomList.CustomList.apk

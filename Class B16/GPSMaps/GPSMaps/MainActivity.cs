@@ -1,5 +1,4 @@
 ﻿using System;
-
 using Android.App;
 using Android.Content;
 using Android.Runtime;
@@ -44,8 +43,6 @@ namespace GPSMaps
 			btnOpenMap.Click += OpenMapActivity;
 
 		}
-
-
 
 		protected override void OnResume ()
 		{

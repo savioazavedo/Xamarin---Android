@@ -31,28 +31,21 @@ namespace SimpleCalculator
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
 
-			// Get our button from the layout resource,
-			// and attach an event to it
-			//Button button = FindViewById<Button> (Resource.Id.myButton);
+            btnplus = FindViewById<Button>(Resource.Id.btnplus);
+            btnminus = FindViewById<Button>(Resource.Id.btnminus);
+            btnmul = FindViewById<Button>(Resource.Id.btnmul);
+            btndivide = FindViewById<Button>(Resource.Id.btnDivide);
 
-			InitializeControls ();
-		}
+            txtNum1 = FindViewById<TextView>(Resource.Id.txtNum1);
+            txtNum2 = FindViewById<TextView>(Resource.Id.txtNum2);
 
-		public void InitializeControls()
-		{
-			btnplus = FindViewById<Button> (Resource.Id.btnplus);
-			btnminus = FindViewById<Button> (Resource.Id.btnminus);
-			btnmul = FindViewById<Button> (Resource.Id.btnmul);
-			btndivide = FindViewById<Button> (Resource.Id.btnDivide);
+            btnplus.Click += onBtnPlusClick;
+            btnminus.Click += onBtnMinusClick;
+            btnmul.Click += onBtnMulClick;
+            btndivide.Click += onBtnDivideClick;
 
-			txtNum1 = FindViewById <TextView> (Resource.Id.txtNum1);
-			txtNum2 = FindViewById <TextView> (Resource.Id.txtNum2);
+        }
 
-			btnplus.Click += onBtnPlusClick;
-			btnminus.Click += onBtnMinusClick;
-			btnmul.Click += onBtnMulClick;
-			btndivide.Click += onBtnDivideClick;
-		}
 
 		void onBtnDivideClick (object sender, EventArgs e)
 		{
