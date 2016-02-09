@@ -29,11 +29,8 @@ namespace BMICalculator
 			base.OnCreate (bundle);
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
-			InitializeControls ();
-		}
-
-		public void InitializeControls()
-		{
+			
+		
 			txtHeight = FindViewById <EditText> (Resource.Id.txtHeight);
 			txtWeight = FindViewById <EditText> (Resource.Id.txtWeight);
 			txtResult = FindViewById <EditText> (Resource.Id.txtResult);
