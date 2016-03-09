@@ -23,3 +23,4 @@ C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\obj\Debug\res\value
 C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\obj\Debug\res\drawable\icon.png
 C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\obj\Debug\R.cs.flag
 C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\obj\Debug\uploadflags.txt
+C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\obj\Debug\SimpleList2.csprojResolveAssemblyReference.cache

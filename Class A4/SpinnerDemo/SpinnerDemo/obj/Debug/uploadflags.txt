@@ -1,6 +1,2 @@
-emulator-5554
-emulator-5554
-emulator-5554
-emulator-5554
-emulator-5554
-emulator-5554
+169.254.220.177:5555
+169.254.220.177:5555

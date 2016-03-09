@@ -116,8 +116,6 @@ namespace ParseToDo
 
 		}
 
-
-
 		public ParseUser GetCurrentUserInstance()
 		{
 			return ParseUser.CurrentUser;

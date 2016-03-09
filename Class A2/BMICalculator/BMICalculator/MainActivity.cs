@@ -41,6 +41,7 @@ namespace BMICalculator
 
 		}
 
+
 		public void onBtnCalculateClick(object sender,EventArgs e)
 		{
 			if (txtWeight.Text == "") 
@@ -60,13 +61,20 @@ namespace BMICalculator
 			BMI = Weight / (Height * Height);
 			txtResult.Text = Convert.ToString (Math.Round(BMI,2));
 
-			if (BMI <= 18.5) {
+			if (BMI <= 18.5)
+            {
 				lblMessage.Text = "Underweight";							
-			} else if (BMI >= 18.60 && BMI <= 24.99) {
+			}
+            else if (BMI >= 18.60 && BMI <= 24.99)
+            {
 				lblMessage.Text = "Normal";						
-			} else if (BMI > 25 && BMI <= 29.99) {
+			}
+            else if (BMI > 25 && BMI <= 29.99)
+            {
 				lblMessage.Text = "Overweight";	
-			} else if (BMI > 30) {
+			}
+            else if (BMI > 30)
+            {
 				lblMessage.Text = "Obese";	
 			}
 				

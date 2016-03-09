@@ -1,1 +1,4 @@
-SpinnerDemo.MainActivity;spinnerdemo.MainActivity
+SpinnerDemo.MainActivity, SpinnerDemo;md584e4720fdd0da8117fe7497d2492c60b.MainActivity
+SpinnerDemo.MainActivity, SpinnerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md584e4720fdd0da8117fe7497d2492c60b.MainActivity
+SpinnerDemo.MainActivity;md584e4720fdd0da8117fe7497d2492c60b.MainActivity
+spinnerdemo.MainActivity;md584e4720fdd0da8117fe7497d2492c60b.MainActivity

@@ -29,13 +29,15 @@ namespace SpinnerDemo
 			imgCity = FindViewById<ImageView> (Resource.Id.imgCity);
 
 			spCity.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs> (spinner_ItemSelected);
-			var adapter = ArrayAdapter.CreateFromResource (this, Resource.Array.City_Names, Android.Resource.Layout.SimpleSpinnerItem);
+         
+
+            var adapter = ArrayAdapter.CreateFromResource (this, Resource.Array.City_Names, Android.Resource.Layout.SimpleSpinnerItem);
 			adapter.SetDropDownViewResource (Android.Resource.Layout.SimpleSpinnerDropDownItem);
 			spCity.Adapter = adapter;
 		}
 
 
-		public void spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
+        public void spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
 		{
 			Spinner spinner = (Spinner)sender;
 

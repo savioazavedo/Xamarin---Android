@@ -18,8 +18,8 @@ namespace SimpleList2
 		{
 			base.OnCreate (bundle);
 			items = new string[] { "Vegetables","Fruits","Flower Buds","Legumes","Bulbs","Tubers" };
-			ListView.ChoiceMode = ChoiceMode.Multiple;
-			ListAdapter = new ArrayAdapter<String>(this, Android.Resource.Layout.SimpleListItemMultipleChoice, items);
+			ListView.ChoiceMode = ChoiceMode.Single;
+			ListAdapter = new ArrayAdapter<String>(this, Android.Resource.Layout.SimpleListItemSingleChoice, items);
 		}
 
 		protected override void OnListItemClick(ListView l, View v, int position, long id)

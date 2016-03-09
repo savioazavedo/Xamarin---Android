@@ -1,1 +1,4 @@
-GroceryList.MainActivity;grocerylist.MainActivity
+GroceryList.MainActivity, GroceryList;md5243a53a5bd5618038cdabedf0e31aa3d.MainActivity
+GroceryList.MainActivity, GroceryList, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5243a53a5bd5618038cdabedf0e31aa3d.MainActivity
+GroceryList.MainActivity;md5243a53a5bd5618038cdabedf0e31aa3d.MainActivity
+grocerylist.MainActivity;md5243a53a5bd5618038cdabedf0e31aa3d.MainActivity

@@ -39,3 +39,4 @@ C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\res\drawabl
 C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\res\layout\customrow.xml
 C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\R.cs.flag
 C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\uploadflags.txt
+C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\CustomList.csprojResolveAssemblyReference.cache

@@ -76,20 +76,23 @@ namespace GroceryList
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050002
-			public const int acItem = 2131034114;
-			
 			// aapt resource value: 0x7f050003
-			public const int btnAdd = 2131034115;
+			public const int acItem = 2131034115;
 			
 			// aapt resource value: 0x7f050004
-			public const int btnRemove = 2131034116;
+			public const int btnAdd = 2131034116;
+			
+			// aapt resource value: 0x7f050005
+			public const int btnRemove = 2131034117;
 			
 			// aapt resource value: 0x7f050001
 			public const int lblLabel = 2131034113;
 			
-			// aapt resource value: 0x7f050005
-			public const int lvItems = 2131034117;
+			// aapt resource value: 0x7f050002
+			public const int linearLayout1 = 2131034114;
+			
+			// aapt resource value: 0x7f050006
+			public const int lvItems = 2131034118;
 			
 			// aapt resource value: 0x7f050000
 			public const int widget0 = 2131034112;

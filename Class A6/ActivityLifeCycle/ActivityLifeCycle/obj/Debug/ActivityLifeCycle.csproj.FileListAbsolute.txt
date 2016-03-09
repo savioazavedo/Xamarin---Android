@@ -11,3 +11,16 @@
 \\telmar\users\savio.azavedo\My Documents\Projects\ActivityLifeCycle\ActivityLifeCycle\obj\Debug\res\drawable\icon.png
 \\telmar\users\savio.azavedo\My Documents\Projects\ActivityLifeCycle\ActivityLifeCycle\obj\Debug\R.cs.flag
 \\telmar\users\savio.azavedo\My Documents\Projects\ActivityLifeCycle\ActivityLifeCycle\obj\Debug\uploadflags.txt
+C:\gitHub\Xamarin---Android\Class A6\ActivityLifeCycle\ActivityLifeCycle\bin\Debug\ActivityLifeCycle.dll
+C:\gitHub\Xamarin---Android\Class A6\ActivityLifeCycle\ActivityLifeCycle\bin\Debug\ActivityLifeCycle.pdb
+C:\gitHub\Xamarin---Android\Class A6\ActivityLifeCycle\ActivityLifeCycle\bin\Debug\ActivityLifeCycle.ActivityLifeCycle.apk
+C:\gitHub\Xamarin---Android\Class A6\ActivityLifeCycle\ActivityLifeCycle\bin\Debug\ActivityLifeCycle.ActivityLifeCycle-Signed.apk
+C:\gitHub\Xamarin---Android\Class A6\ActivityLifeCycle\ActivityLifeCycle\obj\Debug\ActivityLifeCycle.csprojResolveAssemblyReference.cache
+C:\gitHub\Xamarin---Android\Class A6\ActivityLifeCycle\ActivityLifeCycle\obj\Debug\ActivityLifeCycle.dll
+C:\gitHub\Xamarin---Android\Class A6\ActivityLifeCycle\ActivityLifeCycle\obj\Debug\ActivityLifeCycle.pdb
+C:\gitHub\Xamarin---Android\Class A6\ActivityLifeCycle\ActivityLifeCycle\obj\Debug\android\bin\ActivityLifeCycle.ActivityLifeCycle.apk
+C:\gitHub\Xamarin---Android\Class A6\ActivityLifeCycle\ActivityLifeCycle\obj\Debug\res\layout\main.xml
+C:\gitHub\Xamarin---Android\Class A6\ActivityLifeCycle\ActivityLifeCycle\obj\Debug\res\values\strings.xml
+C:\gitHub\Xamarin---Android\Class A6\ActivityLifeCycle\ActivityLifeCycle\obj\Debug\res\drawable\icon.png
+C:\gitHub\Xamarin---Android\Class A6\ActivityLifeCycle\ActivityLifeCycle\obj\Debug\R.cs.flag
+C:\gitHub\Xamarin---Android\Class A6\ActivityLifeCycle\ActivityLifeCycle\obj\Debug\uploadflags.txt

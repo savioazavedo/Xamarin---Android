@@ -58,13 +58,17 @@ namespace GroceryList
 		{
 			var selectedItems = FindViewById<ListView>(Resource.Id.lvItems).CheckedItemPositions;
 
-			for (var i = 0; i < selectedItems.Size(); i++) 
+			for (var i = 0; i < lvItems.Count; i++) 
 			{
 
-				if (selectedItems.ValueAt (i) == true && selectedItems.Size() <= lvItems.Count) {
+				if (selectedItems.ValueAt (i) == true && selectedItems.Size() < lvItems.Count)
+                {
 					listAdapter.Remove (lvItems.GetItemAtPosition (selectedItems.KeyAt (i)));
+                    listAdapter.NotifyDataSetChanged();
 				}
 			}
+
+            lvItems.ClearChoices();
 		}
 
 

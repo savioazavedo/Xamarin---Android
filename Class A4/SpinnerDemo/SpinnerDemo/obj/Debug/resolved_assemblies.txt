@@ -1,1 +1,6 @@
-\\telmar\users\savio.azavedo\My Documents\Projects\SpinnerDemo\SpinnerDemo\bin\Debug\SpinnerDemo.dll
+C:\gitHub\Xamarin---Android\Class A4\SpinnerDemo\SpinnerDemo\obj\Debug\assemblies\SpinnerDemo.dll
+C:\gitHub\Xamarin---Android\Class A4\SpinnerDemo\SpinnerDemo\obj\Debug\assemblies\Mono.Android.dll
+C:\gitHub\Xamarin---Android\Class A4\SpinnerDemo\SpinnerDemo\obj\Debug\assemblies\mscorlib.dll
+C:\gitHub\Xamarin---Android\Class A4\SpinnerDemo\SpinnerDemo\obj\Debug\assemblies\System.Core.dll
+C:\gitHub\Xamarin---Android\Class A4\SpinnerDemo\SpinnerDemo\obj\Debug\assemblies\System.dll
+C:\gitHub\Xamarin---Android\Class A4\SpinnerDemo\SpinnerDemo\obj\Debug\assemblies\System.Xml.dll
