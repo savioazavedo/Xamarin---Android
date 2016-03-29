@@ -1,4 +1,11 @@
-C:\Users\savio.azavedo\Documents\GitHub\Xamarin---Android\Class 14\Flickr\Flickr\bin\Debug\Flickr.dll
-C:\Users\savio.azavedo\Documents\GitHub\Xamarin---Android\Class 14\Flickr\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll
-C:\Users\savio.azavedo\Documents\GitHub\Xamarin---Android\Class 14\Flickr\Components\restsharp-105.0.1.0\lib\android\RestSharp.MonoDroid.dll
-C:\Users\savio.azavedo\Documents\GitHub\Xamarin---Android\Class 14\Flickr\Components\urlimageviewhelper-1.0.4\lib\android\UrlImageViewHelper.dll
+C:\gitHub\Xamarin---Android\Class B14\Flickr\Flickr\obj\Debug\assemblies\Flickr.dll
+C:\gitHub\Xamarin---Android\Class B14\Flickr\Flickr\obj\Debug\assemblies\Mono.Android.dll
+C:\gitHub\Xamarin---Android\Class B14\Flickr\Flickr\obj\Debug\assemblies\mscorlib.dll
+C:\gitHub\Xamarin---Android\Class B14\Flickr\Flickr\obj\Debug\assemblies\Newtonsoft.Json.dll
+C:\gitHub\Xamarin---Android\Class B14\Flickr\Flickr\obj\Debug\assemblies\RestSharp.MonoDroid.dll
+C:\gitHub\Xamarin---Android\Class B14\Flickr\Flickr\obj\Debug\assemblies\System.Core.dll
+C:\gitHub\Xamarin---Android\Class B14\Flickr\Flickr\obj\Debug\assemblies\System.dll
+C:\gitHub\Xamarin---Android\Class B14\Flickr\Flickr\obj\Debug\assemblies\System.Xml.dll
+C:\gitHub\Xamarin---Android\Class B14\Flickr\Flickr\obj\Debug\assemblies\UrlImageViewHelper.dll
+C:\gitHub\Xamarin---Android\Class B14\Flickr\Flickr\obj\Debug\assemblies\System.Runtime.Serialization.dll
+C:\gitHub\Xamarin---Android\Class B14\Flickr\Flickr\obj\Debug\assemblies\System.Xml.Linq.dll

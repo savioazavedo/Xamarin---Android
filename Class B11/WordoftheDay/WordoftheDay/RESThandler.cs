@@ -1,4 +1,13 @@
-﻿using System;
+﻿
+
+
+
+
+
+
+
+
+using System;
 using RestSharp;
 using System.IO;
 using System.Text;
@@ -38,21 +47,37 @@ namespace WordoftheDay
 			return objRss;
 		}
 
-		public async Task<Rss> ExecuteRequestAsync()
-		{
+        public async Task<Rss> ExecuteRequestAsync()
+        {
+            var client = new RestClient(url);
+            var request = new RestRequest();
 
-			var client = new RestClient (url);
-			var request = new RestRequest ();
-		
-			response  = await client.ExecuteTaskAsync(request);
+            response = await client.ExecuteTaskAsync(request);
 
-			XmlSerializer serializer = new XmlSerializer(typeof(Rss));
-			Rss objRss;
+            XmlSerializer serializer = new XmlSerializer(typeof(Rss));
+            Rss objRss;
 
-			TextReader sr = new StringReader(response.Content);
-			objRss = (Rss) serializer.Deserialize(sr);
-			return objRss;
-		}
-	}
+            TextReader sr = new StringReader(response.Content);
+            objRss = (Rss)serializer.Deserialize(sr);
+            return objRss;
+        }
+
+
+        //public async Task<Rss> ExecuteRequestAsync()
+        //{
+
+        //	var client = new RestClient (url);
+        //	var request = new RestRequest ();
+
+        //	response  = await client.ExecuteTaskAsync(request);
+
+        //	XmlSerializer serializer = new XmlSerializer(typeof(Rss));
+        //	Rss objRss;
+
+        //	TextReader sr = new StringReader(response.Content);
+        //	objRss = (Rss) serializer.Deserialize(sr);
+        //	return objRss;
+        //}
+    }
 }
 

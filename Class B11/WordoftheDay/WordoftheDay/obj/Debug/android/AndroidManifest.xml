@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="WordoftheDay.WordoftheDay">
-  <uses-sdk android:minSdkVersion="18" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="WordoftheDay.WordoftheDay" android:installLocation="auto">
+  <uses-sdk android:minSdkVersion="11" />
   <application android:label="WordoftheDay" android:name="mono.android.app.Application" android:debuggable="true">
-    <activity android:icon="@drawable/icon" android:label="WordoftheDay" android:theme="@android:style/Theme.Holo.Light" android:name="wordoftheday.MainActivity">
+    <activity android:icon="@drawable/icon" android:label="WordoftheDay" android:theme="@android:style/Theme.Holo.Light" android:name="md56b42d78f9ca82f2ad64428138746cd42.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

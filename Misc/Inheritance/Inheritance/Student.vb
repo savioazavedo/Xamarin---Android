@@ -1,9 +1,4 @@
 ﻿
-
-
-
-
-
 Public Class Student
     Inherits Person
 

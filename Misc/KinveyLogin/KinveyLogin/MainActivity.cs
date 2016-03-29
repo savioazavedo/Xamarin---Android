@@ -10,7 +10,7 @@ using SQLite.Net.Platform.XamarinAndroid;
 
 namespace KinveyLogin
 {
-    [Activity(Label = "KinveyLogin", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "KinveyLogin", MainLauncher = true, Icon = "@drawable/icon", NoHistory = true)]
     public class MainActivity : Activity
     {
         int count = 1;
@@ -47,7 +47,24 @@ namespace KinveyLogin
                 .setOfflinePlatform(new SQLitePlatformAndroid())
                 .setLogger(delegate (string msg) { Console.WriteLine(msg); })
                 .build();
+
+            if (kinveyClient.User().isUserLoggedIn())
+            {
+                kinveyClient.User().Logout();
+            }
+
         }
+
+        protected override void OnDestroy()
+        {
+            base.OnDestroy();
+            if (kinveyClient.User().isUserLoggedIn())
+            {
+                kinveyClient.User().Logout();
+            }
+
+        }
+
 
         private async void BtnLogin_Click(object sender, EventArgs e)
         {
@@ -55,7 +72,9 @@ namespace KinveyLogin
             try
             {
                 User myUser = await kinveyClient.User().LoginAsync(txtUsername.Text, txtPassword.Text);
-                
+                Toast.MakeText(this, "Login Successful", ToastLength.Short).Show();
+                StartActivity(typeof(ToDoActivity));
+
             } catch(Exception ex)
             {
                 Toast.MakeText(this,"Error:" + ex.Message,ToastLength.Short).Show();

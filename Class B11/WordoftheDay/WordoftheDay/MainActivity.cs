@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using System.Net;
 
 namespace WordoftheDay
 {
@@ -17,7 +18,9 @@ namespace WordoftheDay
 		TextView txtDescription;
 		RESThandler objRest;
 
-		protected override void OnCreate (Bundle bundle)
+        
+
+        protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 
@@ -28,15 +31,19 @@ namespace WordoftheDay
 			txtword = FindViewById<TextView> (Resource.Id.txtWord);
 			txtDescription = FindViewById<TextView> (Resource.Id.txtDescription);
 
-			LoadTodaysWordAsync ();
-		}
+            ServicePointManager.ServerCertificateValidationCallback += (sender, cert, chain, sslPolicyErrors) => true;
+
+            LoadTodaysWordAsync();
+
+            
+        }
 
 		public void LoadTodaysWord()
 		{
 			objRest = new RESThandler (@"https://www.wordsmith.org/awad/rss1.xml");
 			var Response = objRest.ExecuteRequest();
-			txtword.Text = Response.Channel.Item.Title;
-			txtDescription.Text = Response.Channel.Item.Description;
+			txtword.Text = Response.Channel.Item[0].Title;
+			txtDescription.Text = Response.Channel.Item[0].Description;
 		}
 
 		public async void LoadTodaysWordAsync()
@@ -45,8 +52,8 @@ namespace WordoftheDay
 
 			objRest = new RESThandler (@"https://www.wordsmith.org/awad/rss1.xml");
 			var Response = await objRest.ExecuteRequestAsync ();
-			txtword.Text = Response.Channel.Item.Title;
-			txtDescription.Text = Response.Channel.Item.Description;
+			txtword.Text = Response.Channel.Item[0].Title;
+			txtDescription.Text = Response.Channel.Item[0].Description;
 
 			//AndHUD.Shared.Dismiss (this);
 		}

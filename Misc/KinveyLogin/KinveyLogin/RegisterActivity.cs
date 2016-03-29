@@ -49,6 +49,15 @@ namespace KinveyLogin
 
         }
 
+        protected override void OnDestroy()
+        {
+            if (kinveyClient.User().isUserLoggedIn())
+            {
+                kinveyClient.User().Logout();
+            }
+        }
+
+
         void OnRegisterButtonClick(object sender, EventArgs e)
         {
             RegisterNewUser();
@@ -64,17 +73,22 @@ namespace KinveyLogin
                 try
                 {
                     User myUser = await kinveyClient.User().CreateAsync(txtUserName.Text, txtPassword.Text);
-                    Toast.MakeText(this, "User successfully created, Please Login", ToastLength.Long).Show();
-                    StartActivity(typeof(MainActivity));
-                   
+                  
+                    if (kinveyClient.User().isUserLoggedIn())
+                    {
+                        Toast.MakeText(this, "Logging in", ToastLength.Long).Show();
+                    } else
+                    {
+                        StartActivity(typeof(MainActivity));
+                        Toast.MakeText(this, "User successfully created, Please Login", ToastLength.Long).Show();
+                    }
+
                 }
                 catch (Exception ex)
                 {
                     Toast.MakeText(this,"User already exists",ToastLength.Long).Show();
-                }
-                
+                }           
             }
-
         }
 
 
