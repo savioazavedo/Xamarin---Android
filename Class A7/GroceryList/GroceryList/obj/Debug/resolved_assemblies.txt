@@ -1,6 +1,0 @@
-C:\gitHub\Xamarin---Android\Class A7\GroceryList\GroceryList\obj\Debug\assemblies\GroceryList.dll
-C:\gitHub\Xamarin---Android\Class A7\GroceryList\GroceryList\obj\Debug\assemblies\Mono.Android.dll
-C:\gitHub\Xamarin---Android\Class A7\GroceryList\GroceryList\obj\Debug\assemblies\mscorlib.dll
-C:\gitHub\Xamarin---Android\Class A7\GroceryList\GroceryList\obj\Debug\assemblies\System.Core.dll
-C:\gitHub\Xamarin---Android\Class A7\GroceryList\GroceryList\obj\Debug\assemblies\System.dll
-C:\gitHub\Xamarin---Android\Class A7\GroceryList\GroceryList\obj\Debug\assemblies\System.Xml.dll

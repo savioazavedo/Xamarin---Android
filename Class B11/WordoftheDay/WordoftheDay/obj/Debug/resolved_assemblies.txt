@@ -1,9 +1,0 @@
-C:\gitHub\Xamarin---Android\Class B11\WordoftheDay\WordoftheDay\obj\Debug\assemblies\WordoftheDay.dll
-C:\gitHub\Xamarin---Android\Class B11\WordoftheDay\WordoftheDay\obj\Debug\assemblies\AndHUD.dll
-C:\gitHub\Xamarin---Android\Class B11\WordoftheDay\WordoftheDay\obj\Debug\assemblies\Mono.Android.dll
-C:\gitHub\Xamarin---Android\Class B11\WordoftheDay\WordoftheDay\obj\Debug\assemblies\mscorlib.dll
-C:\gitHub\Xamarin---Android\Class B11\WordoftheDay\WordoftheDay\obj\Debug\assemblies\RestSharp.MonoDroid.dll
-C:\gitHub\Xamarin---Android\Class B11\WordoftheDay\WordoftheDay\obj\Debug\assemblies\System.Core.dll
-C:\gitHub\Xamarin---Android\Class B11\WordoftheDay\WordoftheDay\obj\Debug\assemblies\System.dll
-C:\gitHub\Xamarin---Android\Class B11\WordoftheDay\WordoftheDay\obj\Debug\assemblies\System.Xml.dll
-C:\gitHub\Xamarin---Android\Class B11\WordoftheDay\WordoftheDay\obj\Debug\assemblies\System.Xml.Linq.dll

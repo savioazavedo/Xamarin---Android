@@ -1,6 +1,0 @@
-C:\gitHub\Xamarin---Android\Class A6\ActivityLifeCycle\ActivityLifeCycle\obj\Debug\assemblies\ActivityLifeCycle.dll
-C:\gitHub\Xamarin---Android\Class A6\ActivityLifeCycle\ActivityLifeCycle\obj\Debug\assemblies\Mono.Android.dll
-C:\gitHub\Xamarin---Android\Class A6\ActivityLifeCycle\ActivityLifeCycle\obj\Debug\assemblies\mscorlib.dll
-C:\gitHub\Xamarin---Android\Class A6\ActivityLifeCycle\ActivityLifeCycle\obj\Debug\assemblies\System.Core.dll
-C:\gitHub\Xamarin---Android\Class A6\ActivityLifeCycle\ActivityLifeCycle\obj\Debug\assemblies\System.dll
-C:\gitHub\Xamarin---Android\Class A6\ActivityLifeCycle\ActivityLifeCycle\obj\Debug\assemblies\System.Xml.dll

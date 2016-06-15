@@ -1,4 +1,0 @@
-BMICalculator.MainActivity, BMICalculator;md5cb23fef83bd2e653daaab04899d2e1a5.MainActivity
-BMICalculator.MainActivity, BMICalculator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5cb23fef83bd2e653daaab04899d2e1a5.MainActivity
-BMICalculator.MainActivity;md5cb23fef83bd2e653daaab04899d2e1a5.MainActivity
-bmicalculator.MainActivity;md5cb23fef83bd2e653daaab04899d2e1a5.MainActivity

@@ -1,2 +1,0 @@
-C:\gitHub\Xamarin---Android\Class A8\ContactList\ContactList\bin\Debug\ContactList.dll
-C:\gitHub\Xamarin---Android\Class A8\ContactList\Components\xamarin.mobile-0.7.5\lib\android\Xamarin.Mobile.dll

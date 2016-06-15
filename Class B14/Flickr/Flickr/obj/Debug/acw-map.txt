@@ -1,4 +1,0 @@
-Flickr.MainActivity, Flickr;md54d5bc54aa3e864744843240c90ceb02b.MainActivity
-Flickr.MainActivity, Flickr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md54d5bc54aa3e864744843240c90ceb02b.MainActivity
-Flickr.MainActivity;md54d5bc54aa3e864744843240c90ceb02b.MainActivity
-flickr.MainActivity;md54d5bc54aa3e864744843240c90ceb02b.MainActivity

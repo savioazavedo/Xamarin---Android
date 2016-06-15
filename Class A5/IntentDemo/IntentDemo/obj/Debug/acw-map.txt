@@ -1,1 +1,0 @@
-IntentDemo.MainActivity;intentdemo.MainActivity

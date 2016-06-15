@@ -1,7 +1,0 @@
-C:\gitHub\Xamarin---Android\Class B19\ParseToDo\ParseToDo\obj\Debug\assemblies\ParseToDo.dll
-C:\gitHub\Xamarin---Android\Class B19\ParseToDo\ParseToDo\obj\Debug\assemblies\Mono.Android.dll
-C:\gitHub\Xamarin---Android\Class B19\ParseToDo\ParseToDo\obj\Debug\assemblies\mscorlib.dll
-C:\gitHub\Xamarin---Android\Class B19\ParseToDo\ParseToDo\obj\Debug\assemblies\Parse.Android.dll
-C:\gitHub\Xamarin---Android\Class B19\ParseToDo\ParseToDo\obj\Debug\assemblies\System.Core.dll
-C:\gitHub\Xamarin---Android\Class B19\ParseToDo\ParseToDo\obj\Debug\assemblies\System.dll
-C:\gitHub\Xamarin---Android\Class B19\ParseToDo\ParseToDo\obj\Debug\assemblies\System.Xml.dll

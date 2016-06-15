@@ -1,6 +1,0 @@
-C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\obj\Debug\assemblies\SimpleList2.dll
-C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\obj\Debug\assemblies\Mono.Android.dll
-C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\obj\Debug\assemblies\mscorlib.dll
-C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\obj\Debug\assemblies\System.Core.dll
-C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\obj\Debug\assemblies\System.dll
-C:\gitHub\Xamarin---Android\Class A7\SimpleList2\SimpleList2\obj\Debug\assemblies\System.Xml.dll

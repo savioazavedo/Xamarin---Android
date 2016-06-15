@@ -1,4 +1,0 @@
-ToDoList.MainActivity;todolist.MainActivity
-ToDoList.DataAdapter;todolist.DataAdapter
-ToDoList.AddItem;todolist.AddItem
-ToDoList.EditItem;todolist.EditItem

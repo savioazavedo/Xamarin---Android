@@ -1,3 +1,0 @@
-\\telmar\users\savio.azavedo\My Documents\Projects\Notify\Notify\bin\Debug\Notify.dll
-\\telmar\users\savio.azavedo\My Documents\Projects\Notify\packages\Xamarin.Android.Support.v4.21.0.3.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll
-\\telmar\users\savio.azavedo\My Documents\Projects\Notify\packages\Xamarin.Facebook.3.22.0.0\lib\MonoAndroid40\Xamarin.Facebook.dll

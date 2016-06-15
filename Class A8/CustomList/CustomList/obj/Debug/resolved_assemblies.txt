@@ -1,6 +1,0 @@
-C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\assemblies\CustomList.dll
-C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\assemblies\Mono.Android.dll
-C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\assemblies\mscorlib.dll
-C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\assemblies\System.Core.dll
-C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\assemblies\System.dll
-C:\gitHub\Xamarin---Android\Class A8\CustomList\CustomList\obj\Debug\assemblies\System.Xml.dll

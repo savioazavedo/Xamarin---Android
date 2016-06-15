@@ -1,7 +1,0 @@
-C:\gitHub\Xamarin---Android\Class C21\Feedr\Feedr\obj\Debug\assemblies\Feedr.dll
-C:\gitHub\Xamarin---Android\Class C21\Feedr\Feedr\obj\Debug\assemblies\Mono.Android.dll
-C:\gitHub\Xamarin---Android\Class C21\Feedr\Feedr\obj\Debug\assemblies\mscorlib.dll
-C:\gitHub\Xamarin---Android\Class C21\Feedr\Feedr\obj\Debug\assemblies\Parse.Android.dll
-C:\gitHub\Xamarin---Android\Class C21\Feedr\Feedr\obj\Debug\assemblies\System.Core.dll
-C:\gitHub\Xamarin---Android\Class C21\Feedr\Feedr\obj\Debug\assemblies\System.dll
-C:\gitHub\Xamarin---Android\Class C21\Feedr\Feedr\obj\Debug\assemblies\System.Xml.dll
