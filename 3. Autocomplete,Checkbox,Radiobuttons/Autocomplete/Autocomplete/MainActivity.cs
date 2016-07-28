@@ -22,10 +22,12 @@ namespace Autocomplete
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
 
-			// Get our button from the layout resource,
-			// and attach an event to it
+            // Get our button from the layout resource,
+            // and attach an event to it
 
-			var weekday_array = new string[] { "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , "Saturday" , "Sunday"};
+            var weekday_array = Resources.GetStringArray(Resource.Array.weekdays_array);
+
+			//var weekday_array = new string[] { "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , "Saturday" , "Sunday","Wednesday-2","Sunday-2"};
 			acweekdays = FindViewById<AutoCompleteTextView> (Resource.Id.actxtWeekdays);
 			acweekdays.Adapter = new ArrayAdapter<string> (this,Android.Resource.Layout.TestListItem,weekday_array); 
 		}

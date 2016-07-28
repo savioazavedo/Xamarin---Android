@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/widget0"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
     <RadioGroup
         android:id="@+id/widget39"
         android:layout_width="174dp"
@@ -27,4 +29,4 @@
         android:text="Get Selection"
         android:layout_x="60dp"
         android:layout_y="277dp" />
-</AbsoluteLayout>
+</LinearLayout>

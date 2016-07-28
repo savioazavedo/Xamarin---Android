@@ -45,9 +45,10 @@ namespace RadioButtonDemo
 				Toast.MakeText (this, "Female selected", ToastLength.Long).Show();
 			}
 
+            // to change the text of the radio button at run time 
 			View v = rbGroup.GetChildAt (0);
 			RadioButton test = (RadioButton)v;
-			test.Text = "Test";
+			test.Text = "Testing";
 		}
 
 	}

@@ -35,9 +35,16 @@ namespace CheckBoxandRadioButtons
 
 			btnSelection.Click += OnSelectionClick;
 
+            chkBanana.Click += ChkBanana_Click;
+
 		}
-			
-		public void OnSelectionClick(object sender,EventArgs e)
+
+        private void ChkBanana_Click(object sender, EventArgs e)
+        {
+            Toast.MakeText(this, "Banana Checked", ToastLength.Short).Show();
+        }
+
+        public void OnSelectionClick(object sender,EventArgs e)
 		{
 			if (chkBanana.Checked) {
 				Toast.MakeText (this, "Banana Checked", ToastLength.Short).Show ();
