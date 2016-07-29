@@ -60,8 +60,32 @@ namespace IntentDemo
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050001
+			public const int btnCall = 2131034113;
+			
+			// aapt resource value: 0x7f050008
+			public const int btnMail = 2131034120;
+			
+			// aapt resource value: 0x7f050004
+			public const int btnMap = 2131034116;
+			
+			// aapt resource value: 0x7f050005
+			public const int txtEmailTo = 2131034117;
+			
+			// aapt resource value: 0x7f050002
+			public const int txtLat = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int txtLong = 2131034115;
+			
+			// aapt resource value: 0x7f050007
+			public const int txtMessage = 2131034119;
+			
 			// aapt resource value: 0x7f050000
-			public const int myButton = 2131034112;
+			public const int txtPhone = 2131034112;
+			
+			// aapt resource value: 0x7f050006
+			public const int txtSubject = 2131034118;
 			
 			static Id()
 			{
