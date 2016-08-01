@@ -15,13 +15,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnCall" />
     <EditText
-        android:inputType="numberDecimal"
+        android:inputType="numberSigned|numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtLat"
         android:hint="lat" />
     <EditText
-        android:inputType="numberDecimal"
+        android:inputType="numberSigned|numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtLong"
