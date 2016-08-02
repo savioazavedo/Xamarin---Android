@@ -18,6 +18,7 @@ namespace GroceryList
 		Button btnRemove;
 		ListView lvItems;
 		ArrayAdapter listAdapter;
+        int Position;
 
 		protected override void OnCreate (Bundle bundle)
 		{
@@ -42,10 +43,40 @@ namespace GroceryList
 
 			//
 			btnRemove = FindViewById<Button> (Resource.Id.btnRemove);
-			btnRemove.Click += RemoveSelectedItems;
+            lvItems.ItemLongClick += LvItems_ItemLongClick; ;
+            //lvItems.ItemClick += LvItems_ItemClick;
 		}
 
-		public void OnItemAddClick(object sender,EventArgs e)
+
+        private void LvItems_ItemLongClick(object sender, AdapterView.ItemLongClickEventArgs e)
+        {
+            Android.App.AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+            AlertDialog altDg = builder.Create();
+            altDg.SetTitle("Delete");
+            altDg.SetIcon(Resource.Drawable.Icon);
+            altDg.SetMessage("Do you want to delete this item from your list ?");
+
+            altDg.SetButton("Yes", (s, ev) => {
+
+                listAdapter.Remove(lvItems.GetItemAtPosition(e.Position));
+                listAdapter.NotifyDataSetChanged();
+
+            });
+
+            altDg.SetButton2("No", (s, ev) => {
+                //Do Something 
+            });
+            altDg.Show();
+        }
+
+        private void LvItems_LongClick(object sender, View.LongClickEventArgs e)
+        {
+
+          
+        }
+
+        public void OnItemAddClick(object sender,EventArgs e)
 		{
 			if (acItem.Text.Length > 0)
 			{
