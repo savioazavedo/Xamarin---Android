@@ -1,0 +1,27 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.84dbac6f9c56" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="CustomList\DataAdapter.cs" Line="25" Column="25" />
+      <File FileName="CustomList\Data.cs" Line="20" Column="20" />
+      <File FileName="CustomList\MainActivity.cs" Line="4" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="CustomList" expanded="True">
+            <Node name="ComponentReferenceFolder" selected="True" />
+            <Node name="Resources" expanded="True">
+              <Node name="layout" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CustomList MonoForAntroid.PreferredDevice="Nexus 4" MonoForAntroid.PreferredTheme="Theme.DeviceDefault.Light" />
+</Properties>
