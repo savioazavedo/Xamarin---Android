@@ -90,8 +90,8 @@ namespace ToDoList
 			// aapt resource value: 0x7f050008
 			public const int linearLayout1 = 2131034120;
 			
-			// aapt resource value: 0x7f05000b
-			public const int listView1 = 2131034123;
+			// aapt resource value: 0x7f05000c
+			public const int listView1 = 2131034124;
 			
 			// aapt resource value: 0x7f050003
 			public const int sqlite_id = 2131034115;
@@ -107,6 +107,9 @@ namespace ToDoList
 			
 			// aapt resource value: 0x7f050000
 			public const int txtItemTitle = 2131034112;
+			
+			// aapt resource value: 0x7f05000b
+			public const int txtSearch = 2131034123;
 			
 			static Id()
 			{

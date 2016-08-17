@@ -7,7 +7,7 @@ namespace ToDoList
 	public class DatabaseManager
 	{
 		static string dbName = "ToDoList.sqlite";
-		string dbPath = Path.Combine (Android.OS.Environment.ExternalStorageDirectory.ToString (), dbName);
+		string dbPath = Path.Combine (Android.OS.Environment.ExternalStorageDirectory.ToString(), Android.OS.Environment.DirectoryDocuments.ToString (), dbName);
 	
 		public DatabaseManager ()
 		{
@@ -31,7 +31,29 @@ namespace ToDoList
 			}
 		}
 
-		public void AddItem(string title,string details)
+        public List<ToDo> SearchAll(string query)
+        {
+            try
+            {
+                using (var conn = new SQLite.SQLiteConnection(dbPath))
+                {
+                    var cmd = new SQLite.SQLiteCommand(conn);
+                    cmd.CommandText = "select * from tblToDoList where Title  LIKE  '%" + query + "%' or Details LIKE '%" + query + "%'";
+                    var NoteList = cmd.ExecuteQuery<ToDo>();
+                    return NoteList;
+                }
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error:" + e.Message);
+                return null;
+            }
+        }
+
+
+
+        public void AddItem(string title,string details)
 		{
 			try
 			{

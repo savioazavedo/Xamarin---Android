@@ -16,8 +16,13 @@ namespace ToDoList
 
 		ListView lstToDoList;
 		List<ToDo> myList;
-		static string dbName = "ToDoList.sqlite";
-		string dbPath = Path.Combine (Android.OS.Environment.ExternalStorageDirectory.ToString (), dbName);
+
+        EditText txtSearchItem;
+
+        static string dbName = "ToDoList.sqlite";
+		string dbPath = Path.Combine (Android.OS.Environment.ExternalStorageDirectory.ToString(),
+                                      Android.OS.Environment.DirectoryDocuments.ToString (), 
+                                      dbName);
 		DatabaseManager objDb;
 
 		protected override void OnCreate (Bundle bundle)
@@ -35,9 +40,31 @@ namespace ToDoList
 			myList = objDb.ViewAll();
 			lstToDoList.Adapter = new DataAdapter(this,myList);
 			lstToDoList.ItemClick += OnLstToDoListClick;
-		}
 
-		public void CopyDatabase()
+            txtSearchItem = FindViewById<EditText>(Resource.Id.txtSearch);
+
+            Toast.MakeText(this,"Path=" + dbPath,ToastLength.Long).Show();
+            Console.WriteLine("Path=" + dbPath);
+
+            txtSearchItem.TextChanged += TxtSearchItem_TextChanged;
+
+
+        }
+
+        private void TxtSearchItem_TextChanged(object sender, Android.Text.TextChangedEventArgs e)
+        {
+            String searchQuery = e.Text.ToString();
+
+            myList = objDb.SearchAll(searchQuery);
+
+            if (myList != null)
+            {
+                lstToDoList.Adapter = new DataAdapter(this, myList);
+            }
+           
+        }
+
+        public void CopyDatabase()
 		{
 			// Check if your DB has already been extracted.
 			if (!File.Exists(dbPath))
