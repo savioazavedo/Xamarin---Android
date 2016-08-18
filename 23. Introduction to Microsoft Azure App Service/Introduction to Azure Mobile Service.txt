@@ -1,0 +1,5 @@
+
+Adding Authenticaiton to Azure mobile services 
+
+https://github.com/Azure/azure-content/blob/master/articles/app-service-mobile/app-service-mobile-xamarin-android-get-started-users.md
+
