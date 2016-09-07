@@ -63,10 +63,10 @@ namespace Flickr
 
 
 				// get the latest api_key and api_sig from flickr 
-				objRest.AddParameter ("api_key", "be58fab3489c998580008ee0e69a127e");
+				objRest.AddParameter ("api_key", "2f9557344467c41a762ab15727fd46a1");
 				objRest.AddParameter ("format","json");
 				objRest.AddParameter ("nojsoncallback","1");
-				objRest.AddParameter ("api_sig", "6bf3c1780fd418b3a736d848ba6b3532");
+				objRest.AddParameter ("api_sig", "fe8dd5331a2245ad073db8f3dff73c75");
 
 				objRootList = objRest.ExecuteRequest ();
 				lstPhotos = objRootList.photos.photo;

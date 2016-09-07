@@ -46,6 +46,7 @@ namespace WordoftheDay
 			txtDescription.Text = Response.Channel.Item[0].Description;
 		}
 
+
 		public async void LoadTodaysWordAsync()
 		{
 			//AndHUD.Shared.Show(this, "Loading ...", 30);

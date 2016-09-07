@@ -29,17 +29,15 @@ namespace RugbyNews
 
 			lstNews.ItemClick += OnLstNewsClick;
 
+            lstNews.FastScrollEnabled = true;
+            lstNews.ScrollingCacheEnabled = true;
+
 			LoadRugbyNews ();
 		}
 
 		void OnLstNewsClick (object sender, AdapterView.ItemClickEventArgs e)
 		{
 			var NewsItem = tmpNewsList[e.Position];
-			//Toast.MakeText (this, NewsItem.Link, ToastLength.Short).Show (); 
-
-
-			// start a new activity and pass the NewsItem.Link as an Intent
-
 			var NewsArticle = new Intent (this, typeof(Article));
 			NewsArticle.PutExtra ("URL", NewsItem.Link);
 			StartActivity (NewsArticle);

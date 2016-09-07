@@ -52,7 +52,7 @@ namespace WordoftheDay
             var client = new RestClient(url);
             var request = new RestRequest();
 
-            response = await client.ExecuteTaskAsync(request);
+            response =  await client.ExecuteTaskAsync(request);
 
             XmlSerializer serializer = new XmlSerializer(typeof(Rss));
             Rss objRss;
