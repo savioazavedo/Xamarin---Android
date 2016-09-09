@@ -19,7 +19,7 @@ namespace BMICalculator
 		TextView lblMessage;
 
 		double Height;
-		double Weight;
+        double Weight;
 		double BMI;
 
 		Button btnCalculate;
