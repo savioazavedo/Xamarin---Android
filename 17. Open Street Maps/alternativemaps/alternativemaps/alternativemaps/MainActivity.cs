@@ -31,7 +31,7 @@ class MainActivity : Activity, Osmdroid.Views.Overlay.ItemizedIconOverlay.IOnIte
         Button b1, b2;
         int count = 1;
         private IMapController mapcontroller;
-        private MapView mapview;
+        private Osmdroid.Views.MapView mapview;
         
 List<OverlayItem> listofmarkers = new List<OverlayItem>();
         protected override void OnCreate(Bundle bundle)
@@ -62,7 +62,7 @@ List<OverlayItem> listofmarkers = new List<OverlayItem>();
 
 
             //Setup Map
-            mapview = FindViewById<MapView>(Resource.Id.mapview);
+            mapview = FindViewById<Osmdroid.Views.MapView>(Resource.Id.mapview);
             mapview.SetTileSource(TileSourceFactory.DefaultTileSource); // can choose other tile provides
             mapview.SetBuiltInZoomControls(true); // +- buttons at bottom
             mapview.SetMultiTouchControls(true); // Pinch to zoom
