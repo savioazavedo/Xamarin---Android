@@ -29,9 +29,13 @@ namespace MultipleActivities
 		public void OnNextButtonClick(object sender,EventArgs e)
 		{
 			var activity2 = new Intent (this, typeof(SecondActivity));
+
 			activity2.PutExtra ("Name", txtName.Text);
-			StartActivity (activity2);
-			//StartActivity (typeof(SecondActivity));
+            activity2.PutExtra ("ID", 101);
+            activity2.PutExtra ("Course","Accounts");
+
+            StartActivity (activity2);
+			
 		}
 
 	}

@@ -6,9 +6,9 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Xamarin.Contacts;
 using Android.Provider;
 using System.Collections.Generic;
+using Xamarin.Contacts;
 
 namespace ContactList
 {

@@ -38,7 +38,8 @@ namespace ToDoList
                 using (var conn = new SQLite.SQLiteConnection(dbPath))
                 {
                     var cmd = new SQLite.SQLiteCommand(conn);
-                    cmd.CommandText = "select * from tblToDoList where Title  LIKE  '%" + query + "%' or Details LIKE '%" + query + "%'";
+                    cmd.CommandText = "select * from tblToDoList where Title  LIKE  '%" + query + 
+                                      "%' or Details LIKE '%" + query + "%'";
                     var NoteList = cmd.ExecuteQuery<ToDo>();
                     return NoteList;
                 }

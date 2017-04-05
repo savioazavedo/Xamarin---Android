@@ -26,7 +26,7 @@ namespace Reading_a_txt_file
 
 			//sets the button
 			Button button = FindViewById<Button> (Resource.Id.myButton);
-
+            
 			button.Click += onbtnclick;
 		}
 

@@ -45,7 +45,7 @@ namespace FacebookOAuth
             try
             {
                 var auth = new OAuth2Authenticator(
-                    clientId: "1651792451769602",
+                    clientId: "1128857693908081",
                     scope: "email",
                     authorizeUrl: new Uri("https://m.facebook.com/dialog/oauth/"),
                     redirectUrl: new Uri("http://www.facebook.com/connect/login_success.html"));

@@ -37,7 +37,7 @@ namespace ToDoList
 		}
 		public void CopyDatabase()
 		{
-			if (!File.Exists (dbPath))
+			//if (!File.Exists (dbPath))
 			
 			{
 				using (BinaryReader br = new BinaryReader (Assets.Open (dbName)))

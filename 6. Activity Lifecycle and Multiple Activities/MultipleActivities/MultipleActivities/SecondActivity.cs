@@ -25,7 +25,14 @@ namespace MultipleActivities
 
 			txtMessage = FindViewById<TextView> (Resource.Id.txtMessage);
 			txtMessage.Text = "Hi " + Intent.GetStringExtra ("Name");
-		}
-	}
+
+            int ID = Intent.GetIntExtra("ID", 0);
+            string Course = Intent.GetStringExtra("Course");
+
+            Toast.MakeText(this, "ID:" + ID, ToastLength.Long).Show();
+            Toast.MakeText(this, "Course:" + Course, ToastLength.Long).Show();
+
+        }
+    }
 }
 
